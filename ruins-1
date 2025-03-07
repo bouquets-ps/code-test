@@ -86,16 +86,6 @@ body {
   <li><a href="#">Venusaur</a></li>
   <li><a href="#">Charmander</a></li>
 
-<li><a href="#">
-<button>
-<div class="infobox" style="width: 200px"><h2><font color="77dd77">
-Ivysaur
-</font></h2></div><div class="infobox" style="width: 200px"><h2><font color="a2bffe">
-No data
-</font></h2>
-</button>
-</a></li>
-
 </ul>
 
 <script>
