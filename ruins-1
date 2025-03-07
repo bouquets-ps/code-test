@@ -1,1 +1,155 @@
-nothing here
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+<title>Not Very Useful Information About Bulbasaur's Kanto Uno</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<style>
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+.collapsible {
+  background-color: #222222;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-family: "Quicksand", sans-serif;
+}
+.active, .collapsible:hover {
+  background-color: #333333;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #111111;
+}
+td {
+  vertical-align: middle;
+}
+div {
+  border: 0px solid #68a;
+  border-radius: 5px;
+  padding: 1px;
+  display: inline-block;
+  vertical-align: middle;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  padding: 30px;
+}
+</style>
+</head>
+<body style="background-color: black; color: white">
+<center>
+<h1><table><tr><td>Not Very Useful Information About Bulbasaur's Kanto Uno</td></tr></table></h1>
+</center>
+
+<hr><br>
+<center>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+<ul id="myUL">
+  <li><a href="#">Adele</a></li>
+  <li><a href="#">Agnes</a></li>
+
+  <li><a href="#">Billy</a></li>
+  <li><a href="#">Bob</a></li>
+
+  <li><a href="#">Calvin</a></li>
+  <li><a href="#">Christina</a></li>
+  <li><a href="#">Cindy</a></li>
+</ul>
+
+<button type="button" class="collapsible"><div class="infobox" style="width: 200px">
+<div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
+&nbsp;/&nbsp;
+<div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Brown</b></div>
+</div><div class="infobox" style="width: 200px"><h2><font color="77dd77">
+1 Pokemon
+</font></h2></div><div class="infobox" style="width: 200px"><h2><font color="a2bffe">
+72 matches
+</font></h2></div></button><div class="content"><p>
+<img src="//play.pokemonshowdown.com/sprites/gen1/weedle.png">
+<br><b>
+Weedle
+</b><br><br>
+Abra, Alakazam, Arbok, Arcanine, Beedrill, Bellsprout, Bulbasaur, Butterfree, Caterpie, Cubone, Diglett, Dodrio, Dragonite, Dugtrio, Eevee, Ekans, Farfetch’d, Fearow, Gastly, Gengar, Geodude, Gloom, Golbat, Golem, Graveler, Grimer, Growlithe, Haunter, Hitmonchan, Hitmonlee, Ivysaur, Kabuto, Kabutops, Kadabra, Kakuna, Kangaskhan, Koffing, Mankey, Marowak, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Pidgeot, Pidgeotto, Pidgey, Pinsir, Primeape, Raticate, Scyther, Spearow, Staryu, Tauros, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Vulpix, Weepinbell, Weezing, Zubat
+</p></div>
+
+<button type="button" class="collapsible"><div class="infobox" style="width: 200px">
+<div style="display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Rock</b></div>
+&nbsp;/&nbsp;
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Brown</b></div>
+</div><div class="infobox" style="width: 200px"><h2><font color="77dd77">
+2 Pokemon
+</font></h2></div><div class="infobox" style="width: 200px"><h2><font color="a2bffe">
+67 matches
+</font></h2></div></button><div class="content"><p>
+<img src="//play.pokemonshowdown.com/sprites/gen1/kabuto.png">
+<img src="//play.pokemonshowdown.com/sprites/gen1/kabutops.png">
+<br><b>
+Kabuto, Kabutops
+</b><br><br>
+Abra, Aerodactyl, Alakazam, Arcanine, Blastoise, Cloyster, Cubone, Dewgong, Diglett, Dodrio, Dragonite, Dugtrio, Eevee, Farfetch’d, Fearow, Geodude, Goldeen, Golduck, Golem, Graveler, Growlithe, Gyarados, Hitmonchan, Hitmonlee, Horsea, Kadabra, Kangaskhan, Kingler, Krabby, Lapras, Magikarp, Mankey, Marowak, Omanyte, Omastar, Onix, Pidgeot, Pidgeotto, Pidgey, Pinsir, Poliwag, Poliwhirl, Poliwrath, Primeape, Psyduck, Raticate, Rhydon, Rhyhorn, Seadra, Seaking, Seel, Shellder, Slowbro, Slowpoke, Spearow, Squirtle, Starmie, Staryu, Tauros, Tentacool, Tentacruel, Vaporeon, Vulpix, Wartortle, Weedle
+</p></div>
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
