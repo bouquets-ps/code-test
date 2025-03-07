@@ -20,7 +20,7 @@
 }
 
 #myUL li a {
-  border: 0px solid #ddd; /* Add a border to all links */
+  border: 1px solid #ddd; /* Add a border to all links */
   margin-top: -1px; /* Prevent double borders */
   background-color: #222222; /* Black background color */
   padding: 12px; /* Add some padding */
@@ -87,11 +87,13 @@ body {
   <li><a href="#">Charmander</a></li>
 
 <li><a href="#">
+<button>
 <div class="infobox" style="width: 200px"><h2><font color="77dd77">
-Bulbasaur
+Ivysaur
 </font></h2></div><div class="infobox" style="width: 200px"><h2><font color="a2bffe">
 No data
 </font></h2>
+</button>
 </a></li>
 
 </ul>
