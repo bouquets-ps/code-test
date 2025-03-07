@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 #myInput {
-  width: 50%; /* Full-width */
+  width: 25%; /* Full-width */
   font-size: 16px; /* Increase font-size */
   padding: 12px 20px 12px 12px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
@@ -88,7 +88,24 @@ body {
 
   <li><a href="#">Charmeleon</a></li>
   <li><a href="#">Charizard</a></li>
-  <li><a href="#">Squirtle</a></li>
+  <li><a href="#"><button type="button" class="collapsible"><div class="infobox" style="width: 200px">
+<div style="display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Rock</b></div>
+&nbsp;/&nbsp;
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Brown</b></div>
+</div><div class="infobox" style="width: 200px"><h2><font color="77dd77">
+2 Pokemon
+</font></h2></div><div class="infobox" style="width: 200px"><h2><font color="a2bffe">
+67 matches
+</font></h2></div></button><div class="content"><p>
+<img src="//play.pokemonshowdown.com/sprites/gen1/kabuto.png">
+<img src="//play.pokemonshowdown.com/sprites/gen1/kabutops.png">
+<br><b>
+Kabuto, Kabutops
+</b><br><br>
+Abra, Aerodactyl, Alakazam, Arcanine, Blastoise, Cloyster, Cubone, Dewgong, Diglett, Dodrio, Dragonite, Dugtrio, Eevee, Farfetch’d, Fearow, Geodude, Goldeen, Golduck, Golem, Graveler, Growlithe, Gyarados, Hitmonchan, Hitmonlee, Horsea, Kadabra, Kangaskhan, Kingler, Krabby, Lapras, Magikarp, Mankey, Marowak, Omanyte, Omastar, Onix, Pidgeot, Pidgeotto, Pidgey, Pinsir, Poliwag, Poliwhirl, Poliwrath, Primeape, Psyduck, Raticate, Rhydon, Rhyhorn, Seadra, Seaking, Seel, Shellder, Slowbro, Slowpoke, Spearow, Squirtle, Starmie, Staryu, Tauros, Tentacool, Tentacruel, Vaporeon, Vulpix, Wartortle, Weedle
+</p></div></a></li>
 </ul>
 
 <button type="button" class="collapsible"><div class="infobox" style="width: 200px">
@@ -107,25 +124,6 @@ body {
 Weedle
 </b><br><br>
 Abra, Alakazam, Arbok, Arcanine, Beedrill, Bellsprout, Bulbasaur, Butterfree, Caterpie, Cubone, Diglett, Dodrio, Dragonite, Dugtrio, Eevee, Ekans, Farfetch’d, Fearow, Gastly, Gengar, Geodude, Gloom, Golbat, Golem, Graveler, Grimer, Growlithe, Haunter, Hitmonchan, Hitmonlee, Ivysaur, Kabuto, Kabutops, Kadabra, Kakuna, Kangaskhan, Koffing, Mankey, Marowak, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Pidgeot, Pidgeotto, Pidgey, Pinsir, Primeape, Raticate, Scyther, Spearow, Staryu, Tauros, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Vulpix, Weepinbell, Weezing, Zubat
-</p></div>
-
-<button type="button" class="collapsible"><div class="infobox" style="width: 200px">
-<div style="display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Rock</b></div>
-&nbsp;/&nbsp;
-<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
-<br>
-<div style="display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Brown</b></div>
-</div><div class="infobox" style="width: 200px"><h2><font color="77dd77">
-2 Pokemon
-</font></h2></div><div class="infobox" style="width: 200px"><h2><font color="a2bffe">
-67 matches
-</font></h2></div></button><div class="content"><p>
-<img src="//play.pokemonshowdown.com/sprites/gen1/kabuto.png">
-<img src="//play.pokemonshowdown.com/sprites/gen1/kabutops.png">
-<br><b>
-Kabuto, Kabutops
-</b><br><br>
-Abra, Aerodactyl, Alakazam, Arcanine, Blastoise, Cloyster, Cubone, Dewgong, Diglett, Dodrio, Dragonite, Dugtrio, Eevee, Farfetch’d, Fearow, Geodude, Goldeen, Golduck, Golem, Graveler, Growlithe, Gyarados, Hitmonchan, Hitmonlee, Horsea, Kadabra, Kangaskhan, Kingler, Krabby, Lapras, Magikarp, Mankey, Marowak, Omanyte, Omastar, Onix, Pidgeot, Pidgeotto, Pidgey, Pinsir, Poliwag, Poliwhirl, Poliwrath, Primeape, Psyduck, Raticate, Rhydon, Rhyhorn, Seadra, Seaking, Seel, Shellder, Slowbro, Slowpoke, Spearow, Squirtle, Starmie, Staryu, Tauros, Tentacool, Tentacruel, Vaporeon, Vulpix, Wartortle, Weedle
 </p></div>
 
 <script>
