@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <style>
 #myInput {
-  width: 100%; /* Full-width */
+  width: 600px; /* Full-width */
   font-size: 16px; /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
@@ -77,7 +77,7 @@ body {
 <hr><br>
 <center>
 
-<input width="400px" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Pokemon...">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Pokemon...">
 
 <ul id="myUL">
   <li><a href="#">Bulbasaur</a></li>
