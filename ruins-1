@@ -77,7 +77,7 @@ body {
 <hr><br>
 <center>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Pokemon...">
+<input width="400px" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Pokemon...">
 
 <ul id="myUL">
   <li><a href="#">Bulbasaur</a></li>
