@@ -7,7 +7,7 @@
 #myInput {
   width: 50%; /* Full-width */
   font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
+  padding: 12px 20px 12px 12px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
 }
@@ -77,7 +77,7 @@ body {
 <hr><br>
 <center>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Pokemon...">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
 
 <ul id="myUL">
   <li><a href="#">Bulbasaur</a></li>
