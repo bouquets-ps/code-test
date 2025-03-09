@@ -83,15 +83,17 @@ body {
   
 <li><a href="#">
 <table style="text-align: center"><tr>
-<td width="200px"><b>#0004</b></td>
-<td width="200px"<b>Charmander</b></td>
+<td width="100px"><b>#0006</b></td>
+<td width="200px"><b>Charizard-Mega-X</b></td>
+<td width="250px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/charizard-megax.gif"></td>
 <td width="400px"><i>No data</i></td>
 </tr></table></a></li>
 
 <li><a href="#">
 <table style="text-align: center"><tr>
-<td width="200px"><b>#0005</b></td>
-<td width="200px"><b>Charmeleon</b></td>
+<td width="100px"><b>#0250</b></td>
+<td width="200px"><b>Ho-oh</b></td>
+<td width="250px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/hooh.gif"></td>
 <td width="400px">played by <b><strong style="color: #2884c6">bouquets</strong></b> on 2025-01-01</td>
 </tr></table></a></li>
 
