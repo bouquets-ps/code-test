@@ -54,7 +54,7 @@ body {
 
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
 
-<h3>Click on the entries to view screenshots</h3>
+<h3>Click on registered entries to view screenshots</h3>
 
 <ul id="myUL">
 
