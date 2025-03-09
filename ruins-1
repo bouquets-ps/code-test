@@ -33,34 +33,7 @@
 #myUL li a:hover:not(.header) {
   background-color: #333; /* Add a hover effect to all links, except for headers */
 }
-.collapsible {
-  background-color: #222222;
-  color: white;
-  cursor: pointer;
-  padding: 10px;
-  width: 100%;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-family: "Quicksand", sans-serif;
-}
-.active, .collapsible:hover {
-  background-color: #333333;
-}
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #111111;
-}
 td {
-  vertical-align: middle;
-}
-div {
-  border: 0px solid #68a;
-  border-radius: 5px;
-  padding: 1px;
-  display: inline-block;
   vertical-align: middle;
 }
 body {
@@ -77,20 +50,22 @@ body {
 <hr><br>
 <center>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search"><br>
+<h3>Pokemon found: <font color="77dd77">0</font>/1025</h3>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search"><br><br>
 
 <ul id="myUL">
   
 <li><a href="https://imgur.com/XSZxMu4">
 <table style="text-align: center"><tr>
-<td width="100px"><b>#0550</b></td>
+<td width="100px">#0550</td>
 <td width="300px"><b>Basculin-White-Striped</b></td>
 <td width="500px"><i>No data</i></td>
 </tr></table></a></li>
 
 <li><a href="#">
 <table style="text-align: center"><tr>
-<td width="100px"><b>#0250</b></td>
+<td width="100px">#0250</td>
 <td width="300px"><b>Ho-oh</b></td>
 <td width="500px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/hooh.gif">
 <br>played by <b><strong style="color: #2884c6">bouquets</strong></b> on 2025-01-01</td>
