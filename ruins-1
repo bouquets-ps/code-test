@@ -50,23 +50,25 @@ body {
 <hr><br>
 <center>
 
-<h3>Pokemon found: <font color="77dd77">0</font>/1025</h3>
+<h3>Registered: <font color="77dd77">0</font>/1025</h3>
 
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search"><br><br>
+
+Click on registered entries to view screenshots<br><br>
 
 <ul id="myUL">
   
 <li><a href="https://imgur.com/XSZxMu4">
 <table style="text-align: center"><tr>
 <td width="100px">#0550</td>
-<td width="300px"><b>Basculin-White-Striped</b></td>
+<td width="300px">Basculin-White-Striped</td>
 <td width="500px"><i>No data</i></td>
 </tr></table></a></li>
 
 <li><a href="#">
 <table style="text-align: center"><tr>
 <td width="100px">#0250</td>
-<td width="300px"><b>Ho-oh</b></td>
+<td width="300px">Ho-oh</td>
 <td width="500px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/hooh.gif">
 <br>played by <b><strong style="color: #2884c6">bouquets</strong></b> on 2025-01-01</td>
 </tr></table></a></li>
