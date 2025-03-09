@@ -83,16 +83,16 @@ body {
   
 <li><a href="#">
 <table style="text-align: center"><tr>
-<td width="200px">#0004</td>
-<td width="200px">Charmander</td>
+<td width="200px"><h3>#0004</h3></td>
+<td width="200px"><h3>Charmander</h3></td>
 <td width="400px"><i>No data</i></td>
 </tr></table></a></li>
 
 <li><a href="#">
 <table style="text-align: center"><tr>
-<td width="200px">#0005</td>
-<td width="200px">Charmeleon</td>
-<td width="400px"><i>played by</i> <b><strong style="color: #2884c6">bouquets</strong></b> <i>on 2025-01-01</i></td>
+<td width="200px"><h3>#0005</h3></td>
+<td width="200px">><h3>Charmeleon</h3></td>
+<td width="400px">played by <b><strong style="color: #2884c6">bouquets</strong></b> on 2025-01-01</td>
 </tr></table></a></li>
 
 </ul>
