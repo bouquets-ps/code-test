@@ -88,8 +88,8 @@ body {
 <td width="400px"><i>No data</i></td>
 </tr></table></a></li>
 
-<li><a href="">
-<table style="text-align: center"><tr>
+<li><a href="#">
+<table border="2" style="text-align: center"><tr>
 <td width="100px"><b>#0250</b></td>
 <td width="300px"><b>Ho-oh</b></td>
 <td width="400px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/hooh.gif">
