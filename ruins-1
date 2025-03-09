@@ -52,7 +52,9 @@ body {
 
 <h3>Registered: <font color="77dd77">2</font>/1025</h3>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search"><br><br>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
+
+<h3>Click on the entries to view screenshots</h3>
 
 <ul id="myUL">
 
