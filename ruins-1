@@ -54,23 +54,25 @@ body {
 
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search"><br><br>
 
-Click on registered entries to view screenshots<br><br>
-
 <ul id="myUL">
-  
-<li><a href="https://imgur.com/XSZxMu4">
-<table style="text-align: center"><tr>
-<td width="100px">#0550</td>
-<td width="300px">Basculin-White-Striped</td>
+
+<li><a href="#"><table style="text-align: center"><tr>
+<td width="100px">#0001</td>
+<td width="300px">Bulbasaur</td>
+<td width="500px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/bulbasaur.gif">
+<br>played by <b><strong style="color: #2884c6">bouquets</strong></b> on 2025-01-01</td>
+</tr></table></a></li>
+
+<li><a href="#"><table style="text-align: center"><tr>
+<td width="100px">#0002</td>
+<td width="300px">Ivysaur</td>
 <td width="500px"><i>No data</i></td>
 </tr></table></a></li>
 
-<li><a href="#">
-<table style="text-align: center"><tr>
-<td width="100px">#0250</td>
-<td width="300px">Ho-oh</td>
-<td width="500px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/hooh.gif">
-<br>played by <b><strong style="color: #2884c6">bouquets</strong></b> on 2025-01-01</td>
+<li><a href="#"><table style="text-align: center"><tr>
+<td width="100px">#0003</td>
+<td width="300px">Venusaur</td>
+<td width="500px"><i>No data</i></td>
 </tr></table></a></li>
 
 </ul>
