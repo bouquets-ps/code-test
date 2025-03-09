@@ -84,7 +84,20 @@ body {
   <li><a href="#">Ivysaur</a></li>
 
   <li><a href="#">Venusaur</a></li>
-  <li><a href="#">Charmander</a></li>
+
+<li><a href="#">
+<table style="text-align: center"><tr>
+<td width="200px">#0004</td>
+<td width="200px">Charmander</td>
+<td width="400px">No data</td>
+</tr></table></a></li>
+
+<li><a href="#">
+<table style="text-align: center"><tr>
+<td width="200px">#0005</td>
+<td width="200px">Charmeleon</td>
+<td width="400px">played by <b><strong style="color: #2884c6">bouquets</strong></b> on 2025-01-01</td>
+</tr></table></a></li>
 
 </ul>
 
