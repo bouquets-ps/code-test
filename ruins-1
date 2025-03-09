@@ -58,16 +58,16 @@ body {
 
 <li><a href="#"><table style="text-align: center"><tr>
 <td width="100px">#0001</td>
-<td width="200px">Bulbasaur</td>
+<td width="400px"><b><strong style="color: #2884c6">bouquets</strong></b>'s Bulbasaur</td>
 <td width="300px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/bulbasaur.gif"></td>
-<td width="400px">played by <b><strong style="color: #2884c6">bouquets</strong></b> on 2025-01-01</td>
+<td width="100px">2025-01-01</td>
 </tr></table></a></li>
 
 <li><a href="#"><table style="text-align: center"><tr>
 <td width="100px">#0610</td>
-<td width="200px">Axew</td>
+<td width="400px"><b><strong style="color: #c8101c">corsages</strong></b>'s Axew</td>
 <td width="300px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/axew.gif"></td>
-<td width="400px">played by <b><strong style="color: #c8101c">corsages</strong></b> on 2024-12-31</td>
+<td width="100px">2024-12-31</td>
 </tr></table></a></li>
 
 </ul>
