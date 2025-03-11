@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="light">
 <head>
-<title>Haunter's Hauntes House/title>
+<title>Haunter's Haunted House</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
