@@ -175,9 +175,7 @@ button {
 </div>
 <br><br>
 
-<div id = "container">
-
-<table>
+<table id = "container">
 
 <tr><td style="width: 250px"><b>User</b></td><td style="width: 150px"><b>Last Updated</b></td></tr>
 
