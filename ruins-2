@@ -3,6 +3,7 @@
 <head>
 <title>PS! Game Corner User Gallery - Signups Avatar</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+
 <script>
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
   if (localStorageTheme !== null) {
@@ -44,24 +45,34 @@ button.addEventListener("click", (event) => {
 
   currentThemeSetting = newTheme;
 });
+
+
+document.getElementById("searchBar").addEventListener("input", function() {
+    let filter = this.value.toLowerCase();
+    let cards = document.querySelectorAll("#container .infobox");
+    cards.forEach(card => {
+        card.style.display = card.textContent.toLowerCase().includes(filter) ? "inline-block" : "none";
+    });
+});
+
 </script>
 <style>
-td {
-  vertical-align: bottom;
-}
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
   background-color: var(--color-bg);
   color: var(--color-fg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 [data-theme="light"] {
    --color-bg: #ffffff;
    --color-fg: #000000;
+  --transition-speed: 0.5s;
 }
 [data-theme="dark"] {
    --color-bg: #000000;
    --color-fg: #ffffff;
+  --transition-speed: 0.5s;
 }
 button {
   font-family: "Quicksand", sans-serif;
@@ -71,8 +82,73 @@ button {
   transition: all var(--global-transition-time) ease-in-out;
   color: var(--color-fg);
   background-color: var(--color-bg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
-</style>
+.top-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 24px;
+  position: relative;      
+}
+.center-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.search-bar {
+  font-family: "Quicksand", sans-serif;
+  border: 2px solid #3b82f6;
+  float: right;
+  margin-right:50px;
+  position:relative;
+  padding: 8px 20px;
+  border-radius: 16px;
+  width: 15%;
+  max-width: 180px;
+  min-width: 150px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.search-bar:focus {
+  border-color: #2563eb;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*@media (max-width: 700px) {*/
+/*.top-section {*/
+/*            width: 100%;*/
+/*            display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    align-content: space-between;*/
+/*    flex-direction: column;*/
+/*            margin-bottom: 24px;*/
+/*            position: relative;*/
+/*        }*/
+/*        .search-bar {*/
+/*            border: 2px solid #3b82f6;*/
+/*            position:relative;*/
+/*  align-self: center;*/
+/*            padding: 8px 20px;*/
+/*            border-radius: 16px;*/
+/*            width: 15%;*/
+/*            max-width: 180px;*/
+/*            min-width: 150px;*/
+/*            transition: all 0.3s ease-in-out;*/
+/*            outline: none;*/
+/*            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);*/
+/*        }    */
+/*          .center-button {*/
+/*          position: relative;*/
+/*  align-self: center;*/
+/*}*/
+/*}*/
+
+</style>     
+
 </head>
 <body>
 <center>
@@ -88,13 +164,18 @@ button {
 <hr><br>
 <center>
 
-<button
-    type="button"
-    data-theme-toggle
-    aria-label="Light"
-  >Light</button>
-
+<div class="top-section">
+  <button
+      type="button"
+      data-theme-toggle
+      aria-label="Light"
+      class = "center-button"
+    >Light</button>
+    <input type="text" id="searchBar" class="search-bar" placeholder="Type to search...">
+</div>
 <br><br>
+
+<div id = "container">
 
 <table>
 
@@ -289,6 +370,8 @@ button {
 <tr><td style="width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -480px"></span><b><strong style="color: #1069df">Zipzapadam</strong></b></td><td style="width: 150px">2025-02-25</td></tr>
 
 </table>
+
+</div>
 
 </center>
 </body>
