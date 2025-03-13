@@ -172,8 +172,7 @@ button {
       aria-label="Light"
       class = "center-button"
     >Light</button>
-    <input type="text" id="searchBar" class="search-bar" placeholder="Type to search...">
-</div>
+    </div>
 <br><br>
 
 </center>
