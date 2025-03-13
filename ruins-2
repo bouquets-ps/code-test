@@ -4,8 +4,6 @@
 <title>PS! Game Corner Scripted Game Bits</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
-card.style.display = card.textContent.toLowerCase().includes(filter) ? "" : "none";
-
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
   if (localStorageTheme !== null) {
     return localStorageTheme;
@@ -52,8 +50,9 @@ document.getElementById("searchBar").addEventListener("input", function() {
     let filter = this.value.toLowerCase();
     let cards = document.querySelectorAll("#container .infobox");
     cards.forEach(card => {
-        card.style.display = card.textContent.toLowerCase().includes(filter) ? "inline-block" : "none";
-    });
+    card.style.display = card.textContent.toLowerCase().includes(filter) ? "" : "none";
+
+});
 });
 
 </script>
