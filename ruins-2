@@ -4,6 +4,8 @@
 <title>PS! Game Corner Scripted Game Bits</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
+card.style.display = card.textContent.toLowerCase().includes(filter) ? "" : "none";
+
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
   if (localStorageTheme !== null) {
     return localStorageTheme;
