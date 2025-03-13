@@ -247,6 +247,148 @@ button {
 
 <span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/chandelure.gif">
+<h4>Chandelure's Candles</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>100 bits per life taken from other players<br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/chansey.gif">
+<h4>Chansey's Egg Toss</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>250 bits</td><td>0 bits</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/chatot.gif">
+<h4>Chatot's Musical Chairs</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/feebas.gif">
+<h4>Feebas' Chain Fishing</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/jigglypuff.gif">
+<h4>Jigglypuff's Dodgeball</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>250 bits<br><i>250 extra bits if you survived</i></td><td>0 bits</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/octillery.gif">
+<h4>Octillery's Ambush</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>250 bits</td><td>0 bits</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/tapukoko.gif">
+<h4>Tapus' Terrains</h4></td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
+<tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td rowspan="3">500 bits</td><td rowspan="2">0 bits</td></tr>
+<tr><td>Elimination</td></tr>
+<tr><td>Free-join</td><td>10 bits per point</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/thievul.gif">
+<h4>Thievul's Sweet Thief</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>25 bits per point</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/wishiwashi.gif">
+<h4>Wishiwashi's Stat Fishing</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>0 bits</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/dedenne.gif">
+<h4>Dedenne's Ability Blitz</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>1 bit per 10 points</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/deoxys.gif">
+<h4>Deoxys' Differences</h4></td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="4">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
+<tr><td>PM Time Attack</td></tr>
+<tr><td>Survival</td><td>10 bits per round</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Spotlight Team</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/golem-alola.gif">
+<h4>Golem's Galvanic Mine</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>(10/3) bits per point<br><i>Round down to the nearest integer</i></td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/gyarados.gif">
+<h4>Gyarados' Shiny Hunting</h4></td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
+<tr><td>Free-join<br><i><font color="77dd77">Default</font></i></td><td rowspan="5">500 bits</td><td>10 bits per point</td></tr>
+<tr><td>Multi-Answer</td><td>5 bits per point</td></tr>
+<tr><td>Time Attack</td><td rowspan="2">1 bit per point</td></tr>
+<tr><td>PM Time Attack</td></tr>
+<tr><td>Survival</td><td>10 bits per round</td></tr>
+<tr><td>Collective Team</td><td rowspan="2">250 bits<br><i>50 extra bits per point</i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td rowspan="2">10 bits per point</td></tr>
+<tr><td>Spotlight Team</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="3">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/ninjask.gif">
+<h4>Ninjask's Corners</h4></td></tr>
+<tr><td width="200px"><b>Mode</b></td><td width="200px"><b>Win</b></td><td width="200px"><b>Lose</b></td></tr>
+<tr><td>Signups<br><i><font color="77dd77">Default</font></i></td><td rowspan="2">250 bits</td><td>0 bits</td></tr>
+<tr><td>Free-join</td><td>10 bits per point</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/tauros.gif">
+<h4>Tauros' Safari Zone</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>1 bit per 10 points</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
+<br><img src="//play.pokemonshowdown.com/sprites/ani/trubbish.gif">
+<h4>Trubbish's Trash</h4></td></tr>
+<tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
+<tr><td>500 bits</td><td>1 bit per 10 points</td></tr>
+</table><br><br></span>
+
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
+<tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/axew.gif">
 <h4>Axew's Battle Cards</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
