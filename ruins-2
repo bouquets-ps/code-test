@@ -170,59 +170,53 @@ button {
 
 <div id = "container">
 
-<span class="infobox">
-<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/darkrai.gif">
 <h4>Darkrai's Lair</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td colspan="2"><i>To be updated</i></td></tr>
-</table></span>
+</table><br><br></span>
 
-<span class="infobox">
-<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/electrode.gif">
 <h4>Electrode's Minefield</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>(1/4) bit per fragment<br><i>Round to the nearest integer</i><br><i><font color="cb99c9">250 bits minimum if you earned at least 1 fragment</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
-</table></span>
+</table><br><br></span>
 
-<span class="infobox">
-<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/haunter.gif">
 <h4>Haunter's Haunted House</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>1 bit per 6 candies<br><i><font color="cb99c9">200 bits minimum</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>1 bit per 9 candies</td></tr>
-</table></span>
+</table><br><br></span>
 
-<span class="infobox">
-<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/klinklang.gif">
 <h4>Klinklang's Castle</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>(1/4) bit per gear<br><i>Round to the nearest integer</i><br><i><font color="cb99c9">250 bits minimum if you earned at least 1 gear</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
-</table></span>
+</table><br><br></span>
 
-<span class="infobox">
-<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/lampent.gif">
 <h4>Lampent's Labyrinth</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td>(1/4) bit per wick<br><i>Round to the nearest integer</i><br><i><font color="cb99c9">250 bits minimum if you earned at least 1 wick</font></i><br><i><font color="a2bffe">500 bits maximum</font></i></td><td>0 bits</td></tr>
-</table></span>
+</table><br><br></span>
 
-<span class="infobox">
-<table width="600px" border="2" style="text-align: center" cellpadding="5">
+<span class="infobox"><table width="600px" border="2" style="text-align: center" cellpadding="5">
 <tr><td colspan="2">
 <br><img src="//play.pokemonshowdown.com/sprites/ani/persian.gif">
 <h4>Persian's Garden</h4></td></tr>
 <tr><td width="300px"><b>Win</b></td><td width="300px"><b>Lose</b></td></tr>
 <tr><td colspan="2">(1/6) bit per coin<br><i>Round to the nearest integer</i><br><i><font color="a2bffe">500 bits maximum</font></i></td></tr>
-</table></span>
+</table><br><br></span>
 
 </div>
 
