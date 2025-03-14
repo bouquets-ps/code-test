@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
 <head>
 <title>PS! Game Corner User Gallery - FAQ</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
@@ -88,6 +88,7 @@ button {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-top: 10px;
   margin-bottom: 24px;
   position: relative;      
 }
@@ -172,6 +173,7 @@ button {
       aria-label="Light"
       class = "center-button"
     >Light</button>
+    <input type="text" id="searchBar" class="search-bar" placeholder="Type to search...">
     </div>
 <br><br>
 
