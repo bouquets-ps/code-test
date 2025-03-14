@@ -200,12 +200,6 @@ button {
 <center>
 
 <div class="top-section">
-  <button
-      type="button"
-      data-theme-toggle
-      aria-label="Light"
-      class = "center-button"
-    >Light</button>
     <input type="text" id="searchBar" class="search-bar" placeholder="Type to search...">
 </div>
 <br><br>
@@ -213,7 +207,7 @@ button {
 <div id = "container">
 
 
-<button type="button" class="collapsible"><div class="infobox" style="width: 200px">
+<button class="infobox" type="button" class="collapsible"><div class="infobox" style="width: 200px">
 <div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
 &nbsp;/&nbsp;
 <div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
@@ -231,7 +225,7 @@ Weedle
 Abra, Alakazam, Arbok, Arcanine, Beedrill, Bellsprout, Bulbasaur, Butterfree, Caterpie, Cubone, Diglett, Dodrio, Dragonite, Dugtrio, Eevee, Ekans, Farfetch’d, Fearow, Gastly, Gengar, Geodude, Gloom, Golbat, Golem, Graveler, Grimer, Growlithe, Haunter, Hitmonchan, Hitmonlee, Ivysaur, Kabuto, Kabutops, Kadabra, Kakuna, Kangaskhan, Koffing, Mankey, Marowak, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Pidgeot, Pidgeotto, Pidgey, Pinsir, Primeape, Raticate, Scyther, Spearow, Staryu, Tauros, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Vulpix, Weepinbell, Weezing, Zubat
 </p></div>
 
-<button type="button" class="collapsible"><div class="infobox" style="width: 200px">
+<button class="infobox" type="button" class="collapsible"><div class="infobox" style="width: 200px">
 <div style="display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Rock</b></div>
 &nbsp;/&nbsp;
 <div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
@@ -251,7 +245,7 @@ Abra, Aerodactyl, Alakazam, Arcanine, Blastoise, Cloyster, Cubone, Dewgong, Digl
 </p></div>
 
 
-<button type="button" class="collapsible"><div class="infobox" style="width: 200px">
+<button class="infobox" type="button" class="collapsible"><div class="infobox" style="width: 200px">
 <div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
 &nbsp;/&nbsp;
 <div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
@@ -270,7 +264,7 @@ Tentacool, Tentacruel
 Arbok, Articuno, Beedrill, Bellsprout, Blastoise, Bulbasaur, Cloyster, Dewgong, Dragonair, Dratini, Ekans, Gastly, Gengar, Gloom, Golbat, Goldeen, Golduck, Grimer, Gyarados, Haunter, Horsea, Ivysaur, Kabuto, Kabutops, Kakuna, Kingler, Koffing, Krabby, Lapras, Magikarp, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Omanyte, Omastar, Poliwag, Poliwhirl, Poliwrath, Psyduck, Seadra, Seaking, Seel, Shellder, Slowbro, Slowpoke, Squirtle, Starmie, Staryu, Tangela, Vaporeon, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Wartortle, Weedle, Weepinbell, Weezing, Zubat
 </p></div>
 
-<button type="button" class="collapsible"><div class="infobox" style="width: 200px">
+<button class="infobox" type="button" class="collapsible"><div class="infobox" style="width: 200px">
 <div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
 &nbsp;/&nbsp;
 <div style="display: inline-block ; background: linear-gradient(#e6c8b3,#d29e79) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Ground</b></div>
