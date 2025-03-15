@@ -161,7 +161,6 @@ button {
 </head>
 <body>
 <center>
-
 <h1><table><tr><td>PS! Game Corner Jellicent and Klefki's Boards</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
 <td>SQUARE</td>
@@ -171,7 +170,7 @@ button {
 </tr></table></span></h3>
 </center>
 
-<hr><br><br>
+<hr><br>
 <center>
 
 <div class="top-section">
