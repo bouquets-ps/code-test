@@ -181,14 +181,14 @@ button {
 
 <div id = "container">
 
-<span class="infobox" style="display: inline-block ; width: 300px; height: 300px"><center><b>
+<span class="infobox" width="300px"><center><b>
 <strong style="color: #2884c6">bouquets</strong></b>'s Bulbasaur ★
-<hr><img src="//play.pokemonshowdown.com/sprites/ani-shiny/bulbasaur.gif">
+<hr><div style="width: 300px; height: 300px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/bulbasaur.gif"></div>
 <hr>played on <a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">2025-02-02</a><br><br></center></span>
 
-<span class="infobox" style="display: inline-block ; width: 300px; height: 300px"><center><b>
+<span class="infobox" width="300px"><center><b>
 <strong style="color: #2884c6">bouquets</strong></b>'s Moltres ★
-<hr><img src="//play.pokemonshowdown.com/sprites/ani-shiny/moltres.gif">
+<hr><div style="width: 300px; height: 300px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/moltres.gif"></div>
 <hr>played on <a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">2025-02-02</a><br><br></center></span>
 
 
