@@ -56,6 +56,11 @@ document.getElementById("searchBar").addEventListener("input", function() {
 
 </script>
 <style>
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
