@@ -177,13 +177,14 @@ button {
 <br><br>
 
 <h3>Registered: <font color="77dd77">2</font></h3>
-<h4><i>Click on registered entries to view screenshots</i></h4>
+<h4><i>Click on dates to view screenshots</i></h4>
 
 <div id = "container">
 
-<div class="infobox" style="width: 260px"><div class="infobox" style="width: 250px"><b><strong style="color: #2884c6">bouquets</strong></b>'s <b>Flaaffy δ ★</b></div><img src="//play.pokemonshowdown.com/sprites/ani/flaaffy.gif"><div class="infobox" style="width: 250px; height: 250px"><div style="display: inline-block ; background: linear-gradient(#c68353 , #995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Rock</b></div><br><div style="display: inline-block ; background: linear-gradient(#db70db , #b72eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Pink</b></div></div></div>
-
-<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #b30f8a">Yoshman8</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#00ffff , #0000ff)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -390px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/acetrainer.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><hr><b>Last updated:</b> 2025-02-02<br><br></center></span>
+<span class="infobox" style="display: inline-block ; width: 300px; height: 300px"><center><b>
+<strong style="color: #2884c6">bouquets</strong></b>'s Bulbasaur ★
+<hr><img src="//play.pokemonshowdown.com/sprites/ani-shiny/bulbasaur.gif">
+<hr>played on <a style="text-decoration:none; var(--color-fg)" href="https://rentry.co/project-bouquets">2025-02-02</a><br><br></center></span>
 
 <span class="infobox"><a style="text-decoration:none; var(--color-fg)" href="https://rentry.co/project-bouquets"><table style="text-align: center"><tr>
 <td width="70px">#0001</td>
