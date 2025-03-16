@@ -188,7 +188,7 @@ button {
 
 <div id = "container">
 
-<span class="infobox"><div style="display: inline-block; width: 410px" id="wrap"><div style="width: 400px" id="wrap">
+<span class="infobox" style="display: inline-block"><div style="width: 410px" id="wrap"><div style="width: 400px" id="wrap">
 <b><strong style="color: #2884c6">bouquets</strong></b>'s <b>Jumpluff ★</b></div>
 <img src="//play.pokemonshowdown.com/sprites/ani-shiny/jumpluff.gif">
 <div style="width: 400px" id="wrap">
@@ -202,7 +202,7 @@ button {
 <b><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></b>
 </div></div><br><br></span>
 
-<span class="infobox"><div style="display: inline-block; width: 410px" id="wrap"><div style="width: 400px" id="wrap">
+<span class="infobox" style="display: inline-block"><div style="width: 410px" id="wrap"><div style="width: 400px" id="wrap">
 <b><strong style="color: #2884c6">bouquets</strong></b>'s <b>Shaymin ★</b></div>
 <img src="//play.pokemonshowdown.com/sprites/ani-shiny/shaymin.gif">
 <div style="width: 400px" id="wrap">
@@ -216,7 +216,7 @@ button {
 <b><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></b>
 </div></div><br><br></span>
 
-<span class="infobox"><div style="display: inline-block; width: 410px" id="wrap"><div style="width: 400px" id="wrap">
+<span class="infobox" style="display: inline-block"><div style="width: 410px" id="wrap"><div style="width: 400px" id="wrap">
 <b><strong style="color: #2884c6">bouquets</strong></b>'s <b>Sprigatito ★</b></div>
 <img src="//play.pokemonshowdown.com/sprites/ani-shiny/sprigatito.gif">
 <div style="width: 400px" id="wrap">
