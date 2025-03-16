@@ -188,13 +188,18 @@ button {
 
 <div id = "container">
 
-<div class="infobox" style="width: 260px" id="wrap">
-<div class="infobox" style="width: 250px" id="wrap"><b>Jumpluff ★</b></div>
+<div class="infobox" style="width: 410px" id="wrap">
+<div style="width: 400px" id="wrap">
+<b><strong style="color: #2884c6">bouquets</strong></b>'s <b>Jumpluff ★</b></div>
 <img src="//play.pokemonshowdown.com/sprites/ani-shiny/jumpluff.gif">
-<div class="infobox" style="width: 250px" id="wrap">
+<div style="width: 400px" id="wrap">
 <div style="display: inline-block ; background: linear-gradient(#ec93bf,#e05299) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Fairy</b></div>
 &nbsp;/&nbsp;<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
-</div></div>
+</div><div style="display: inline-block; width: 250px" id="wrap"></div>
+played on 2025-02-02
+<div style="display: inline-block; width: 150px" id="wrap"></div>
+<a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a>
+</div>
 
 <span class="infobox" style="display: inline-block ; width: 400px" border="1px"><center><b>
 <strong style="color: #2884c6">bouquets</strong></b>'s Steelix-Mega ★
