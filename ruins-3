@@ -188,17 +188,17 @@ button {
 
 <div id = "container">
 
-<span class="infobox" style="display: block"><div style="width: 410px" id="wrap"></div><div style="display: inline-block; width: 48px" id="wrap">
+<span class="infobox" style="display: block"><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 98px" id="wrap">
 <b>#0001</b>
-</div><div style="display: inline-block; width: 348px" id="wrap">
+</div><div style="display: inline-block; width: 398px" id="wrap">
 <b><strong style="color: #2884c6">bouquets</strong></b>'s <b>Jumpluff ★</b></div>
 <img src="//play.pokemonshowdown.com/sprites/ani-shiny/jumpluff.gif">
-<div style="width: 400px" id="wrap">
+<div style="width: 500px" id="wrap">
 <div style="display: inline-block ; background: linear-gradient(#ec93bf,#e05299) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Fairy</b></div>
 &nbsp;/&nbsp;<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
-</div><div style="display: inline-block; width: 198px" id="wrap">
+</div><div style="display: inline-block; width: 248px" id="wrap">
 <b>played on 2025-02-02</b>
-</div><div style="display: inline-block; width: 198px" id="wrap">
+</div><div style="display: inline-block; width: 248px" id="wrap">
 <b><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></b>
 </div></div><br><br></span>
 
