@@ -56,11 +56,6 @@ document.getElementById("searchBar").addEventListener("input", function() {
 
 </script>
 <style>
-div {
-  border: 1px solid #68a;
-  border-radius: 5px;
-  padding: 1px;
-}
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
@@ -188,22 +183,12 @@ button {
 
 <div id = "container">
 
-<div class="infobox" style="width: 310px"><div class="infobox" style="width: 300px">
-<b><strong style="color: #2884c6">bouquets</strong></b>'s <b>Jumpluff ★</b></div>
-<table><tr><td height="250px">
-<img src="//play.pokemonshowdown.com/sprites/ani-shiny/jumpluff.gif">
-</td></tr></table>
-<div class="infobox" style="width: 300px">
-<div style="display: inline-block ; background: linear-gradient(#ec93bf,#e05299) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Fairy</b></div>
-&nbsp;/&nbsp;<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
-</div></div>
-
-<span class="infobox" style="display: inline-block ; width: 300px"><center><b>
+<span class="infobox" style="display: inline-block ; width: 300px" border="1px"><center><b>
 <strong style="color: #2884c6">bouquets</strong></b>'s Bulbasaur ★
 <hr><table><tr><td height="250px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/bulbasaur.gif"></td></tr></table>
 <hr>played on 2025-02-02 | <a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a><br><br></center></span>
 
-<span class="infobox" style="display: inline-block ; width: 300px"><center><b>
+<span class="infobox" style="display: inline-block ; width: 300px" border="1px"><center><b>
 <strong style="color: #2884c6">bouquets</strong></b>'s Moltres ★
 <hr><table><tr><td height="250px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/moltres.gif"></td></tr></table>
 <hr>played on 2025-02-02 | <a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a><br><br></center></span>
