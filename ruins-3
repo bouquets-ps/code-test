@@ -56,7 +56,7 @@ document.getElementById("searchBar").addEventListener("input", function() {
 
 </script>
 <style>
-#test {
+#wrap {
   border: 1px solid #68a;
   border-radius: 5px;
   padding: 1px;
@@ -188,33 +188,13 @@ button {
 
 <div id = "container">
 
-<div class="infobox" style="width: 260px" id="test">
-<div class="infobox" style="width: 250px"><b>Jumpluff ★</b></div>
+<div class="infobox" style="width: 260px" id="wrap">
+<div class="infobox" style="width: 250px" id="wrap"><b>Jumpluff ★</b></div>
 <img src="//play.pokemonshowdown.com/sprites/ani-shiny/jumpluff.gif">
-<div class="infobox" style="width: 250px">
+<div class="infobox" style="width: 250px" id="wrap">
 <div style="display: inline-block ; background: linear-gradient(#ec93bf,#e05299) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Fairy</b></div>
 &nbsp;/&nbsp;<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
 </div></div>
-
-<span class="infobox" style="display: inline-block ; width: 400px" border="1px"><center><b>
-<strong style="color: #2884c6">bouquets</strong></b><b>'s Bulbasaur</b> ★
-<hr><table><tr><td height="250px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/bulbasaur.gif"></td></tr></table>
-<hr>played on 2025-02-02 | <a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a><br><br></center></span>
-
-<span class="infobox" style="display: inline-block ; width: 400px" border="1px"><center><b>
-<strong style="color: #2884c6">bouquets</strong></b>'s Moltres ★
-<hr><table><tr><td height="250px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/moltres.gif"></td></tr></table>
-<hr><b>Played on:</b> 2025-02-02 | <a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a><br><br></center></span>
-
-<span class="infobox" style="display: inline-block ; width: 400px" border="1px"><center><b>
-<strong style="color: #2884c6">bouquets</strong></b>'s Charizard-Mega-Y ★
-<hr><table><tr><td height="250px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/charizard-megay.gif"></td></tr></table>
-<hr>played on 2025-02-02   |   <a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a><br><br></center></span>
-
-<span class="infobox" style="display: inline-block ; width: 400px" border="1px"><center><b>
-<strong style="color: #2884c6">bouquets</strong></b>'s Avalugg ★
-<hr><table><tr><td height="250px"><img src="//play.pokemonshowdown.com/sprites/ani-shiny/avalugg.gif"></td></tr></table>
-<hr>played on 2025-02-02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a><br><br></center></span>
 
 <span class="infobox" style="display: inline-block ; width: 400px" border="1px"><center><b>
 <strong style="color: #2884c6">bouquets</strong></b>'s Steelix-Mega ★
