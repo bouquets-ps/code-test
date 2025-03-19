@@ -54,10 +54,13 @@ document.getElementById("searchBar").addEventListener("input", function() {
     });
 });
 
-var Q_Num = $('*').filter(function () {
-    return this.id.match(/Q\d+/);
+$(function () {
+    var result = $('[id^=Q]').filter(function () {
+        return this.id.match(/Q\d+$/); //regex for the pattern "Q followed by a number"
+    }).length;
+
+    $('input[name=result]').val(result);
 });
-$('#number').val(Q_Num.length);
 
 </script>
 <style>
