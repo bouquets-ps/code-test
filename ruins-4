@@ -190,8 +190,8 @@ button {
 </div>
 <br><br>
 
-<table align="center" border="1" style="text-align: center" width="510px" id="calc">
-<tr><td><b>Generation</b></td><td><b>Base</b></td><td><b>Form</b></td></tr>
+<table align="center" border="1" style="text-align: center" width="510px" cellpadding="5" id="calc">
+<tr><td width="170px"><b>Generation</b></td><td width="170px"><b>Base</b></td><td width="170px"><b>Form</b></td></tr>
 <tr><td><b>1</b></td><td><b><font color="77dd77">0</font>/151</b></td><td><b>0</b></td></tr>
 <tr><td><b>2</b></td><td><b><font color="77dd77">0</font>/100</b></td><td><b>0</b></td></tr>
 <tr><td><b>3</b></td><td><b><font color="77dd77">0</font>/135</b></td><td><b>0</b></td></tr>
