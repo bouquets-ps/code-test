@@ -190,18 +190,9 @@ button {
 </div>
 <br><br>
 
-<table align="center" border="1" style="text-align: center" width="510px" cellpadding="5" id="calc">
-<tr><td width="170px"><b>Generation</b></td><td width="170px"><b>Base</b></td><td width="170px"><b>Form</b></td></tr>
-<tr><td><b>1</b></td><td><b><font color="77dd77">0</font>/151</b></td><td><b>0</b></td></tr>
-<tr><td><b>2</b></td><td><b><font color="77dd77">0</font>/100</b></td><td><b>0</b></td></tr>
-<tr><td><b>3</b></td><td><b><font color="77dd77">0</font>/135</b></td><td><b>0</b></td></tr>
-<tr><td><b>4</b></td><td><b><font color="77dd77">0</font>/107</b></td><td><b>0</b></td></tr>
-<tr><td><b>5</b></td><td><b><font color="77dd77">0</font>/156</b></td><td><b>0</b></td></tr>
-<tr><td><b>6</b></td><td><b><font color="77dd77">0</font>/72</b></td><td><b>0</b></td></tr>
-<tr><td><b>7</b></td><td><b><font color="77dd77">0</font>/88</b></td><td><b>0</b></td></tr>
-<tr><td><b>8</b></td><td><b><font color="77dd77">0</font>/96</b></td><td><b>0</b></td></tr>
-<tr><td><b>9</b></td><td><b><font color="77dd77">0</font>/120</b></td><td><b>0</b></td></tr>
-</table>
+<div style="width: 510px" id="wrap">
+<b><font color="77dd77">0</font>/1025</b>
+</div>
 
 <br><br>
 
