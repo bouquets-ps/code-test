@@ -57,7 +57,6 @@ document.getElementById("searchBar").addEventListener("input", function() {
 var Q_Num = $('*').filter(function () {
     return this.id.match(/Q\d+/);
 });
-Q_Num.addClass('red');
 $('#number').val(Q_Num.length);
 
 </script>
@@ -193,9 +192,7 @@ button {
 <div>
 
 <label for="number">Registered Pokemon:</label>
-<font color="77dd77">
 <input type="number" name="result" id="number">
-</font>
 
 <div id = "container">
 
