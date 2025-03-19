@@ -61,6 +61,12 @@ document.getElementById("searchBar").addEventListener("input", function() {
   border-radius: 5px;
   padding: 1px;
 }
+#calc {
+  border: 1px solid #68a;
+  border-radius: 5px;
+  border-color: #68a;
+  border-collapse: collapse;
+}
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
@@ -184,7 +190,7 @@ button {
 </div>
 <br><br>
 
-<table border="1" width="510px">
+<table align="center" border="1" style="text-align: center" width="510px" id="calc">
 <tr><td><b>Generation</b></td><td><b>Base</b></td><td><b>Form</b></td></tr>
 <tr><td><b>1</b></td><td><b><font color="77dd77">0</font>/151</b></td><td><b>0</b></td></tr>
 <tr><td><b>2</b></td><td><b><font color="77dd77">0</font>/100</b></td><td><b>0</b></td></tr>
