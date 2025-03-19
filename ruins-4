@@ -4,12 +4,6 @@
 <title>PS! Game Corner Shiny Pokedex - Pokedex</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
-var Q_Num = $('*').filter(function () {
-    return this.id.match(/Q\d+/);
-});
-Q_Num.addClass('red');
-$('#number').val(Q_Num.length);
-
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
   if (localStorageTheme !== null) {
     return localStorageTheme;
@@ -59,6 +53,12 @@ document.getElementById("searchBar").addEventListener("input", function() {
         card.style.display = card.textContent.toLowerCase().includes(filter) ? "inline-block" : "none";
     });
 });
+
+var Q_Num = $('*').filter(function () {
+    return this.id.match(/Q\d+/);
+});
+Q_Num.addClass('red');
+$('#number').val(Q_Num.length);
 
 </script>
 <style>
@@ -199,8 +199,7 @@ button {
 
 <div id = "container">
 
-
-<span id="Q01" class="infobox" style="width: 100%"><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
+<span class="infobox" style="width: 100%"><div id="Q01"><p><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
 <b>#0666</b>
 </div><div style="display: inline-block; width: 373px" id="wrap">
 <b><strong style="color: #2884c6">bouquets</strong></b><b>'s Vivillon-Marine ★</b></div>
@@ -215,9 +214,9 @@ button {
 <b><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></b>
 </div><div style="display: inline-block; width: 373px" id="wrap">
 <b>played on 2025-01-01</b>
-</div></div><br><br></span>
+</div></div><br><br></p></div></span>
 
-<span id="Q02" class="infobox" style="width: 100%"><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
+<span class="infobox" style="width: 100%"><div id="Q02"><p><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
 <b>#0666</b>
 </div><div style="display: inline-block; width: 373px" id="wrap">
 <b><strong style="color: #c8101c">corsages</strong></b><b>'s Vivillon-Pokeball δ ★</b></div>
@@ -230,9 +229,9 @@ button {
 <b><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></b>
 </div><div style="display: inline-block; width: 373px" id="wrap">
 <b>played on 2025-02-02</b>
-</div></div><br><br></span>
+</div></div><br><br></p></div></span>
 
-<span id="Q03" class="infobox" style="width: 100%"><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
+<span class="infobox" style="width: 100%"><div id="Q03"><p><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
 <b>#0666</b>
 </div><div style="display: inline-block; width: 373px" id="wrap">
 <b><strong style="color: #a99515">florally</strong></b><b>'s Vivillon-Icy Snow ★</b></div>
@@ -243,10 +242,10 @@ button {
 <b><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></b>
 </div><div style="display: inline-block; width: 373px" id="wrap">
 <b>played on 2025-03-03</b>
-</div></div><br><br></span>
+</div></div><br><br></p></div></span>
 
 
-
+</div>
 </div>
 
 </center>
