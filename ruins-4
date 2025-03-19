@@ -184,17 +184,17 @@ button {
 </div>
 <br><br>
 
-<table>
+<table border="1" width="510px">
 <tr><td><b>Generation</b></td><td><b>Base</b></td><td><b>Form</b></td></tr>
-<tr><td><td><b>1</b></td><b><font color="77dd77">0</font>/151</b></td><td><b>0</b></td></tr>
-<tr><td><td><b>2</b></td><b><font color="77dd77">0</font>/100</b></td><td><b>0</b></td></tr>
-<tr><td><td><b>3</b></td><b><font color="77dd77">0</font>/135</b></td><td><b>0</b></td></tr>
-<tr><td><td><b>4</b></td><b><font color="77dd77">0</font>/107</b></td><td><b>0</b></td></tr>
-<tr><td><td><b>5</b></td><b><font color="77dd77">0</font>/156</b></td><td><b>0</b></td></tr>
-<tr><td><td><b>6</b></td><b><font color="77dd77">0</font>/72</b></td><td><b>0</b></td></tr>
-<tr><td><td><b>7</b></td><b><font color="77dd77">0</font>/88</b></td><td><b>0</b></td></tr>
-<tr><td><td><b>8</b></td><b><font color="77dd77">0</font>/96</b></td><td><b>0</b></td></tr>
-<tr><td><td><b>9</b></td><b><font color="77dd77">0</font>/120</b></td><td><b>0</b></td></tr>
+<tr><td><b>1</b></td><td><b><font color="77dd77">0</font>/151</b></td><td><b>0</b></td></tr>
+<tr><td><b>2</b></td><td><b><font color="77dd77">0</font>/100</b></td><td><b>0</b></td></tr>
+<tr><td><b>3</b></td><td><b><font color="77dd77">0</font>/135</b></td><td><b>0</b></td></tr>
+<tr><td><b>4</b></td><td><b><font color="77dd77">0</font>/107</b></td><td><b>0</b></td></tr>
+<tr><td><b>5</b></td><td><b><font color="77dd77">0</font>/156</b></td><td><b>0</b></td></tr>
+<tr><td><b>6</b></td><td><b><font color="77dd77">0</font>/72</b></td><td><b>0</b></td></tr>
+<tr><td><b>7</b></td><td><b><font color="77dd77">0</font>/88</b></td><td><b>0</b></td></tr>
+<tr><td><b>8</b></td><td><b><font color="77dd77">0</font>/96</b></td><td><b>0</b></td></tr>
+<tr><td><b>9</b></td><td><b><font color="77dd77">0</font>/120</b></td><td><b>0</b></td></tr>
 </table>
 
 <br><br>
