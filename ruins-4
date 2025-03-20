@@ -56,6 +56,9 @@ document.getElementById("searchBar").addEventListener("input", function() {
 
 document.getElementsByClassName("counter")[0].textContent = document.querySelectorAll("#container .infobox").length;
 
+const nodeList = document.querySelectorAll(".infobox");
+document.getElementById("demo").innerHTML = nodeList.length;
+
 </script>
 <style>
 #wrap {
@@ -187,6 +190,8 @@ button {
 <br><br>
 
 <div class="counter"></div>
+<br>
+<p id="demo"></p>
 
 <div id = "container">
 
