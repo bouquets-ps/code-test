@@ -49,8 +49,7 @@ button.addEventListener("click", (event) => {
 document.getElementById("searchBar").addEventListener("input", function() {
     let filter = this.value.toLowerCase();
     let cards = document.querySelectorAll("#container .infobox");
-    let collection = document.getElementsByTagName("img");
-    let document.getElementById("demo").innerHTML = collection.length;
+    let numb = document.getElementsByClassName("img").length;       
     cards.forEach(card => {
         card.style.display = card.textContent.toLowerCase().includes(filter) ? "inline-block" : "none";
  });
@@ -186,7 +185,7 @@ button {
 </div>
 <br><br>
 
-<p id="demo"></p>
+<p id="numb"></p>
 
 <div id = "container">
 
