@@ -54,10 +54,7 @@ document.getElementById("searchBar").addEventListener("input", function() {
     });
 });
 
-var existingList = $('.infobox').filter(function(){
-    return $(this).text().indexOf(myVal)>=0;
-}).length;
-$("#howMany").html(existingList);
+document.getElementsByClassName("counter")[0].textContent = document.querySelectorAll().length;
 
 </script>
 <style>
@@ -189,7 +186,7 @@ button {
 </div>
 <br><br>
 
-<div id="howMany"></div>
+<div class="counter"></div>
 
 <div id = "container">
 
