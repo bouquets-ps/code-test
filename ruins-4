@@ -50,12 +50,13 @@ document.getElementById("searchBar").addEventListener("input", function() {
     let filter = this.value.toLowerCase();
     let cards = document.querySelectorAll("#container .infobox");
     let numb = document.getElementsByClassName("infobox").length;
+    let text = numb;
     cards.forEach(card => {
         card.style.display = card.textContent.toLowerCase().includes(filter) ? "inline-block" : "none";
  });
 });
 
-document.getElementById("demo").innerHTML = numb;
+document.getElementById("demo").innerHTML = text;
 
 </script>
 <style>
