@@ -54,7 +54,7 @@ document.getElementById("searchBar").addEventListener("input", function() {
     });
 });
 
-document.getElementsByClassName("counter")[0].textContent = document.querySelectorAll("div").length;
+document.getElementsByClassName("counter")[0].textContent = document.querySelectorAll("img").length;
 
 </script>
 <style>
