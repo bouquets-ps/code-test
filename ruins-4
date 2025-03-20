@@ -56,7 +56,7 @@ document.getElementById("searchBar").addEventListener("input", function() {
 
 document.getElementsByClassName("counter")[0].textContent = document.querySelectorAll("#container .infobox").length;
 
-const collection = document.getElementsByTagName("img");
+const collection = document.getElementsByTagName("#container .infobox");
 document.getElementById("demo").innerHTML = collection.length;
 
 </script>
