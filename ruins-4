@@ -56,7 +56,6 @@ document.getElementById("searchBar").addEventListener("input", function() {
 
 const elements = document.querySelectorAll('.infobox');
 const count = elements.length;
-console.log(count);
 
 </script>
 <style>
@@ -188,7 +187,7 @@ button {
 </div>
 <br><br>
 
-<h3>Registered Pokemon: <input type="text" class"infobox"></h3><br>
+<h3>Registered Pokemon: <p id="count"></p></h3><br>
 
 <div id = "container">
 
