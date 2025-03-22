@@ -184,7 +184,7 @@ div {
 
 <div id = "container">
 
-<button type="button" class="collapsible"><div class="infobox" style="width: 200px"><span class="searchValue">
+<span style="display: inline-block"><button type="button" class="collapsible"><div class="infobox" style="width: 200px"><span class="searchValue">
 <div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
 &nbsp;/&nbsp;
 <div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
@@ -200,7 +200,7 @@ div {
 Weedle
 </b><br><br>
 Abra, Alakazam, Arbok, Arcanine, Beedrill, Bellsprout, Bulbasaur, Butterfree, Caterpie, Cubone, Diglett, Dodrio, Dragonite, Dugtrio, Eevee, Ekans, Farfetch’d, Fearow, Gastly, Gengar, Geodude, Gloom, Golbat, Golem, Graveler, Grimer, Growlithe, Haunter, Hitmonchan, Hitmonlee, Ivysaur, Kabuto, Kabutops, Kadabra, Kakuna, Kangaskhan, Koffing, Mankey, Marowak, Metapod, Muk, Nidoking, Nidoqueen, Nidoran-F, Nidoran-M, Nidorina, Nidorino, Oddish, Paras, Parasect, Pidgeot, Pidgeotto, Pidgey, Pinsir, Primeape, Raticate, Scyther, Spearow, Staryu, Tauros, Tentacool, Tentacruel, Venomoth, Venonat, Venusaur, Victreebel, Vileplume, Vulpix, Weepinbell, Weezing, Zubat
-</p></div>
+</p></div></span>
 
 <button type="button" class="collapsible"><div class="infobox" style="width: 200px"><span class="searchValue">
 <div style="display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Rock</b></div>
