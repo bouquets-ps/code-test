@@ -184,13 +184,13 @@ div {
 
 <div id = "container">
 
-<span style="display: inline-block"><button type="button" class="collapsible"><div class="infobox" style="width: 200px"><span class="searchValue">
+<span style="display: inline-block" class="searchValue"><button type="button" class="collapsible"><div class="infobox" style="width: 200px">
 <div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
 &nbsp;/&nbsp;
 <div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
 <br>
 <div style="display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Brown</b></div>
-</span></div><div class="infobox" style="width: 200px"><h2><font color="77dd77">
+</div><div class="infobox" style="width: 200px"><h2><font color="77dd77">
 1 Pokemon
 </font></h2></div><div class="infobox" style="width: 200px"><h2><font color="a2bffe">
 72 matches
