@@ -184,7 +184,7 @@ div {
 
 <div id = "container">
 
-<span style="display: inline-block" class="searchValue"><button type="button" class="collapsible"><div class="infobox" style="width: 200px">
+<span style="display: inline-block"><button type="button" class="collapsible" class="searchValue"><div class="infobox" style="width: 200px">
 <div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
 &nbsp;/&nbsp;
 <div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
