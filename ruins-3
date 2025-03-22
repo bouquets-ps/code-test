@@ -98,13 +98,13 @@ button {
 }
 .search-bar {
   font-family: "Quicksand", sans-serif;
-  border: 1px solid #2884c6;
+  border: 0px solid #2884c6;
   float: right;
   margin-right:50px;
   position:relative;
   padding: 8px 20px;
   border-radius: 5px;
-  width: 15%;
+  width: 0%;
   max-width: 180px;
   min-width: 150px;
   transition: all 0.3s ease-in-out;
@@ -131,7 +131,7 @@ td {
 </tr></table></span></h3>
 </center>
 
-<hr><br><br>
+<hr><br>
 <center>
 
 <div class="top-section">
@@ -141,6 +141,7 @@ td {
       aria-label="Light"
       class = "center-button"
     >Light</button>
+    <input type="text" id="searchBar" class="search-bar" placeholder="">
 </div>
 <br><br>
 
