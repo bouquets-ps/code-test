@@ -72,6 +72,8 @@ for (i = 0; i < coll.length; i++) {
   margin-bottom: 24px;
 }
 .collapsible {
+  border: 1px solid #68a;
+  border-radius: 5px;
   background-color: var(--color-bg);
   color: var(--color-fg);
   cursor: pointer;
@@ -88,6 +90,8 @@ for (i = 0; i < coll.length; i++) {
   transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 .content {
+  border: 1px solid #68a;
+  border-radius: 5px;
   padding: 0 18px;
   display: none;
   overflow: hidden;
