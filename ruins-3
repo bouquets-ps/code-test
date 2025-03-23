@@ -81,15 +81,18 @@ for (i = 0; i < coll.length; i++) {
   text-align: center;
   outline: none;
   font-family: "Quicksand", sans-serif;
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 .active, .collapsible:hover {
   background-color: var(--color-bg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
   background-color: var(--color-bg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 td {
   vertical-align: middle;
