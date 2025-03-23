@@ -86,7 +86,7 @@ for (i = 0; i < coll.length; i++) {
   transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 .active, .collapsible:hover {
-  background-color: var(--color-bg);
+  background-color: silver;
   transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 .content {
