@@ -118,7 +118,7 @@ body {
 [data-theme="light"] {
    --color-bg: #ffffff;
    --color-fg: #000000;
-   --color-sg: #fefefe;
+   --color-sg: #f0f0f0;
    --transition-speed: 0.5s;
 }
 [data-theme="dark"] {
