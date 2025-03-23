@@ -139,7 +139,7 @@ button {
 
 <h3>Special Spaces</h3>
 
-<table align="center" border="2" style="text-align: center" cellpadding="5">
+<table width="900px" align="center" border="2" style="text-align: center" cellpadding="5">
 <tr><td><b>Space</b></td><td><b>Name</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
 <tr><td style="background: linear-gradient(#e6e6e6 , #d9d9d9); color: black; font-weight: bold">0</td><td>Oak's Lab</td><td>+200 Poke if pass by<br><i>Only from round 2 onwards</i></td><td>+1 Key if pass by<br><i>Only from round 2 onwards</i></td></tr>
 <tr><td style="background: linear-gradient(#999999 , #666666); color: black; font-weight: bold">9</td><td>Pyrite Town Jail</td><td colspan="2">Can be entered by triggering the Hacking Lady Monita Action event<br><i>See <a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/jail">Jail</a></i></td></tr>
