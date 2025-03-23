@@ -72,8 +72,8 @@ for (i = 0; i < coll.length; i++) {
   margin-bottom: 24px;
 }
 .collapsible {
-  background-color: #222222;
-  color: white;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
   cursor: pointer;
   padding: 10px;
   width: 100%;
@@ -83,13 +83,13 @@ for (i = 0; i < coll.length; i++) {
   font-family: "Quicksand", sans-serif;
 }
 .active, .collapsible:hover {
-  background-color: #333333;
+  background-color: var(--color-bg);
 }
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #111111;
+  background-color: var(--color-bg);
 }
 td {
   vertical-align: middle;
