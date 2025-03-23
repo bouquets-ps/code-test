@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="light">
 <head>
-<title>PS! Game Corner Jellicent and Klefki's Boards - Actions</title>
+<title>PS! Game Corner Jellicent and Klefki's Boards - Jail</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
@@ -85,8 +85,8 @@ button {
 <h3><span style="letter-spacing:5px;"><table><tr>
 <td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/square">SQUARE</a></td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/loop">LOOP</a></td>
-<td style="width: 50px"></td><td>ACTIONS</td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/jail">JAIL</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-boards/blob/main/actions">ACTIONS</a></td>
+<td style="width: 50px"></td><td>JAIL</td>
 </tr></table></span></h3>
 </center>
 
@@ -101,16 +101,8 @@ button {
 
 <br><br>
 
-<table width="900px" align="center" border="2" style="text-align: center" cellpadding="5">
-<tr><td><b>Event</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
-<tr><td>Slipping on an Inkay</td><td colspan="2">Go back 1 to 3 spaces</td></tr>
-<tr><td>Teleporting with Abra</td><td colspan="2">Teleport to a random space</td></tr>
-<tr><td>Hopping on a Flying Taxi</td><td colspan="2">Teleport to Oak's Lab or Elm's Lab</td></tr>
-<tr><td>Hacking Lady Monita</td><td colspan="2">Teleport to and enter Pyrite Town Jail</td></tr>
-<tr><td>Hiking</td><td colspan="2">Teleport forward to the nearest Mountain<br><i>Can trigger Oak's Lab or Elm's Lab's effect</i></td></tr>
-<tr><td>Drawing a card</td><td>Earn a Jellicent Card</td><td>Earn a Klefki Card</td></tr>
-<tr><td>Receiving Delibird's Present</td><td>Earn 0 to 500 Poke</td><td>Earn 0 to 1 Key</td></tr>
-<tr><td>Winning a raffle</td><td>Earn 200 Poke</td><td>Earn 1 Key</td></tr>
-<tr><td>Feeling generous</td><td>Donate 100 to 500 Poke to a random player<br><i>Only if you have enough Poke</i></td><td>N/A</td></tr>
+<table width="950px" align="center" border="2" style="text-align: center" cellpadding="5">
+<tr><td><b>Rounds in Jail</b></td><td><b>Jellicent</b></td><td><b>Klefki</b></td></tr>
+<tr><td>1 to 3</td><td>Use a Jellicent Card or 100 Poke to escape<br>Attempt to roll doubles to escape<br><i>Pick one</i></td><td>Use a Klefki Card or 1 Key to escape<br>Attempt to roll doubles to escape<br><i>Pick one</i></td></tr>
+<tr><td>4</td><td>Forced to use a Jellicent Card or 100 Poke to escape<br><i>Eliminated if you have neither</i></td><td>Forced to use a Klefki Card or 1 Key to escape<br><i>Eliminated if you have neither</i></td></tr>
 </table>
-
