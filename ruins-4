@@ -75,6 +75,7 @@ button {
   color: var(--color-fg);
   background-color: var(--color-bg);
   transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+  margin-bottom: 24px;
 }
 </style>
 </head>
@@ -98,7 +99,7 @@ button {
     aria-label="Light"
   >Light</button>
 
-<br><br><br><br>
+<br><br>
 
 <h3>Board</h3>
 
