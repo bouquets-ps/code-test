@@ -118,13 +118,13 @@ body {
 [data-theme="light"] {
    --color-bg: #ffffff;
    --color-fg: #000000;
-   --color-sg: #eeeeee;
+   --color-sg: #fefefe;
    --transition-speed: 0.5s;
 }
 [data-theme="dark"] {
    --color-bg: #000000;
    --color-fg: #ffffff;
-   --color-sg: #111111;
+   --color-sg: #222222;
    --transition-speed: 0.5s;
 }
 </style>
