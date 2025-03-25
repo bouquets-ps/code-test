@@ -1,105 +1,251 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
 <head>
-<title>PS! Game Corner Shiny Pokedex - Gradients</title>
+<title>PS! Game Corner Shiny Pokedex - Pokedex</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-<style>
-body {
-  font-family: "Quicksand", sans-serif;
-  padding: 30px;
+<script>
+function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
+  if (localStorageTheme !== null) {
+    return localStorageTheme;
+  }
+
+  if (systemSettingDark.matches) {
+    return "dark";
+  }
+
+  return "light";
 }
-div {
+
+function updateButton({ buttonEl, isDark }) {
+  const newCta = isDark ? "Light" : "Dark";
+buttonEl.setAttribute("aria-label", newCta);
+  buttonEl.innerText = newCta;
+}
+
+function updateThemeOnHtmlEl({ theme }) {
+  document.querySelector("html").setAttribute("data-theme", theme);
+}
+
+function onloadFunction() {
+    let cards = document.querySelectorAll("#container .infobox");
+    let arr = [];
+
+    cards.forEach(card => {
+  let counter_name = card.querySelector(".counterCheck").textContent.toLowerCase().replace("'s ","");
+	arr.push(counter_name)
+    });
+    let length_fin = [...new Set(arr)].length
+    
+    document.getElementById("counter").innerHTML = length_fin
+
+}
+
+const button = document.querySelector("[data-theme-toggle]");
+const localStorageTheme = localStorage.getItem("theme");
+const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+
+updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
+updateThemeOnHtmlEl({ theme: currentThemeSetting });
+
+button.addEventListener("click", (event) => {
+  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+
+  localStorage.setItem("theme", newTheme);
+  updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+  updateThemeOnHtmlEl({ theme: newTheme });
+
+  currentThemeSetting = newTheme;
+});
+
+
+document.getElementById("searchBar").addEventListener("input", function() {
+    let filter = this.value.toLowerCase();
+    let cards = document.querySelectorAll("#container .infobox");
+    let arr = [];
+    if(filter != ""){
+       cards.forEach(card => {
+	   let val_name_card = card.querySelector(".searchValue").textContent.toLowerCase().replace("'s ","");
+     let counter_name = card.querySelector(".counterCheck").textContent.toLowerCase().replace("'s ","");
+           card.style.display = val_name_card.includes(filter) ? "" : "none";
+	   if (val_name_card.includes(filter)){
+	      arr.push(counter_name)
+	  }
+   
+       });
+       let length_fin = [...new Set(arr)].length
+    
+       document.getElementById("counter").innerHTML = length_fin
+   } else {
+      cards.forEach(card => {
+	   let val_name_card = card.querySelector(".searchValue").textContent.toLowerCase().replace("'s ","")
+           card.style.display = val_name_card.includes(filter) ? "" : "none";
+       });
+
+      onloadFunction()
+   }
+});
+
+
+
+</script>
+<style>
+.infobox {
   border: 1px solid #68a;
   border-radius: 5px;
   padding: 1px;
 }
+body {
+  font-family: "Quicksand", sans-serif;
+  padding: 30px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+[data-theme="light"] {
+   --color-bg: #ffffff;
+   --color-fg: #000000;
+  --transition-speed: 0.5s;
+}
+[data-theme="dark"] {
+   --color-bg: #000000;
+   --color-fg: #ffffff;
+  --transition-speed: 0.5s;
+}
+td {
+  vertical-align: center;
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid var(--color-fg);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: all var(--global-transition-time) ease-in-out;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+.top-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 24px;
+  position: relative;      
+}
+.center-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.search-bar {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid #2884c6;
+  float: right;
+  margin-right:50px;
+  position:relative;
+  padding: 8px 20px;
+  border-radius: 5px;
+  width: 15%;
+  max-width: 180px;
+  min-width: 150px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+.search-bar:focus {
+  border-color: #2884c6;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+        
+/*@media (max-width: 700px) {*/
+/*.top-section {*/
+/*            width: 100%;*/
+/*            display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    align-content: space-between;*/
+/*    flex-direction: column;*/
+/*            margin-bottom: 24px;*/
+/*            position: relative;*/
+/*        }*/
+/*        .search-bar {*/
+/*            border: 2px solid #3b82f6;*/
+/*            position:relative;*/
+/*  align-self: center;*/
+/*            padding: 8px 20px;*/
+/*            border-radius: 16px;*/
+/*            width: 15%;*/
+/*            max-width: 180px;*/
+/*            min-width: 150px;*/
+/*            transition: all 0.3s ease-in-out;*/
+/*            outline: none;*/
+/*            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);*/
+/*        }    */
+/*          .center-button {*/
+/*          position: relative;*/
+/*  align-self: center;*/
+/*}*/
+/*}*/
+
+
+
 </style>
 </head>
-<body style="background-color: black; color: white">
+<body onload="onloadFunction()">
 <center>
+
 <h1><table><tr><td>PS! Game Corner Shiny Pokedex</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
-<td>GRADIENTS</td>
+<td>POKEDEX</td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://forms.gle/KLdyS6DxU5jXL7wq9">SUBMIT</a></td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-pokedex/blob/main/faq">FAQ</td>
 </tr></table></span></h3>
 </center>
 
 <hr><br>
 <center>
 
-<h3>Kanto / Johto</h3>
+<div class="top-section">
+  <button
+      type="button"
+      data-theme-toggle
+      aria-label="Light"
+      class = "center-button"
+    >Light</button>
+    <input type="text" id="searchBar" class="search-bar" placeholder="Type to search...">
+</div>
+<br><br>
 
-<span class="infobox" style="width: 100%"><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
+<div class="infobox" style="width: 306px">
+<h3>Unique Pokemon Registered</h3>
+<h1><font color="77dd77"><span id="counter"></span></font></h1></div><br><br>
+
+<div id = "container">
+
+<span class="infobox" style="width: 100%"><div style="width: 510px"><div style="display: inline-block; width: 123px">
 <b>#0666</b>
-</div><div class="searchValue" style="display: inline-block; width: 373px" id="wrap">
-<b><strong style="color: #c8101c">corsages</strong></b><b class="counterCheck"">'s Ledian δ ★</b></div></div>
-<img src="//play.pokemonshowdown.com/sprites/gen2-shiny/ledian.png">
-<div style="width: 500px" id="wrap">
+</div><div style="display: inline-block; width: 373px">
+<div class="searchValue"><b><strong style="color: #2884c6">bouquets</strong></b><b class="counterCheck">'s Vivillon-Marine ★</b></div></div>
+<img src="//play.pokemonshowdown.com/sprites/ani-shiny/vivillon-marine.gif">
+<div style="width: 500px">
 <div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
 &nbsp;/&nbsp;
-<div style="display: inline-block ; background: linear-gradient(#ec93bf,#e05299) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Fairy</b></div>
-</div><div style="display: inline-block; width: 123px" id="wrap">
+<div style="display: inline-block ; background: linear-gradient(#bfbfbf,#a6a6a6) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Flying</b></div>
+<br>
+<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Blue</b></div>
+</div><div style="display: inline-block; width: 123px">
 <b><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></b>
-</div><div style="display: inline-block; width: 373px" id="wrap">
-<b>played on 2025-02-02</b>
+</div><div style="display: inline-block; width: 373px">
+<b>played on 2025-01-01</b>
 </div></div><br><br></span>
-
-<h3>Hoenn</h3>
 
 <span class="infobox" style="width: 100%"><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
 <b>#0666</b>
-</div><div class="searchValue" style="display: inline-block; width: 373px" id="wrap">
-<b><strong style="color: #c8101c">corsages</strong></b><b class="counterCheck"">'s Beautifly δ ★</b></div></div>
-<img src="//play.pokemonshowdown.com/sprites/gen3-shiny/beautifly.png">
-<div style="width: 500px" id="wrap">
-<div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
-&nbsp;/&nbsp;
-<div style="display: inline-block ; background: linear-gradient(#ec93bf,#e05299) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Fairy</b></div>
-</div><div style="display: inline-block; width: 123px" id="wrap">
-<b><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></b>
 </div><div style="display: inline-block; width: 373px" id="wrap">
-<b>played on 2025-02-02</b>
-</div></div><br><br></span>
-
-<h3>Sinnoh</h3>
-
-<span class="infobox" style="width: 100%"><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
-<b>#0666</b>
-</div><div class="searchValue" style="display: inline-block; width: 373px" id="wrap">
-<b><strong style="color: #c8101c">corsages</strong></b><b class="counterCheck"">'s Combee δ ★</b></div></div>
-<img src="//play.pokemonshowdown.com/sprites/gen4-shiny/combee.png">
-<div style="width: 500px" id="wrap">
-<div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
-&nbsp;/&nbsp;
-<div style="display: inline-block ; background: linear-gradient(#ec93bf,#e05299) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Fairy</b></div>
-</div><div style="display: inline-block; width: 123px" id="wrap">
-<b><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></b>
-</div><div style="display: inline-block; width: 373px" id="wrap">
-<b>played on 2025-02-02</b>
-</div></div><br><br></span>
-
-<h3>Unova</h3>
-
-<span class="infobox" style="width: 100%"><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
-<b>#0666</b>
-</div><div class="searchValue" style="display: inline-block; width: 373px" id="wrap">
-<b><strong style="color: #c8101c">corsages</strong></b><b class="counterCheck"">'s Sewaddle δ ★</b></div></div>
-<img src="//play.pokemonshowdown.com/sprites/gen5ani-shiny/sewaddle.gif">
-<div style="width: 500px" id="wrap">
-<div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
-&nbsp;/&nbsp;
-<div style="display: inline-block ; background: linear-gradient(#ec93bf,#e05299) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Fairy</b></div>
-</div><div style="display: inline-block; width: 123px" id="wrap">
-<b><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></b>
-</div><div style="display: inline-block; width: 373px" id="wrap">
-<b>played on 2025-02-02</b>
-</div></div><br><br></span>
-
-<h3>Axew / Shuckle</h3>
-
-<span class="infobox" style="width: 100%"><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
-<b>#0666</b>
-</div><div class="searchValue" style="display: inline-block; width: 373px" id="wrap">
-<b><strong style="color: #c8101c">corsages</strong></b><b class="counterCheck"">'s Vivillon-Pokeball δ ★</b></div></div>
+<div class="searchValue"><b><strong style="color: #c8101c">corsages</strong></b><b class="counterCheck">'s Vivillon-Pokeball δ ★</b></div></div>
 <img src="//play.pokemonshowdown.com/sprites/ani-shiny/vivillon-pokeball.gif">
 <div style="width: 500px" id="wrap">
 <div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
@@ -111,31 +257,10 @@ div {
 <b>played on 2025-02-02</b>
 </div></div><br><br></span>
 
-<h3>Bulbasaur / Stakataka</h3>
-
 <span class="infobox" style="width: 100%"><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
 <b>#0666</b>
-</div><div class="searchValue" style="display: inline-block; width: 373px" id="wrap">
-<b><strong style="color: #2884c6">bouquets</strong></b><b class="counterCheck"">'s Vivillon-Marine ★</b></div></div>
-<img src="//play.pokemonshowdown.com/sprites/ani-shiny/vivillon-marine.gif">
-<div style="width: 500px" id="wrap">
-<div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
-&nbsp;/&nbsp;
-<div style="display: inline-block ; background: linear-gradient(#bfbfbf,#a6a6a6) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Flying</b></div>
-<br>
-<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Blue</b></div>
-</div><div style="display: inline-block; width: 123px" id="wrap">
-<b><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></b>
 </div><div style="display: inline-block; width: 373px" id="wrap">
-<b>played on 2025-01-01</b>
-</div></div><br><br></span>
-
-<h3>Blissey</h3>
-
-<span class="infobox" style="width: 100%"><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
-<b>#0666</b>
-</div><div class="searchValue" style="display: inline-block; width: 373px" id="wrap">
-<b><strong style="color: #a99515">florally</strong></b><b class="counterCheck"">'s Vivillon-Icy Snow ★</b></div></div>
+<div class="searchValue"><b><strong style="color: #a99515">florally</strong></b><b class="counterCheck">'s Vivillon-Icy Snow ★</b></div></div>
 <img src="//play.pokemonshowdown.com/sprites/ani-shiny/vivillon-icysnow.gif">
 <div style="width: 500px" id="wrap">
 <div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
@@ -145,138 +270,23 @@ div {
 <b>played on 2025-03-03</b>
 </div></div><br><br></span>
 
-<h3>Delta Symbol</h3>
-
-δ
-
-<h3>Types</h3>
-
-<div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#262626,#1a1a1a) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Dark</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#7070db,#2e2eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Dragon</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#dbdb70,#b8b72e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Electric</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#ec93bf,#e05299) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Fairy</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#ac3939,#732626) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Fighting</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#db8b70,#b8502e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Fire</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#bfbfbf,#a6a6a6) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Flying</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#7339ac,#4d2673) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Ghost</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#e6c8b3,#d29e79) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Ground</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#93ecec,#52e0e0) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Ice</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#e6e6e6,#d9d9d9) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Normal</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Poison</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#db70db,#b72eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Psychic</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Rock</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#999999,#666666) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Steel</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water</b></div>
-
-<h3>Dex Colors</h3>
-
-<div style="display: inline-block ; background: linear-gradient(#262626,#1a1a1a) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Black</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Blue</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Brown</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#999999,#666666) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Gray</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Green</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#db70db,#b72eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Pink</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Purple</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#db7070,#b82e2e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Red</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#e6e6e6,#d9d9d9) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>White</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#dbdb70,#b8b72e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Yellow</b></div>
-
-<h3>Egg Groups</h3>
-
-<div style="display: inline-block ; background: linear-gradient(#999999,#666666) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Amorphous</b></div>
-
+<span class="infobox" style="width: 100%"><div style="width: 510px" id="wrap"><div style="display: inline-block; width: 123px" id="wrap">
+<b>#0666</b>
+</div><div style="display: inline-block; width: 373px" id="wrap">
+<div class="searchValue"><b><strong style="color: #2884c6">bouquets</strong></b><b class="counterCheck">'s Vivillon-Icy Snow ★</b></div></div>
+<img src="//play.pokemonshowdown.com/sprites/ani-shiny/vivillon-icysnow.gif">
+<div style="width: 500px" id="wrap">
 <div style="display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bug</b></div>
+</div><div style="display: inline-block; width: 123px" id="wrap">
+<b><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></b>
+</div><div style="display: inline-block; width: 373px" id="wrap">
+<b>played on 2025-04-04</b>
+</div></div><br><br></span>
 
-<div style="display: inline-block ; background: linear-gradient(#7070db,#2e2eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Dragon</b></div>
 
-<div style="display: inline-block ; background: linear-gradient(#ec93bf,#e05299) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Fairy</b></div>
 
-<div style="display: inline-block ; background: linear-gradient(#ecd693,#e0bd52) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Field</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#bf93ec,#9852e0) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Flying</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Grass</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#e6c8b3,#d29e79) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Human-Like</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#995c33,#603920) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Mineral</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#db7070,#b82e2e) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Monster</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#93bfec,#5299e0) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water 1</b></div>
-
-<h3>Unused</h3>
-
-<div style="display: inline-block ; background: linear-gradient(#e6e6e6,#d9d9d9) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>???</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#e6e6e6,#d9d9d9) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Bird</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#db70db,#b72eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Ditto</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#262626,#1a1a1a) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Undiscovered</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water 2</b></div>
-
-<div style="display: inline-block ; background: linear-gradient(#3973ac,#264d73) ; border: 1px solid #68a ; border-radius: 5px ; width: 100px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Water 3</b></div>
-
-<h3>Gradient</h3>
-<table>
-<tr><td style="width: 100px"><b>Type</b></td><td style="width: 100px"><b>Dex Color</b></td><td style="width: 100px"><b>Egg Group</b></td><td style="width: 200px"><b>Gradient</b></td></tr>
-<tr><td>Bug</td><td></td><td>Bug</td><td>#c1db70,#96b82e</td></tr>
-<tr><td>Dark</td><td>Black</td><td>Undiscovered</td><td>#262626,#1a1a1a</td></tr>
-<tr><td>Dragon</td><td></td><td>Dragon</td><td>#7070db,#2e2eb8</td></tr>
-<tr><td>Electric</td><td>Yellow</td><td></td><td>#dbdb70,#b8b72e</td></tr>
-<tr><td>Fairy</td><td></td><td>Fairy</td><td>#ec93bf,#e05299</td></tr>
-<tr><td>Fighting</td><td></td><td></td><td>#ac3939,#732626</td></tr>
-<tr><td>Fire</td><td></td><td></td><td>#db8b70,#b8502e</td></tr>
-<tr><td>Flying</td><td></td><td></td><td>#bfbfbf,#a6a6a6</td></tr>
-<tr><td>Ghost</td><td></td><td></td><td>#7339ac,#4d2673</td></tr>
-<tr><td>Grass</td><td>Green</td><td>Grass</td><td>#70db70,#2eb82e</td></tr>
-<tr><td>Ground</td><td></td><td>Human-Like</td><td>#e6c8b3,#d29e79</td></tr>
-<tr><td>Ice</td><td></td><td></td><td>#93ecec,#52e0e0</td></tr>
-<tr><td>Normal</td><td>White</td><td></td><td>#e6e6e6,#d9d9d9</td></tr>
-<tr><td>Poison</td><td>Purple</td><td></td><td>#a670db,#732eb8</td></tr>
-<tr><td>Psychic</td><td>Pink</td><td>Ditto</td><td>#db70db,#b72eb8</td></tr>
-<tr><td>Rock</td><td>Brown</td><td></td><td>#c68353,#995e33</td></tr>
-<tr><td>Steel</td><td>Gray</td><td>Amorphous</td><td>#999999,#666666</td></tr>
-<tr><td>Water</td><td>Blue</td><td>Water 2</td><td>#70a6db,#2e73b8</td></tr>
-<tr><td></td><td>Red</td><td>Monster</td><td>#db7070,#b82e2e</td></tr>
-<tr><td></td><td></td><td>Field</td><td>#ecd693,#e0bd52</td></tr>
-<tr><td></td><td></td><td>Flying</td><td>#bf93ec,#9852e0</td></tr>
-<tr><td></td><td></td><td>Mineral</td><td>#995c33,#603920</td></tr>
-<tr><td></td><td></td><td>Water 1</td><td>#93bfec,#5299e0</td></tr>
-<tr><td></td><td></td><td>Water 3</td><td>#3973ac,#264d73</td></tr>
-</table>
+</div>
 
 </center>
 </body>
 </html>
-
