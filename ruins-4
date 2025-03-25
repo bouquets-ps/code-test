@@ -225,7 +225,7 @@ button {
 
 <div id = "container">
 
-<span class="infobox" style="width: 100%"><div style="width: 510px"><div style="display: inline-block; width: 123px">
+<span style="width: 100%"><div class="infobox" style="width: 510px"><div style="display: inline-block; width: 123px">
 <b>#0666</b>
 </div><div style="display: inline-block; width: 373px">
 <div class="searchValue"><b><strong style="color: #2884c6">bouquets</strong></b><b class="counterCheck">'s Vivillon-Marine ★</b></div></div>
