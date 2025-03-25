@@ -12,6 +12,8 @@ div {
   border: 1px solid #68a;
   border-radius: 5px;
   padding: 1px;
+  display: inline-block;
+  vertical-align: middle;
 }
 </style>
 </head>
