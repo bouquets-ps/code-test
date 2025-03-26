@@ -180,13 +180,9 @@ button {
 </div>
 <br><br>
 
-<span style="display: inline-block; width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px">
-<h3>User</h3></div><div style="display: inline-block; width: 150px">
-    <h3>Points</h3></div><div style="display: inline-block; width: 150px">
-    <h3>Date</h3></div><div style="display: inline-block; width: 150px"></div><hr></div></span>
+<span style="display: inline-block; width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px"><h3>User</h3></div><div style="display: inline-block; width: 150px"><h3>Points</h3></div><div style="display: inline-block; width: 150px"><h3>Date</h3></div><div style="display: inline-block; width: 150px"></div></div></span>
 
 <div id = "container">
-
 
 <span class="infobox" style="width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px"><b>
     <strong class="searchValue" style="color: #2884c6">bouquets</strong></b></div>
