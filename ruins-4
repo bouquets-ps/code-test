@@ -59,7 +59,6 @@ document.getElementById("searchBar").addEventListener("input", function() {
 div {
   border: 1px solid #68a;
   border-radius: 5px;
-  padding: 1px;
 }
 lb {
   border: 1px solid #68a;
@@ -185,7 +184,7 @@ button {
 </div>
 <br><br>
 
-<span style="display: inline-block; width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px"><h3>User</h3></div><div style="display: inline-block; width: 150px"><h3>Points</h3></div><div style="display: inline-block; width: 150px"><h3>Date</h3></div><div style="display: inline-block; width: 150px"></div></div><br></span>
+<span style="width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px"><h3>User</h3></div><div style="display: inline-block; width: 150px"><h3>Points</h3></div><div style="display: inline-block; width: 150px"><h3>Date</h3></div><div style="display: inline-block; width: 150px"></div></div><br></span>
 
 <div id = "container">
 
