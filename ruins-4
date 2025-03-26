@@ -181,9 +181,9 @@ button {
 <br><br>
 
 <span style="display: inline-block; width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px">
-    <h3>User</h3></div><div style="display: inline-block; width: 150px">
-    <h3>Points</h3></div><div style="display: inline-block; width: 150px">
-    <h3>Date</h3></div><div style="display: inline-block; width: 150px"></div></div></span>
+    <h1>User</h1></div><div style="display: inline-block; width: 150px">
+    <h1>Points</h1></div><div style="display: inline-block; width: 150px">
+    <h1>Date</h1></div><div style="display: inline-block; width: 150px"></div></div></span>
 
 <div id = "container">
 
@@ -193,6 +193,19 @@ button {
     <b>1000</b></div><div style="display: inline-block; width: 150px">
     <b>2025-01-01</b></div><div style="display: inline-block; width: 150px">
     <a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></div></div></span>
+
+<span class="infobox" style="width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px"><b>
+    <strong class="searchValue" style="color: #c8101c">corsages</strong></b></div><div style="display: inline-block; width: 150px">
+    <b>900</b></div><div style="display: inline-block; width: 150px">
+    <b>2025-02-02</b></div><div style="display: inline-block; width: 150px">
+    <a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></div></div></span>
+
+<span class="infobox" style="width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px"><b>
+    <strong class="searchValue" style="color: #a99515">florally</strong></b></div><div style="display: inline-block; width: 150px">
+    <b>800</b></div><div style="display: inline-block; width: 150px">
+    <b>2025-03-03</b></div><div style="display: inline-block; width: 150px">
+    <a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></div></div></span>
+
 
 </div>
 
