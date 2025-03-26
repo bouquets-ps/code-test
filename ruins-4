@@ -180,8 +180,6 @@ button {
 </div>
 <br><br>
 
-<div id="lb">
-
 <span style="width: 100%"><div id="lb" style="width: 750px"><div style="display: inline-block; width: 250px">
     <h3>User</h3></div>
     <div style="display: inline-block; width: 150px"><h3>Points</h3></div>
@@ -208,7 +206,6 @@ button {
     <div style="display: inline-block; width: 150px">2025-03-03</div>
     <div style="display: inline-block; width: 150px"><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></div></div><br><br></span>
 
-</div>
 </div>
 
 </center>
