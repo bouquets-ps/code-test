@@ -56,13 +56,10 @@ document.getElementById("searchBar").addEventListener("input", function() {
 
 </script>
 <style>
-div {
-  border: 1px solid #68a;
-  border-radius: 5px;
-}
 lb {
   border: 1px solid #68a;
   border-radius: 5px;
+  padding: 1px;
 }
 body {
   font-family: "Quicksand", sans-serif;
@@ -183,7 +180,7 @@ button {
 </div>
 <br><br>
 
-<span style="width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px">
+<span style="width: 100%"><div id="lb" style="width: 750px"><div style="display: inline-block; width: 250px">
     <h3>User</h3></div>
     <div style="display: inline-block; width: 150px"><h3>Points</h3></div>
     <div style="display: inline-block; width: 150px"><h3>Date</h3></div>
@@ -191,19 +188,19 @@ button {
 
 <div id = "container">
 
-<span class="infobox" style="width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px"><b>
+<span class="infobox" style="width: 100%"><div id="lb" style="width: 750px"><div style="display: inline-block; width: 250px"><b>
     <strong class="searchValue" style="color: #2884c6">bouquets</strong></b></div>
     <div style="display: inline-block; width: 150px">1000</div>
     <div style="display: inline-block; width: 150px">2025-01-01</div>
     <div style="display: inline-block; width: 150px"><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></div></div><br><br></span>
 
-<span class="infobox" style="width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px"><b>
+<span class="infobox" style="width: 100%"><div id="lb" style="width: 750px"><div style="display: inline-block; width: 250px"><b>
     <strong class="searchValue" style="color: #c8101c">corsages</strong></b></div>
     <div style="display: inline-block; width: 150px">900</div>
     <div style="display: inline-block; width: 150px">2025-02-02</div>
     <div style="display: inline-block; width: 150px"><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></div></div><br><br></span>
 
-<span class="infobox" style="width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px"><b>
+<span class="infobox" style="width: 100%"><div id="lb" style="width: 750px"><div style="display: inline-block; width: 250px"><b>
     <strong class="searchValue" style="color: #a99515">florally</strong></b></div>
     <div style="display: inline-block; width: 150px">800</div>
     <div style="display: inline-block; width: 150px">2025-03-03</div>
