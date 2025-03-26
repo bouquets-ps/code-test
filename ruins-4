@@ -56,6 +56,11 @@ document.getElementById("searchBar").addEventListener("input", function() {
 
 </script>
 <style>
+div {
+  border: 1px solid #68a;
+  border-radius: 5px;
+  padding: 1px;
+}
 lb {
   border: 1px solid #68a;
   border-radius: 5px;
