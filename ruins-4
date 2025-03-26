@@ -180,31 +180,17 @@ button {
 </div>
 <br><br>
 
-<span style="width: 100%"><div id="lb" style="width: 750px"><div style="display: inline-block; width: 250px">
-    <h3>User</h3></div>
-    <div style="display: inline-block; width: 150px"><h3>Points</h3></div>
-    <div style="display: inline-block; width: 150px"><h3>Date</h3></div>
-    <div style="display: inline-block; width: 150px"><h3>Screenshot</h3></div></div><br><br></span>
-
 <div id = "container">
 
-<span class="infobox" style="width: 100%"><div style="width: 750px"><div style="display: inline-block; width: 250px"><b>
-    <strong class="searchValue" style="color: #2884c6">bouquets</strong></b></div>
-    <div style="display: inline-block; width: 150px">1000</div>
-    <div style="display: inline-block; width: 150px">2025-01-01</div>
-    <div style="display: inline-block; width: 150px"><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></div></div><br><br></span>
+<span class="infobox"><table><tr><td>
+<b><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span><strong class="searchValue">How often does the records get updated?</strong></b>
+<br><br>The records usually gets updated when its owner reviews user submissions.
+</td></tr></table><br><br></span>
 
-<span class="infobox" style="width: 100%"><div style="width: 750px"><div style="display: inline-block; width: 250px"><b>
-    <strong class="searchValue" style="color: #c8101c">corsages</strong></b></div>
-    <div style="display: inline-block; width: 150px">900</div>
-    <div style="display: inline-block; width: 150px">2025-02-02</div>
-    <div style="display: inline-block; width: 150px"><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></div></div><br><br></span>
-
-<span class="infobox" style="width: 100%"><div style="width: 750px"><div style="display: inline-block; width: 250px"><b>
-    <strong class="searchValue" style="color: #a99515">florally</strong></b></div>
-    <div style="display: inline-block; width: 150px">800</div>
-    <div style="display: inline-block; width: 150px">2025-03-03</div>
-    <div style="display: inline-block; width: 150px"><a style="text-decoration:none; color: silver" href="https://rentry.co/project-bouquets">Screenshot</a></div></div><br><br></span>
+<span class="infobox"><table><tr><td>
+<b><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2580px"></span><strong class="searchValue">Can I try to get a high score in Game Workshop?</strong></b>
+<br><br>No. Every screenshot submission must contain Lady Monita's message about the game cooldown timer, which is disabled in Game Workshop.
+</td></tr></table><br><br></span>
 
 </div>
 
