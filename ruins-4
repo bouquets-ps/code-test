@@ -182,12 +182,12 @@ button {
 
 <div id = "container">
 
-<span style="width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px">
-    <b class="searchValue">User</b></div><div style="display: inline-block; width: 150px">
+<span style="display: inline-block; width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px">
+    <b>User</b></div><div style="display: inline-block; width: 150px">
     <b>Points</b></div><div style="display: inline-block; width: 150px">
     <b>Date</b></div><div style="display: inline-block; width: 150px"></div></div></span>
 
-<span style="width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px"><b>
+<span style="display: inline-block; width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px"><b>
     <strong class="searchValue" style="color: #2884c6">bouquets</strong></b></div><div style="display: inline-block; width: 150px">
     <b>1000</b></div><div style="display: inline-block; width: 150px">
     <b>2025-01-01</b></div><div style="display: inline-block; width: 150px">
