@@ -56,10 +56,9 @@ document.getElementById("searchBar").addEventListener("input", function() {
 
 </script>
 <style>
-lb {
+#lb {
   border: 1px solid #68a;
   border-radius: 5px;
-  padding: 1px;
 }
 body {
   font-family: "Quicksand", sans-serif;
@@ -184,7 +183,7 @@ button {
     <h3>User</h3></div>
     <div style="display: inline-block; width: 150px"><h3>Points</h3></div>
     <div style="display: inline-block; width: 150px"><h3>Date</h3></div>
-    <div style="display: inline-block; width: 150px"></div></div><br></span>
+    <div style="display: inline-block; width: 150px"><h3>Screenshot</h3></div></div><br></span>
 
 <div id = "container">
 
