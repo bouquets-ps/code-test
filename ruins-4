@@ -181,9 +181,9 @@ button {
 <br><br>
 
 <span style="display: inline-block; width: 100%"><div id="lb" style="width: 650px"><div style="display: inline-block; width: 150px">
-    <h2>User</h2></div><div style="display: inline-block; width: 150px">
-    <h2>Points</h2></div><div style="display: inline-block; width: 150px">
-    <h2>Date</h2></div><div style="display: inline-block; width: 150px"></div></div></span>
+<h3>User</h3></div><div style="display: inline-block; width: 150px">
+    <h3>Points</h3></div><div style="display: inline-block; width: 150px">
+    <h3>Date</h3></div><div style="display: inline-block; width: 150px"></div><hr></div></span>
 
 <div id = "container">
 
