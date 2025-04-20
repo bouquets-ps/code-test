@@ -772,7 +772,6 @@ Monoples: ah i see
 %DrThop: .rpt Steve456664, 150
 *Lady Monita ❄: Players (4): Spaghider (500), amulets (550), GalladePlay1209 (550), Steve456664 (550)
 %DrThop: .autowin
-Lady Monita ❄:(Private to amulets) You were awarded 300 bits! To see your total amount, use this command: .bits Game Corner
 *Lady Monita ❄: Winners: amulets, GalladePlay1209, Steve456664
 *Lady Monita ❄: A 4-minute cooldown timer starts now!
 %DrThop: Fuck
@@ -793,10 +792,7 @@ amulets: fun concept
 %DrThop: .abits Spaghider, 500
 *Lady Monita ❄: Added 500 bits for Spaghider.
 %DrThop: .abits amulets, 550
-Lady Monita ❄:(Private to amulets) You were awarded 550 bits! To see your total amount, use this command: .bits Game Corner
-amulets:(Private to *Lady Monita ❄) .bits gc
 *Lady Monita ❄: Added 550 bits for amulets.
-Lady Monita ❄:(Private to amulets) You are #2 on the Game Corner game leaderboard with 39719 bits. You are #34 on the annual Game Corner game leaderboard with 95274 bits.
 Monoples: gg i shouldn't have gambled
 %DrThop: .abits GalladePlay1209, 550
 *Lady Monita ❄: Added 550 bits for GalladePlay1209.
@@ -819,7 +815,3 @@ Chesnaught's Easter Arena			Chesnaught's Arena opens its doors once again, and t
 Spaghider: we love gambling!!
 %DrThop: Hosting without rushing is nice
 %DrThop: Will try to host once more before Friday
-amulets:
-
-    50 users
-
