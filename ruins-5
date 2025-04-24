@@ -24,8 +24,15 @@ body {
 <hr><br>
 <center>
 
-<div class="infobox"><center><b>Param 1</b>: Blue<br><br><b>Pokemon</b>: Cursola, Dragonair, Giratina, Meditite, Pheromosa, Yungoos<br><br><b>Players</b>: Laudanum: T, AshKetchumsPikachu: T, pv2094: F, Iono_Electric_Wolf: F, flowerbeds: T</center></div>
+83838383
+838383
+838383
+8383839
+8383839
+839393
+
+<div id="wrap" class="infobox"><center><b>Param 1</b>: Blue<br><br><b>Pokemon</b>: Cursola, Dragonair, Giratina, Meditite, Pheromosa, Yungoos<br><br><b>Players</b>: Laudanum: T, AshKetchumsPikachu: T, pv2094: F, Iono_Electric_Wolf: F, flowerbeds: T</center></div>
 
 <br><br>
 
-<div class="infobox"><center><b>Param 1</b>: Blue<br><br><b>Pokemon</b>: Cursola, Dragonair, Giratina, Meditite, Pheromosa, Yungoos<br><br><b>Players</b>: <strong style="color: #b63c33">Laudanum</strong>: T, <strong style="color: #bf31bb">AshKetchumsPikachu</strong>: T, <strong class="searchValue" style="color: #0ba685">pv2094</strong>: F, <strong style="color: #824edc">Iono_Electric_Wolf</strong>: F, <strong style="color: #9436d3">flowerbeds</strong>: T</center></div>
+<div id="wrap" class="infobox"><center><b>Param 1</b>: Blue<br><br><b>Pokemon</b>: Cursola, Dragonair, Giratina, Meditite, Pheromosa, Yungoos<br><br><b>Players</b>: <strong style="color: #b63c33">Laudanum</strong>: T, <strong style="color: #bf31bb">AshKetchumsPikachu</strong>: T, <strong class="searchValue" style="color: #0ba685">pv2094</strong>: F, <strong style="color: #824edc">Iono_Electric_Wolf</strong>: F, <strong style="color: #9436d3">flowerbeds</strong>: T</center></div>
