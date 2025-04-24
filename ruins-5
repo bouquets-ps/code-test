@@ -2,9 +2,72 @@
 <html>
 <head>
 <title>PS! Game Corner Shiny Pokedex - Paste</title>
+
+<script>
+function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
+  if (localStorageTheme !== null) {
+    return localStorageTheme;
+  }
+
+  if (systemSettingDark.matches) {
+    return "dark";
+  }
+
+  return "light";
+}
+
+function updateButton({ buttonEl, isDark }) {
+  const newCta = isDark ? "Light" : "Dark";
+buttonEl.setAttribute("aria-label", newCta);
+  buttonEl.innerText = newCta;
+}
+
+function updateThemeOnHtmlEl({ theme }) {
+  document.querySelector("html").setAttribute("data-theme", theme);
+}
+
+const button = document.querySelector("[data-theme-toggle]");
+const localStorageTheme = localStorage.getItem("theme");
+const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+
+updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
+updateThemeOnHtmlEl({ theme: currentThemeSetting });
+
+button.addEventListener("click", (event) => {
+  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+
+  localStorage.setItem("theme", newTheme);
+  updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+  updateThemeOnHtmlEl({ theme: newTheme });
+
+  currentThemeSetting = newTheme;
+});
+</script>
+
 <style>
 body {
   padding: 30px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+[data-theme="light"] {
+   --color-bg: #e4eaef;
+   --color-fg: #000000;
+}
+[data-theme="dark"] {
+   --color-bg: #000000;
+   --color-fg: #ffffff;
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid var(--color-fg);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: all var(--global-transition-time) ease-in-out;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
 }
 #wrap {
   border: 1px solid #68a;
@@ -24,12 +87,20 @@ body {
 <hr><br>
 <center>
 
+<button
+    type="button"
+    data-theme-toggle
+    aria-label="Light"
+  >Light</button>
+
+<br><br>
+
 83838383
-838383
-838383
-8383839
-8383839
-839393
+838383<br>
+838383<br>
+8383839<br>
+8383839<br>
+839393<br>
 
 <div id="wrap" class="infobox"><center><b>Param 1</b>: Blue<br><br><b>Pokemon</b>: Cursola, Dragonair, Giratina, Meditite, Pheromosa, Yungoos<br><br><b>Players</b>: Laudanum: T, AshKetchumsPikachu: T, pv2094: F, Iono_Electric_Wolf: F, flowerbeds: T</center></div>
 
