@@ -125,7 +125,7 @@ button {
 
 <br><br>
 
-<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -3420px"></span><b><strong style="color: #be468e">amulets ❦</strong></b><hr>default<br>sweet chrysanthemum<br><br></span>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -3420px"></span><b><strong style="color: #be468e">amulets</strong></b><hr>default<br>sweet chrysanthemum<br><br></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2790px"></span><b><strong style="color: #2884c6">bouquets ✿</strong></b><hr>default<br>forget-me-not<br><br></span>
 
@@ -137,15 +137,13 @@ button {
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1290px"></span><b><strong style="color: #9436d3">flowerbeds ✿</strong></b><hr>default<br>enchanted lavender<br><br></span>
 
-<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -810px"></span><b><strong style="color: #19acbf">medleys ♫</strong></b><hr>default<br>lobelia<br><br></span>
-
-<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -810px"></span><b><strong style="color: #19acbf">medleys ♪</strong></b><hr>default<br>lobelia<br><br></span>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -810px"></span><b><strong style="color: #19acbf">medleys</strong></b><hr>default<br>lobelia<br><br></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -1830px"></span><b><strong style="color: #998829">palettes</strong></b><hr>daylily<br>cherry blossom<br><br></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2700px"></span><b><strong style="color: #6ba528">reindeers</strong></b><hr>default<br>water lily<br><br></span>
 
-<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -660px"></span><b><strong style="color: #3f909f">?????????</strong></b><hr>default<br>green lily<br><br></span>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -660px"></span><b><strong style="color: #3f909f">????????? ✿</strong></b><hr>default<br>green lily<br><br></span>
 
 </center>
 </body>
