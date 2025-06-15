@@ -101,7 +101,7 @@ button {
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#9436d3">flowerbeds ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#f2edf8 , #bfa3d9)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1290px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/dawn-masters3.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#1771bb">???????????</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e9f7fb , #2099bb)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2760px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/preschoolerf.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#1771bb">flutterbies</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#e9f7fb , #2099bb)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2760px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/preschoolerf.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color: #19acbf">medleys ♬</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#eaf4fa , #a3d1eb)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -810px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/acetrainerf-gen7.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
@@ -119,7 +119,7 @@ button {
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -1290px"></span><b><strong style="color: #9436d3">flowerbeds ✿</strong></b><hr>95% lightness<br>enchanted lavender<br><br></span>
 
-<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2760px"></span><b><strong style="color: #1771bb">???????????</strong></b><hr>95% lightness<br>butterfly blue<br><br></span>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -360px -2760px"></span><b><strong style="color: #1771bb">flutterbies</strong></b><hr>95% lightness<br>butterfly blue<br><br></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -810px"></span><b><strong style="color: #19acbf">medleys ♬</strong></b><hr>95% lightness<br>songbird<br><br></span>
 
@@ -151,6 +151,13 @@ button {
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -2820px"></span><b><strong style="color: #a99515">florally ✿</strong></b><hr>95% lightness<br>spring lily<br><br></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -1650px"></span><b><strong style="color: #bd3c2b">?????????? ✿</strong></b><hr>95% lightness<br>peach blossom<br><br></span>
+
+<br><br>
+
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1860px"></span><b><strong style="color: #2d79c4">??????????</strong></b><hr>95% lightness<br>???<br><br></span>
+
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2700px"></span><b><strong style="color: #6b8835">???????????</strong></b><hr>95% lightness<br>???<br><br></span>
+
 
 </center>
 </body>
