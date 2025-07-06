@@ -155,6 +155,8 @@ button {
 
 <h3>Category A2</h3>
 
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#22ae99">?????????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#f3f5f0 , #c1cab0)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -1950px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/preschoolerf-gen7.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
+
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#1c6de6">???????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#eeeef7 , #a5a8d6)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -2580px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/poppy.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#a66a36">?????????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#f7f3ee , #d2bb9d)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -1050px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/preschoolerf-gen6.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
@@ -162,6 +164,8 @@ button {
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#2356f0">????????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#ecf5f9 , #3e9abd)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -2820px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lana-masters.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
 <br><br>
+
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -1950px"></span><b><strong style="color: #22ae99">?????????? ✿</strong></b><hr>95% lightness<br>green dragon spring<br><br></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -2580px"></span><b><strong style="color: #1c6de6">???????? ✿</strong></b><hr>95% lightness<br>childish wonder<br><br></span>
 
