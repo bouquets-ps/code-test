@@ -224,9 +224,7 @@ button {
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#0ca4ca">✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#eff3f6 , #a8c0ce)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -2880px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lillie.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#7c7dcf">?????????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#f4f0f5 , #a282a9)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -1680px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/bea-masters.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
-
-<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#7c7dcf">?????????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#f2f0f4 , #655777)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -1680px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/bea-masters.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#7c7dcf">?????????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#efeef7 , #9085c4)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -1680px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/bea-masters.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
 <br><br>
 
@@ -234,7 +232,7 @@ button {
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -2880px"></span><b><strong style="color: #0ca4ca">✿</strong></b><hr>95% lightness<br>graceful<br><br></span>
 
-<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -1680px"></span><b><strong style="color: #7c7dcf">?????????? ✿</strong></b><hr>95% lightness<br>regal gown<br><br></span>
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -200px -1680px"></span><b><strong style="color: #7c7dcf">?????????? ✿</strong></b><hr>95% lightness<br>amethyst grey<br><br></span>
 
 
 </center>
