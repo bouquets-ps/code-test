@@ -168,15 +168,11 @@ button {
 
 <h3>Category A2</h3>
 
-<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#22ae99">?????????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#f2f3f1 , #acb7a8)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -1950px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/picnicker.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
-
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#a66a36">?????????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#f7f3ee , #d2bb9d)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -1050px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/preschoolerf-gen6.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#2356f0">????????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#edf3f8 , #bbd0e3)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -2820px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lana-masters.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
 <br><br>
-
-<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -1950px"></span><b><strong style="color: #22ae99">?????????? ✿</strong></b><hr>95% lightness<br>graceful green<br><br></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -280px -1050px"></span><b><strong style="color: #a66a36">?????????? ✿</strong></b><hr>95% lightness<br>row house tan<br><br></span>
 
@@ -226,7 +222,7 @@ button {
 
 <br><br>
 
-<h3>Category C</h3>
+<h3>Category Y</h3>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#8686cc">✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#f2eff5 , #bdb0d0)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -440px -2970px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lady.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
@@ -244,7 +240,7 @@ button {
 
 <br><br>
 
-<h3>Category D</h3>
+<h3>Category Z</h3>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#d01186">?????????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#f7edf2 , #ca83a7)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -240px -1650px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/roxanne-masters.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
