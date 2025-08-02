@@ -72,6 +72,10 @@ button {
   color: var(--color-fg);
   background-color: var(--color-bg);
 }
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 </style>
 </head>
 <body>
@@ -232,7 +236,7 @@ button {
 
 <br><br>
 
-<table cellpadding="10">
+<table>
 
 <tr>
 <td><strong style="color: #c8101c">corsages ✿</td>
