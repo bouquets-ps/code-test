@@ -49,9 +49,6 @@ button.addEventListener("click", (event) => {
 td {
   vertical-align: middle;
 }
-tbody {
-  font-size: 8px;
-}
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
@@ -103,10 +100,10 @@ button {
 
 <br><br>
 
-<table align="center" border="2" style="color: black ; font-weight: bold ; text-align: center ; table-layout: fixed ; width: 200px ; height: 200px"><tbody>
+<table align="center" border="2" style="color: black ; font-weight: bold ; text-align: center ; table-layout: fixed"><tbody>
 
 <tr>
-<td style="background: linear-gradient(#e6e6e6 , #d9d9d9)">14.1%</td>
+<td style="background: linear-gradient(#ffff99 , #ffff99)">14.1%</td>
 <td style="background: linear-gradient(#e6e6e6 , #d9d9d9)">18.8%</td>
 <td style="background: linear-gradient(#e6e6e6 , #d9d9d9)">23.4%</td>
 <td style="background: linear-gradient(#e6e6e6 , #d9d9d9)">23.4%</td>
@@ -197,7 +194,11 @@ button {
 
 <br><br>
 
-<table align="center" border="2" style="color: black ; font-weight: bold ; text-align: center ; table-layout: fixed ; width: 200px ; height: 200px"><tbody>
+<table align="center" border="2" style="color: black ; font-weight: bold ; text-align: center ; table-layout: fixed"><tbody>
+
+14.1 18.8 23.4
+18.8 25.0 31.3
+23.4 31.3 39.1
 
 11.1 14.8 18.5
 14.8 19.8 24.7
