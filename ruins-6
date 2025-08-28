@@ -306,10 +306,140 @@ button {
 
 </tbody></table>
 
-11.1 14.8 18.5
-14.8 19.8 24.7
-18.5 24.7 30.9
+<br><br>
 
-9 12 15
-12 16 20
-15 20 25
+<table align="center" border="2" style="color: black ; font-weight: bold ; text-align: center ; table-layout: fixed; height: 500px; width: 500px"><tbody>
+
+<tr>
+<td style="background: linear-gradient(#ffd1d1 , #ffd1d1)">9.0%</td>
+<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
+<td style="background: linear-gradient(#ffd1d1 , #ffd1d1)">9.0%</td>
+</tr>
+
+<tr>
+<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
+<td style="background: linear-gradient(#ffadad , #ffadad)">16.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ffadad , #ffadad)">16.0%</td>
+<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
+</tr>
+
+<tr>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+</tr>
+
+<tr>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+</tr>
+
+<tr>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+</tr>
+
+<tr>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+</tr>
+
+<tr>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+</tr>
+
+<tr>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+</tr>
+
+<tr>
+<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
+<td style="background: linear-gradient(#ffadad , #ffadad)">16.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
+<td style="background: linear-gradient(#ffadad , #ffadad)">16.0%</td>
+<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
+</tr>
+
+<tr>
+<td style="background: linear-gradient(#ffd1d1 , #ffd1d1)">9.0%</td>
+<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
+<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
+<td style="background: linear-gradient(#ffd1d1 , #ffd1d1)">9.0%</td>
+</tr>
+
+</tbody></table>
+
+
