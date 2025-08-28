@@ -48,7 +48,9 @@ button.addEventListener("click", (event) => {
 <style>
 td {
   vertical-align: middle;
-  font-size: 10px;
+}
+tbody {
+  font-size: 8px;
 }
 body {
   font-family: "Quicksand", sans-serif;
@@ -193,3 +195,14 @@ button {
 
 </tbody></table>
 
+<br><br>
+
+<table align="center" border="2" style="color: black ; font-weight: bold ; text-align: center ; table-layout: fixed ; width: 200px ; height: 200px"><tbody>
+
+11.1 14.8 18.5
+14.8 19.8 24.7
+18.5 24.7 30.9
+
+9 12 15
+12 16 20
+15 20 25
