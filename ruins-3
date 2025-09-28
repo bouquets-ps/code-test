@@ -133,6 +133,8 @@ td {
 
 <h3>-ly</h3>
 
+<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#0fa282">angelically ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#eef7f5 , #c7e5df)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -2820px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/aromalady.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
+
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#c08e22">colourfully ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#fef3e7 , #fad0a1)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -2700px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/erika.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#4677c6">fairily ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#ecf5f9 , #3e9abd)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -40px -2820px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/lana-masters.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
@@ -155,6 +157,8 @@ td {
 
 
 <br><br>
+
+<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -2820px"></span><b><strong style="color: #0fa282">angelically ✿</strong></b><hr>95% lightness<br>moonlight jade<br><br></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -400px -2700px"></span><b><strong style="color: #c08e22">colourfully ✿</strong></b><hr>95% lightness<br>maple beige<br><br></span>
 
@@ -197,6 +201,9 @@ td {
 <tr><td><strong style="color:#4ba92c">summerly ✿</td><td>#4ba92c</td>
 <td>105</td><td>59%</td><td>41.66%</td></tr>
 
+<tr><td><strong style="color: #0fa282">angelically ✿</td><td>#0fa282</td>
+<td>167</td><td>83%</td><td>34.67%</td></tr>
+
 <tr><td><strong style="color: #19acbf">medleys ✿</td><td>#19acbf</td>
 <td>187</td><td>77%</td><td>42.36%</td></tr>
 
@@ -233,8 +240,6 @@ td {
 <tr><td><strong style="color: #c8101c">corsages ✿</td><td>#c8101c</td>
 <td>356</td><td>85%</td><td>42.38%</td></tr>
 
-<tr><td><strong style="color: #0fa282">??????????? ✿</td><td>#0fa282</td>
-<td>167</td><td>83%</td><td>34.67%</td></tr>
 
 <tr><td><strong style="color:#1ba59c">??????????? ✿</td><td>#1ba59c</td>
 <td>176</td><td>72%</td><td>37.67%</td></tr>
@@ -255,8 +260,6 @@ td {
 
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#297ed2">???????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#ecf3f9 , #5c9bcc)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1140px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/poppy.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
-<span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#0fa282">??????????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#eef7f5 , #c7e5df)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -2820px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/aromalady.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
-
 <span class="infobox" style="display: inline-block ; width: 250px"><center><b><strong style="color:#d41461">?????????? ✿</strong></b><hr><span style="display: block ; height: 115px ; background: linear-gradient(#f9eceb, #db817e)"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -870px"></span><img src="//play.pokemonshowdown.com/sprites/trainers/anthea.png" width="80px" height="80px"><br><span style="display: inline-block ; height: 30px ; width: 40px"></span></span><br><br></center></span>
 
 
@@ -265,8 +268,6 @@ td {
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -0px -1620px"></span><b><strong style="color: #1ba59c">??????????? ✿</strong></b><hr>95% lightness<br>melodious<br><br></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -1140px"></span><b><strong style="color: #297ed2">???????? ✿</strong></b><hr>95% lightness<br>tall waves<br><br></span>
-
-<span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -160px -2820px"></span><b><strong style="color: #0fa282">??????????? ✿</strong></b><hr>95% lightness<br>moonlight jade<br><br></span>
 
 <span class="infobox" style="display: inline-block ; width: 250px"><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16&quot;) no-repeat scroll -80px -870px"></span><b><strong style="color: #d41461">?????????? ✿</strong></b><hr>95% lightness<br>sea pink<br><br></span>
 
