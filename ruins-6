@@ -4,6 +4,27 @@
 <title>PS! Game Corner Custom Minigames - Catalogue</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
+const openButton = document.getElementById('openPopup'); // Assuming you have a button to open the popup
+const closeButton = document.getElementById('closePopup');
+const popupOverlay = document.getElementById('popupOverlay');
+const popupContent = document.getElementById('popupContent');
+
+openButton.addEventListener('click', () => {
+  popupOverlay.style.display = 'block';
+  popupContent.style.display = 'block';
+});
+
+closeButton.addEventListener('click', () => {
+  popupOverlay.style.display = 'none';
+  popupContent.style.display = 'none';
+});
+
+// Optional: Close popup when clicking outside the content
+popupOverlay.addEventListener('click', () => {
+  popupOverlay.style.display = 'none';
+  popupContent.style.display = 'none';
+});
+
 document.addEventListener('DOMContentLoaded', () => {
             const copyableElements = document.querySelectorAll('.copyable-text');
             const copyMessage = document.getElementById('copyMessage');
@@ -12,17 +33,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 element.addEventListener('click', async () => {
                     const textToCopy = element.textContent;
 
-                    navigator.clipboard.writeText(textToCopy.value).then(() => {
-    const copyMessage = document.getElementById('copyMessage');
-    copyMessage.classList.add('show'); // Show the popup
-
-    setTimeout(() => {
-      copyMessage.classList.remove('show'); // Hide the popup after a delay
-    }, 1500); // Adjust delay as needed (e.g., 1.5 seconds)
-  }).catch(err => {
-    console.error('Failed to copy text: ', err);
-    // Optionally, show an error message
-  });
+                    try {
+                        await navigator.clipboard.writeText(textToCopy);
+                        copyMessage.textContent = `"${textToCopy}" copied to clipboard!`;
+                        copyMessage.style.opacity = 1;
+                        setTimeout(() => {
+                            copyMessage.style.opacity = 0;
+                        }, 2000); // Message disappears after 2 seconds
+                    } catch (err) {
+                        console.error('Failed to copy text: ', err);
+                        copyMessage.textContent = 'Failed to copy text.';
+                        copyMessage.style.color = 'red';
+                        copyMessage.style.opacity = 1;
+                        setTimeout(() => {
+                            copyMessage.style.opacity = 0;
+                        }, 2000);
+                    }
 
                 });
             });
@@ -72,26 +98,28 @@ button.addEventListener("click", (event) => {
 
 </script>
 <style>
-.popuptext {
-  visibility: hidden; /* Hidden by default */
-  width: 120px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute; /* Position relative to the parent or a specific point */
-  z-index: 1;
-  bottom: 125%; /* Adjust position as needed */
-  left: 50%;
-  margin-left: -60px; /* Center the popup */
-  opacity: 0;
-  transition: opacity 0.3s; /* Smooth fade-in/out */
+#popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  display: none; /* Hidden by default */
+  z-index: 999; /* Ensure it's on top of other content */
 }
 
-.popuptext.show {
-  visibility: visible;
-  opacity: 1;
+#popupContent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the div */
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: none; /* Hidden by default */
+  z-index: 1000; /* Ensure it's on top of the overlay */
 }
 
 .copyable-text {
@@ -173,6 +201,15 @@ button {
 
 </center>
 
+<div id="popupOverlay"></div>
+<div id="popupContent">
+  <h2>Popup Title</h2>
+  <p>This is the content of your popup. <div class="message" id="copyMessage"></div> </p>
+  <button id="closePopup">Close</button>
+</div>
+
+
+
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px"></span><strong class="searchValue">Diglett's Whack-a-Mole</strong></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
 
@@ -218,7 +255,7 @@ button {
 <p class="copyable-text" id="text1">
 <code>
 /shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank</code>
-</p><div class="message" id="copyMessage"></div>
+</p>
 
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Pokemon Icons</b><br>
@@ -227,25 +264,25 @@ button {
 <code>
 &lt;marquee class="diglett" behavior="slide" height="30" scrolldelay="0" scrollamount="3" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px;">&lt;/span>&lt;/marquee>&lt;/div>
 </code>
-</p><div class="message" id="copyMessage"></div>
-<br>
+</p>
+
 <p class="copyable-text" id="text3">
 <code>
 &lt;marquee class="dugtrio" behavior="slide" height="30" scrolldelay="200" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -120px -120px;">&lt;/span>&lt;/marquee>&lt;/div>
 </code>
-</p><div class="message" id="copyMessage"></div>
-<br>
+</p>
+
 <p class="copyable-text" id="text4">
 <code>
 &lt;marquee class="excadrill"" behavior="slide" height="30" scrolldelay="800" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -1320px;">&lt;/span>&lt;/marquee>&lt;/div>
 </code>
-</p><div class="message" id="copyMessage"></div>
-<br>
+</p>
+
 <p class="copyable-text" id="text5">
 <code>
 &lt;marquee class="blank" behavior="slide" height="30" scrolldelay="0" scrollamount="0" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -999px -999px;">&lt;/span>&lt;/marquee>&lt;/div>
 </code>
-</p><div class="message" id="copyMessage"></div>
+</p>
 
 </div>
 </p></details></div><br><br>
