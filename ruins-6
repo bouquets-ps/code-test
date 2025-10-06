@@ -4,6 +4,19 @@
 <title>PS! Game Corner Custom Minigames - Catalogue</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
+function copyText() {
+  const textElement = document.getElementById('textToCopy');
+  const textToCopy = textElement.innerText;
+
+  navigator.clipboard.writeText(textToCopy)
+    .then(() => {
+      alert('Text copied to clipboard!');
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+}
+
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
   if (localStorageTheme !== null) {
     return localStorageTheme;
@@ -115,8 +128,6 @@ button {
 
 </center>
 
-<div id = "container">
-
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px"></span><strong class="searchValue">Diglett's Whack-a-Mole</strong></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
 
@@ -159,9 +170,12 @@ button {
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon Order</b><br><br>
 
+<p id="textToCopy">
 <code>
 /shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank
 </code>
+</p>
+<button onclick="copyText()">Copy Text</button>
 
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Pokemon Icons</b><br>
