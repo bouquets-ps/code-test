@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     const textToCopy = element.textContent;
 
                     navigator.clipboard.writeText(textToCopy.value).then(() => {
-    const copiedMessage = document.getElementById('copiedMessage');
-    copiedMessage.classList.add('show'); // Show the popup
+    const copyMessage = document.getElementById('copyMessage');
+    copyMessage.classList.add('show'); // Show the popup
 
     setTimeout(() => {
-      copiedMessage.classList.remove('show'); // Hide the popup after a delay
+      copyMessage.classList.remove('show'); // Hide the popup after a delay
     }, 1500); // Adjust delay as needed (e.g., 1.5 seconds)
   }).catch(err => {
     console.error('Failed to copy text: ', err);
