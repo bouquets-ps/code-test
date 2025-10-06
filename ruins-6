@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="light">
 <head>
-<title>PS! Game Corner Electrode's Odds - 8×8</title>
+<title>PS! Game Corner Custom Minigames - Catalogue</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
@@ -44,10 +44,24 @@ button.addEventListener("click", (event) => {
 
   currentThemeSetting = newTheme;
 });
+
 </script>
 <style>
-td {
-  vertical-align: middle;
+code {
+  color: silver;
+}
+textarea {
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid var(--color-fg);
+  width: 95%;
+  height: 500px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+div {
+  overflow: scroll;
 }
 body {
   font-family: "Quicksand", sans-serif;
@@ -81,11 +95,10 @@ button {
 </head>
 <body>
 <center>
-<h1><table><tr><td>PS! Game Corner Electrode's Odds</td></tr></table></h1>
+<h1><table><tr><td>PS! Game Corner Custom Minigames</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
-<td>8×8</td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-odds/blob/main/9x9">9×9</a></td>
-<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-odds/blob/main/10x10">10×10</a></td>
+<td>CATALOGUE</td>
+<td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-minigames/blob/main/faq">FAQ</a></td>
 </tr></table></span></h3>
 </center>
 
@@ -100,346 +113,364 @@ button {
 
 <br><br>
 
-<table align="center" border="2" style="color: black ; font-weight: bold ; text-align: center ; table-layout: fixed; height: 400px; width: 400px"><tbody>
+</center>
 
-<tr>
-<td style="background: linear-gradient(#ffb8b8 , #ffb8b8)">14.1%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.8%</td>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.8%</td>
-<td style="background: linear-gradient(#ffb8b8 , #ffb8b8)">14.1%</td>
-</tr>
+<div id = "container">
 
-<tr>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.8%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.8%</td>
-</tr>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px"></span><strong class="searchValue">Diglett's Whack-a-Mole</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
 
-<tr>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-</tr>
+<ol>
+<li>Replace <code>✿</code> with Diglett, Dugtrio, Excadrill, or blank icons.</li>
+</ol>
 
-<tr>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-</tr>
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
-<tr>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-</tr>
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px;"></span><b>Mini <a href="https://www.tapatalk.com/groups/ps_game_corner/whack-a-diglett-t813.html">Diglett's Whack-a-Mole</a></b><br>Predict 1 to 3 spots where Diglett and Dugtrio are hiding to bop them on their heads and earn bits. However, you will lose bits if you hit an Excadrill!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">1<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">2<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">3<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">4<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">5<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">6<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">7<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">8<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">9<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div></center>
+</textarea>
 
-<tr>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff3838 , #ff3838)">39.1%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-</tr>
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Answer</b><br><br>
 
-<tr>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.8%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">31.3%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.8%</td>
-</tr>
+<textarea>
+!htmlbox <center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">1<br>
+✿
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">2<br>
+✿
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">3<br>
+✿
+<br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">4<br>
+✿
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">5<br>
+✿
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">6<br>
+✿
+<br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">7<br>
+✿
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">8<br>
+✿
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">9<br>
+✿
+</center>
+</textarea>
 
-<tr>
-<td style="background: linear-gradient(#ffb8b8 , #ffb8b8)">14.1%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.8%</td>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-<td style="background: linear-gradient(#ff8a8a , #ff8a8a)">23.4%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.8%</td>
-<td style="background: linear-gradient(#ffb8b8 , #ffb8b8)">14.1%</td>
-</tr>
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon Order</b><br><br>
 
-</tbody></table>
+<code>
+/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank
+</code>
 
-<br><br>
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Pokemon Icons</b><br>
 
-<table align="center" border="2" style="color: black ; font-weight: bold ; text-align: center ; table-layout: fixed; height: 450px; width: 450px"><tbody>
+<pre><code>
+&lt;marquee class="diglett" behavior="slide" height="30" scrolldelay="0" scrollamount="3" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px;">&lt;/span>&lt;/marquee>&lt;/div>
 
-<tr>
-<td style="background: linear-gradient(#ffc7c7 , #ffc7c7)">11.1%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">14.8%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">14.8%</td>
-<td style="background: linear-gradient(#ffc7c7 , #ffc7c7)">11.1%</td>
-</tr>
+&lt;marquee class="dugtrio" behavior="slide" height="30" scrolldelay="200" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -120px -120px;">&lt;/span>&lt;/marquee>&lt;/div>
 
-<tr>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">14.8%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">19.8%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">19.8%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">14.8%</td>
-</tr>
+&lt;marquee class="excadrill"" behavior="slide" height="30" scrolldelay="800" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -1320px;">&lt;/span>&lt;/marquee>&lt;/div>
 
-<tr>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-</tr>
+&lt;marquee class="blank" behavior="slide" height="30" scrolldelay="0" scrollamount="0" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -999px -999px;">&lt;/span>&lt;/marquee>&lt;/div>
+</code></pre>
 
-<tr>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff6161 , #ff6161)">30.9%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">14.8%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">19.8%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">24.7%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">19.8%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">14.8%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ffc7c7 , #ffc7c7)">11.1%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">14.8%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ff9e9e , #ff9e9e)">18.5%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">14.8%</td>
-<td style="background: linear-gradient(#ffc7c7 , #ffc7c7)">11.1%</td>
-</tr>
-
-</tbody></table>
-
-<br><br>
-
-<table align="center" border="2" style="color: black ; font-weight: bold ; text-align: center ; table-layout: fixed; height: 500px; width: 500px"><tbody>
-
-<tr>
-<td style="background: linear-gradient(#ffd1d1 , #ffd1d1)">9.0%</td>
-<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
-<td style="background: linear-gradient(#ffd1d1 , #ffd1d1)">9.0%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
-<td style="background: linear-gradient(#ffadad , #ffadad)">16.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ffadad , #ffadad)">16.0%</td>
-<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff8080 , #ff8080)">25.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
-<td style="background: linear-gradient(#ffadad , #ffadad)">16.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ff9999 , #ff9999)">20.0%</td>
-<td style="background: linear-gradient(#ffadad , #ffadad)">16.0%</td>
-<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
-</tr>
-
-<tr>
-<td style="background: linear-gradient(#ffd1d1 , #ffd1d1)">9.0%</td>
-<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ffb3b3 , #ffb3b3)">15.0%</td>
-<td style="background: linear-gradient(#ffc2c2 , #ffc2c2)">12.0%</td>
-<td style="background: linear-gradient(#ffd1d1 , #ffd1d1)">9.0%</td>
-</tr>
-
-</tbody></table>
+</div>
+</p></details></div><br><br>
 
 
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -2310px"></span><strong class="searchValue">Fidough's Sandwiched Pokemon</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+
+<ol>
+<li>Replace <code>✿</code> with Pokemon.</li>
+<li>OPTIONAL: Replace the <code>-0</code> in <code>-0px -0px</code> with positive numbers (e.g. <code>5px 10px</code>) to move Pokemon right or down.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -2310px;"></span><b>Mini Fidough's Sandwiched Pokemon</b><br>Name all five Pokemon that are stacked on top of each other.<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 200px; height: 200px"><marquee behavior="slide" width="200" scrollamount="3" direction="right">
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
+</span></span></span></span></span></marquee></div><br><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 5px ; width: 200px"><i>(wait a few seconds for the Pokemon to show up)</i></div></center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon</b><br><br>
+
+<code>
+/randpoke 5, natdex
+</code>
+
+</div>
+</p></details></div><br><br>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px"></span><strong class="searchValue">Kecleon's Camouflage</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+
+<ol>
+<li>Replace <code>✿</code> with a rescue team camp.</li>
+<li>Replace <code>✿✿</code> with a Pokemon.</li>
+<li>Replace <code>✿✿✿</code> with a number between 96 and 604.</li>
+<li>Replace <code>✿✿✿✿</code> with a number between 0 and 177.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px;"></span><b>Mini Kecleon's Camouflage</b><br>Find and name the hidden Pokemon!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 96px; height: 273px"><marquee loop="-1" width="96" scrollamount="3">
+<span style="display: inline-block; width: 700px; height: 273px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/dungeonrescueteamdx/camp/✿.jpg) no-repeat scroll -0px -0px;">
+<span style="display: inline-block; width: 700px; height: 273px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/gen5/✿✿.png) no-repeat scroll ✿✿✿px ✿✿✿✿px; opacity: 0.2"></span></span>
+</marquee></div></center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Answer</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block; width: 700px; height: 273px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/dungeonrescueteamdx/camp/✿.jpg) no-repeat scroll -0px -0px;">
+<span style="display: inline-block; width: 700px; height: 273px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/gen5/✿✿.png) no-repeat scroll ✿✿✿px ✿✿✿✿px; opacity: 1"></span></span>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Rescue Team Camp</b><br><br>
+
+<code>
+/pick wildplains, sky-blueplains, beauplains, thundercrag, powerplant, mt.discipline, mt.green, mt.cleft, stumpforest, flyawayforest, secretiveforest, vibrantforest, mushroomforest, overgrownforest, jungle, poisonswamp, safari, witheringdesert, ravagedfield, scorchedplains, crater, echocave, bouldercave, frigidcavern, tadpolepond, turtleshellpond, rub-a-dubriver, gourdswamp, icefloebeach, shallowbeach, bountifulsea, serenesea, treasuresea, deepseafloor, decrepitlab, waterfalllake, evolutionforest, mysticlake, magneticquarry, dragoncave, agedchambera-n, agedchambero-qm, ancientrelic, mt.moonview, darknessridge, legendaryisland, crypticcave, finalisland, sacredfield, deepseacurrent, rainbowpeak, healingforest, southernisland, seafloorcave, volcanicpit, stratoslookout, enclosedisland
+</code>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon</b><br><br>
+
+<code>
+/randpoke natdex
+</code>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Numbers</b><br>
+
+<pre><code>
+/roll 509+95
+
+/roll 178-1
+</code></pre>
+
+</div>
+</p></details></div><br><br>
+
+</div>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -1230px"></span><strong class="searchValue">Shaymin's Meadow</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+
+<ol>
+<li>Replace one of the <code>&lt;img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24">&lt;/img></code> with Shaymin icon.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -1230px;"></span><b>Mini Shaymin's Meadow</b><br>Try to find Shaymin by clicking on the coordinates!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px"><table style="text-align: center"><tr>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>A1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>B1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>C1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>D1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>E1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>F1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>G1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>H1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+</tr><tr>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>A2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>B2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>C2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>D2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>E2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>F2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>G2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>H2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+</tr><tr>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>A3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>B3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>C3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>D3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>E3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>F3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>G3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>H3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+</tr><tr>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>A4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>B4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>C4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>D4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>E4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>F4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>G4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="66px" width="33px"><details><summary>H4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+</tr></table></div></center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Shaymin Icon</b><br><br>
+
+<code>
+&lt;span style="display: inline-block;height: 24px;width: 24px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -10px -1236px;">&lt;/span>
+</code>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Coordinates</b><br><br>
+
+<code>
+/pick a1, b1, c1, d1, e1, f1, g1, h1, a2, b2, c2, d2, e2, f2, g2, h2, a3, b3, c3, d3, e3, f3, g3, h3, a4, b4, c4, d4, e4, f4, g4, h4
+</code>
+
+</div>
+</p></details></div><br><br>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -360px -1380px"></span><strong class="searchValue">Sigilyph's Ancient Ruins</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+
+<ol>
+<li>Replace <code>✿</code> with Unown GIFs to form a phrase.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -360px -1380px;"></span><b>Mini <a href="https://www.tapatalk.com/groups/ps_game_corner/sigilyph-s-ancient-ruins-t1344.html">Sigilyph's Ancient Ruins</a></b><br>Decipher the hidden message carved in Unown runes.<hr><center>
+✿
+</center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Unown GIFs</b><br>
+
+<pre><code>
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown.gif" width="25" height="45">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-b.gif" width="24" height="42">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-c.gif" width="28" height="47">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-d.gif" width="28" height="44">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-e.gif" width="29" height="41">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-f.gif" width="30" height="41">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-g.gif" width="22" height="46">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-h.gif" width="33" height="42">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-i.gif" width="19" height="42">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-j.gif" width="25" height="40">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-k.gif" width="26" height="41">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-l.gif" width="25" height="38">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-m.gif" width="32" height="36">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-n.gif" width="34" height="35">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-o.gif" width="50" height="43">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-p.gif" width="23" height="38">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-q.gif" width="27" height="33">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-r.gif" width="23" height="37">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-s.gif" width="28" height="51">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-t.gif" width="30" height="38">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-u.gif" width="38" height="37">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-v.gif" width="33" height="41">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-w.gif" width="38" height="36">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-x.gif" width="28" height="33">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-y.gif" width="28" height="41">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-z.gif" width="21" height="44">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-exclamation.gif" width="32" height="45">&lt;/img>
+
+&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-question.gif" width="26" height="46">&lt;/img>
+</code></pre>
+
+</div>
+</p></details></div><br><br>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -320px -420px"></span><strong class="searchValue">Togetic's Trainer Cards</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+
+<ol>
+<li>Replace <code>✿</code> with a trainer card from the User Museum. Any line that starts with <code>&lt;span class="infobox" style="display: inline-block ; width: 250px"></code> is a trainer card.</li>
+<li>Delete the username.</li>
+<li>Delete <code>&lt;b>Last updated:&lt;/b> ????-??-??&lt;br>&lt;br></code>.</li>
+<li>SITUATIONAL: Delete <code>"</code> in <code>width="80px" height="80px"</code> if applicable.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -320px -420px;"></span><b>Mini Togetic's Trainer Cards</b><br>Guess an offline Game Corner user based on their <a href="https://tinyurl.com/gc-museum">trainer card</a>!<hr><center>
+✿
+</center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>User Museum</b><br>
+
+<pre><code>
+https://raw.githubusercontent.com/bouquets-ps/gc-museum/refs/heads/main/trainer-card
+</code></pre>
+
+</div>
+</p></details></div><br><br>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">Sample</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+
+<ol>
+<li>text</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+text
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Code</b><br>
+
+<pre><code>
+text
+</code></pre>
+
+</div>
+</p></details></div><br><br>
+
+</div>
