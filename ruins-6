@@ -11,22 +11,19 @@ document.addEventListener('DOMContentLoaded', () => {
             copyableElements.forEach(element => {
                 element.addEventListener('click', async () => {
                     const textToCopy = element.textContent;
-                    try {
-                        await navigator.clipboard.writeText(textToCopy);
-                        copyMessage.textContent = `"${textToCopy}" copied to clipboard!`;
-                        copyMessage.style.opacity = 1;
-                        setTimeout(() => {
-                            copyMessage.style.opacity = 0;
-                        }, 2000); // Message disappears after 2 seconds
-                    } catch (err) {
-                        console.error('Failed to copy text: ', err);
-                        copyMessage.textContent = 'Failed to copy text.';
-                        copyMessage.style.color = 'red';
-                        copyMessage.style.opacity = 1;
-                        setTimeout(() => {
-                            copyMessage.style.opacity = 0;
-                        }, 2000);
-                    }
+
+                    navigator.clipboard.writeText(textToCopy.value).then(() => {
+    const copiedMessage = document.getElementById('copiedMessage');
+    copiedMessage.classList.add('show'); // Show the popup
+
+    setTimeout(() => {
+      copiedMessage.classList.remove('show'); // Hide the popup after a delay
+    }, 1500); // Adjust delay as needed (e.g., 1.5 seconds)
+  }).catch(err => {
+    console.error('Failed to copy text: ', err);
+    // Optionally, show an error message
+  });
+
                 });
             });
         });
