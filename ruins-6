@@ -160,6 +160,7 @@ button {
 </center>
 
 test<br><br>
+<p class="copyable-text" id="text3">test2</p><br>
 
 <div class="message" id="copyMessage"></div>
 
