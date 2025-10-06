@@ -4,6 +4,32 @@
 <title>PS! Game Corner Custom Minigames - Catalogue</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
+document.addEventListener('DOMContentLoaded', () => {
+            const copyableElements = document.querySelectorAll('.copyable-text');
+            const copyMessage = document.getElementById('copyMessage');
+
+            copyableElements.forEach(element => {
+                element.addEventListener('click', async () => {
+                    const textToCopy = element.textContent;
+                    try {
+                        await navigator.clipboard.writeText(textToCopy);
+                        copyMessage.textContent = `"${textToCopy}" copied to clipboard!`;
+                        copyMessage.style.opacity = 1;
+                        setTimeout(() => {
+                            copyMessage.style.opacity = 0;
+                        }, 2000); // Message disappears after 2 seconds
+                    } catch (err) {
+                        console.error('Failed to copy text: ', err);
+                        copyMessage.textContent = 'Failed to copy text.';
+                        copyMessage.style.color = 'red';
+                        copyMessage.style.opacity = 1;
+                        setTimeout(() => {
+                            copyMessage.style.opacity = 0;
+                        }, 2000);
+                    }
+                });
+            });
+        });
 
 
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
@@ -49,6 +75,22 @@ button.addEventListener("click", (event) => {
 
 </script>
 <style>
+.copyable-text {
+            cursor: copy; /* Changes cursor to indicate copyability */
+            padding: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            display: inline-block; /* Allows each text block to have its own styling */
+            background-color: #f9f9f9;
+        }
+        .copyable-text:hover {
+            background-color: #e0e0e0;
+        }
+        .message {
+            margin-top: 10px;
+            color: green;
+        }
+
 code {
   color: silver;
 }
@@ -159,13 +201,16 @@ button {
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon Order</b><br><br>
 
+<p class="copyable-text" id="text1">
 <code>
 /shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank
 </code>
+</p>
 
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Pokemon Icons</b><br>
 
+<p class="copyable-text" id="text2">
 <pre><code>
 &lt;marquee class="diglett" behavior="slide" height="30" scrolldelay="0" scrollamount="3" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px;">&lt;/span>&lt;/marquee>&lt;/div>
 
@@ -175,6 +220,7 @@ button {
 
 &lt;marquee class="blank" behavior="slide" height="30" scrolldelay="0" scrollamount="0" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -999px -999px;">&lt;/span>&lt;/marquee>&lt;/div>
 </code></pre>
+</p>
 
 </div>
 </p></details></div><br><br>
