@@ -77,15 +77,12 @@ button.addEventListener("click", (event) => {
 <style>
 .copyable-text {
             cursor: copy; /* Changes cursor to indicate copyability */
-            padding: 5px;
-            margin-bottom: 10px;
             display: inline-block; /* Allows each text block to have its own styling */            
         }
         .copyable-text:hover {
-            color: silver;
+            color: green;
         }
         .message {
-            margin-top: 10px;
             color: green;
         }
 
