@@ -72,6 +72,28 @@ button.addEventListener("click", (event) => {
 
 </script>
 <style>
+.popuptext {
+  visibility: hidden; /* Hidden by default */
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute; /* Position relative to the parent or a specific point */
+  z-index: 1;
+  bottom: 125%; /* Adjust position as needed */
+  left: 50%;
+  margin-left: -60px; /* Center the popup */
+  opacity: 0;
+  transition: opacity 0.3s; /* Smooth fade-in/out */
+}
+
+.popuptext.show {
+  visibility: visible;
+  opacity: 1;
+}
+
 .copyable-text {
             cursor: copy; /* Changes cursor to indicate copyability */
             display: inline-block; /* Allows each text block to have its own styling */            
