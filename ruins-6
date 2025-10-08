@@ -175,7 +175,7 @@ button {
 
 &lt;marquee class="dugtrio" behavior="slide" height="30" scrolldelay="200" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -120px -120px;">&lt;/span>&lt;/marquee>&lt;/div>
 
-&lt;marquee class="excadrill"" behavior="slide" height="30" scrolldelay="800" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -1320px;">&lt;/span>&lt;/marquee>&lt;/div>
+&lt;marquee class="excadrill" behavior="slide" height="30" scrolldelay="800" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -1320px;">&lt;/span>&lt;/marquee>&lt;/div>
 
 &lt;marquee class="blank" behavior="slide" height="30" scrolldelay="0" scrollamount="0" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -999px -999px;">&lt;/span>&lt;/marquee>&lt;/div>
 </code></pre>
@@ -267,7 +267,7 @@ button {
 <ol>
 <li>Replace <code>✿</code> with numbers between 1 to 10. Each lane should have a different number.</li>
 <li>Replace <code>✿✿</code> with numbers between 1 to 10. Each lane should have a different number.</li>
-<li>Replace <code>✿✿✿</code> with numbers that equal to 160*(✿✿/✿), rounded up. The ✿ and ✿✿ used for calculations should be in the same lane as ✿✿✿.</li>
+<li>Replace <code>✿✿✿</code> with numbers that equal to 160*(✿✿/✿), rounded up. The values used for calculations should be in the same lane.</li>
 <li>Replace <code>✿✿✿✿</code> with Pokemon.</li>
 </ol>
 
