@@ -223,25 +223,17 @@ button {
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
 
-PS! Command for Shuffling Pokemon Order <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank"></span> 
+<br><br>PS! Command for Shuffling Pokemon Order <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank"></span> 
 
-<br><br>
+<br><br>Diglett Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;marquee class="diglett" behavior="slide" height="30" scrolldelay="0" scrollamount="3" direction="up"&gt;&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px;"&gt;&lt;/span&gt;&lt;/marquee>&lt;/div&gt;"></span>  
 
-Diglett Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;marquee class="diglett" behavior="slide" height="30" scrolldelay="0" scrollamount="3" direction="up"&gt;&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px;"&gt;&lt;/span&gt;&lt;/marquee>&lt;/div&gt;"></span>  
+<br><br>Dugtrio Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;marquee class="dugtrio" behavior="slide" height="30" scrolldelay="200" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -120px -120px;">&lt;/span>&lt;/marquee>&lt;/div>"></span>  
 
-<br><br>
+<br><br>Excadrill Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;marquee class="excadrill" behavior="slide" height="30" scrolldelay="800" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -1320px;">&lt;/span>&lt;/marquee>&lt;/div>"></span>  
 
-Dugtrio Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;marquee class="dugtrio" behavior="slide" height="30" scrolldelay="200" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -120px -120px;">&lt;/span>&lt;/marquee>&lt;/div>"></span>  
-
-<br><br>
-
-Excadrill Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;marquee class="excadrill" behavior="slide" height="30" scrolldelay="800" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -1320px;">&lt;/span>&lt;/marquee>&lt;/div>"></span>  
-
-<br><br>
-
-Blank Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;marquee class="blank" behavior="slide" height="30" scrolldelay="0" scrollamount="0" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -999px -999px;">&lt;/span>&lt;/marquee>&lt;/div>"></span>  
+<br><br>Blank Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;marquee class="blank" behavior="slide" height="30" scrolldelay="0" scrollamount="0" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -999px -999px;">&lt;/span>&lt;/marquee>&lt;/div>"></span>  
 
 </div>
 </p></details></div><br><br>
@@ -635,11 +627,9 @@ text
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Code</b><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
 
-<pre><code>
-text
-</code></pre>
+<br><br>text <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="✿"></span>
 
 </div>
 </p></details></div><br><br>
