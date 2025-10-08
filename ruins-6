@@ -455,18 +455,11 @@ button {
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Shaymin Icon</b><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
 
-<code>
-&lt;span style="display: inline-block;height: 24px;width: 24px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -10px -1236px;">&lt;/span>
-</code>
+<br><br>Shaymin Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;span style=&quot;display: inline-block;height: 24px;width: 24px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -10px -1236px;&quot;&gt;&lt;/span&gt;"></span>
 
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Coordinates</b><br><br>
-
-<code>
-/pick a1, b1, c1, d1, e1, f1, g1, h1, a2, b2, c2, d2, e2, f2, g2, h2, a3, b3, c3, d3, e3, f3, g3, h3, a4, b4, c4, d4, e4, f4, g4, h4
-</code>
+<br><br>PS! Command for Generating Random Coordinates <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/pick a1, b1, c1, d1, e1, f1, g1, h1, a2, b2, c2, d2, e2, f2, g2, h2, a3, b3, c3, d3, e3, f3, g3, h3, a4, b4, c4, d4, e4, f4, g4, h4"></span>
 
 </div>
 </p></details></div><br><br>
@@ -489,65 +482,63 @@ button {
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Unown GIFs</b><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
 
-<pre><code>
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown.gif" width="25" height="45">&lt;/img>
+<br><br>Unown-A GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown.gif&quot; width=&quot;25&quot; height=&quot;45&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-b.gif" width="24" height="42">&lt;/img>
+<br><br>Unown-B GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-b.gif&quot; width=&quot;24&quot; height=&quot;42&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-c.gif" width="28" height="47">&lt;/img>
+<br><br>Unown-C GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-c.gif&quot; width=&quot;28&quot; height=&quot;47&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-d.gif" width="28" height="44">&lt;/img>
+<br><br>Unown-D GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-d.gif&quot; width=&quot;28&quot; height=&quot;44&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-e.gif" width="29" height="41">&lt;/img>
+<br><br>Unown-E GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-e.gif&quot; width=&quot;29&quot; height=&quot;41&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-f.gif" width="30" height="41">&lt;/img>
+<br><br>Unown-F GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-f.gif&quot; width=&quot;30&quot; height=&quot;41&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-g.gif" width="22" height="46">&lt;/img>
+<br><br>Unown-G GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-g.gif&quot; width=&quot;22&quot; height=&quot;46&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-h.gif" width="33" height="42">&lt;/img>
+<br><br>Unown-H GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-h.gif&quot; width=&quot;33&quot; height=&quot;42&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-i.gif" width="19" height="42">&lt;/img>
+<br><br>Unown-I GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-i.gif&quot; width=&quot;19&quot; height=&quot;42&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-j.gif" width="25" height="40">&lt;/img>
+<br><br>Unown-J GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-j.gif&quot; width=&quot;25&quot; height=&quot;40&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-k.gif" width="26" height="41">&lt;/img>
+<br><br>Unown-K GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-k.gif&quot; width=&quot;26&quot; height=&quot;41&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-l.gif" width="25" height="38">&lt;/img>
+<br><br>Unown-L GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-l.gif&quot; width=&quot;25&quot; height=&quot;38&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-m.gif" width="32" height="36">&lt;/img>
+<br><br>Unown-M GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-m.gif&quot; width=&quot;32&quot; height=&quot;36&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-n.gif" width="34" height="35">&lt;/img>
+<br><br>Unown-N GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-n.gif&quot; width=&quot;34&quot; height=&quot;35&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-o.gif" width="50" height="43">&lt;/img>
+<br><br>Unown-O GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-o.gif&quot; width=&quot;50&quot; height=&quot;43&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-p.gif" width="23" height="38">&lt;/img>
+<br><br>Unown-P GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-p.gif&quot; width=&quot;23&quot; height=&quot;38&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-q.gif" width="27" height="33">&lt;/img>
+<br><br>Unown-Q GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-q.gif&quot; width=&quot;27&quot; height=&quot;33&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-r.gif" width="23" height="37">&lt;/img>
+<br><br>Unown-R GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-r.gif&quot; width=&quot;23&quot; height=&quot;37&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-s.gif" width="28" height="51">&lt;/img>
+<br><br>Unown-S GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-s.gif&quot; width=&quot;28&quot; height=&quot;51&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-t.gif" width="30" height="38">&lt;/img>
+<br><br>Unown-T GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-t.gif&quot; width=&quot;30&quot; height=&quot;38&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-u.gif" width="38" height="37">&lt;/img>
+<br><br>Unown-U GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-u.gif&quot; width=&quot;38&quot; height=&quot;37&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-v.gif" width="33" height="41">&lt;/img>
+<br><br>Unown-V GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-v.gif&quot; width=&quot;33&quot; height=&quot;41&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-w.gif" width="38" height="36">&lt;/img>
+<br><br>Unown-W GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-w.gif&quot; width=&quot;38&quot; height=&quot;36&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-x.gif" width="28" height="33">&lt;/img>
+<br><br>Unown-X GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-x.gif&quot; width=&quot;28&quot; height=&quot;33&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-y.gif" width="28" height="41">&lt;/img>
+<br><br>Unown-Y GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-y.gif&quot; width=&quot;28&quot; height=&quot;41&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-z.gif" width="21" height="44">&lt;/img>
+<br><br>Unown-Z GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-z.gif&quot; width=&quot;21&quot; height=&quot;44&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-exclamation.gif" width="32" height="45">&lt;/img>
+<br><br>Unown-Exclamation GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-exclamation.gif&quot; width=&quot;32&quot; height=&quot;45&quot;&gt;&lt;/img&gt;"></span>
 
-&lt;img src="https://play.pokemonshowdown.com/sprites/gen5ani/unown-question.gif" width="26" height="46">&lt;/img>
-</code></pre>
+<br><br>Unown-Question GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-question.gif&quot; width=&quot;26&quot; height=&quot;46&quot;&gt;&lt;/img&gt;"></span>
 
 </div>
 </p></details></div><br><br>
@@ -573,11 +564,9 @@ button {
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>User Museum</b><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Link to User Museum</b><br><br>
 
-<pre><code>
 https://raw.githubusercontent.com/bouquets-ps/gc-museum/refs/heads/main/trainer-card
-</code></pre>
 
 </div>
 </p></details></div><br><br>
