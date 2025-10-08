@@ -171,13 +171,17 @@ button {
 
 <br><br>
 
+<h2>Click on Skitty to copy code!</h2>
+
 </center>
 
 <div id = "container">
 
 <div id="copy-feedback-popup" class="popup">
-        Copied to clipboard!
+        Skitty used Copycat!
     </div>
+
+
 
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px"></span><strong class="searchValue">Diglett's Whack-a-Mole</strong></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
@@ -219,15 +223,7 @@ button {
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon Order</b><br><br>
-
-<div class="copyable-item">
-/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank
-</div><br>
-
-<code class="copyable-item" data-copy-text="1">
-/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank
-</code>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon Order</b> <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px class="copyable-item" data-copy-text="/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank"></span>
 
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Pokemon Icons</b><br>
