@@ -4,57 +4,6 @@
 <title>PS! Game Corner Custom Minigames - Catalogue</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
-const openButton = document.getElementById('openPopup'); // Assuming you have a button to open the popup
-const closeButton = document.getElementById('closePopup');
-const popupOverlay = document.getElementById('popupOverlay');
-const popupContent = document.getElementById('popupContent');
-
-openButton.addEventListener('click', () => {
-  popupOverlay.style.display = 'block';
-  popupContent.style.display = 'block';
-});
-
-closeButton.addEventListener('click', () => {
-  popupOverlay.style.display = 'none';
-  popupContent.style.display = 'none';
-});
-
-// Optional: Close popup when clicking outside the content
-popupOverlay.addEventListener('click', () => {
-  popupOverlay.style.display = 'none';
-  popupContent.style.display = 'none';
-});
-
-document.addEventListener('DOMContentLoaded', () => {
-            const copyableElements = document.querySelectorAll('.copyable-text');
-            const copyMessage = document.getElementById('copyMessage');
-
-            copyableElements.forEach(element => {
-                element.addEventListener('click', async () => {
-                    const textToCopy = element.textContent;
-
-                    try {
-                        await navigator.clipboard.writeText(textToCopy);
-                        copyMessage.textContent = `"${textToCopy}" copied to clipboard!`;
-                        copyMessage.style.opacity = 1;
-                        setTimeout(() => {
-                            copyMessage.style.opacity = 0;
-                        }, 2000); // Message disappears after 2 seconds
-                    } catch (err) {
-                        console.error('Failed to copy text: ', err);
-                        copyMessage.textContent = 'Failed to copy text.';
-                        copyMessage.style.color = 'red';
-                        copyMessage.style.opacity = 1;
-                        setTimeout(() => {
-                            copyMessage.style.opacity = 0;
-                        }, 2000);
-                    }
-
-                });
-            });
-        });
-
-
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
   if (localStorageTheme !== null) {
     return localStorageTheme;
@@ -98,41 +47,6 @@ button.addEventListener("click", (event) => {
 
 </script>
 <style>
-#popupOverlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-  display: none; /* Hidden by default */
-  z-index: 999; /* Ensure it's on top of other content */
-}
-
-#popupContent {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Center the div */
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  display: none; /* Hidden by default */
-  z-index: 1000; /* Ensure it's on top of the overlay */
-}
-
-.copyable-text {
-            cursor: copy; /* Changes cursor to indicate copyability */
-            display: inline-block; /* Allows each text block to have its own styling */            
-        }
-        .copyable-text:hover {
-            color: green;
-        }
-        .message {
-            color: green;
-        }
-
 code {
   color: silver;
 }
@@ -148,6 +62,9 @@ textarea {
 }
 div {
   overflow: scroll;
+}
+td {
+  vertical-align: middle;
 }
 body {
   font-family: "Quicksand", sans-serif;
@@ -175,8 +92,8 @@ button {
   color: var(--color-fg);
   background-color: var(--color-bg);
   transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
-  margin-bottom: 24px;
 }
+
 </style>
 </head>
 <body>
@@ -201,14 +118,7 @@ button {
 
 </center>
 
-<div id="popupOverlay"></div>
-<div id="popupContent">
-  <h2>Popup Title</h2>
-  <p>This is the content of your popup. <div class="message" id="copyMessage"></div> </p>
-  <button id="closePopup">Close</button>
-</div>
-
-
+<div id = "container">
 
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px"></span><strong class="searchValue">Diglett's Whack-a-Mole</strong></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
@@ -252,37 +162,22 @@ button {
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon Order</b><br><br>
 
-<p class="copyable-text" id="text1">
 <code>
-/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank</code>
-</p>
+/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank
+</code>
 
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Pokemon Icons</b><br>
 
-<p class="copyable-text" id="text2">
-<code>
+<pre><code>
 &lt;marquee class="diglett" behavior="slide" height="30" scrolldelay="0" scrollamount="3" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px;">&lt;/span>&lt;/marquee>&lt;/div>
-</code>
-</p>
 
-<p class="copyable-text" id="text3">
-<code>
 &lt;marquee class="dugtrio" behavior="slide" height="30" scrolldelay="200" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -120px -120px;">&lt;/span>&lt;/marquee>&lt;/div>
-</code>
-</p>
 
-<p class="copyable-text" id="text4">
-<code>
 &lt;marquee class="excadrill"" behavior="slide" height="30" scrolldelay="800" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -1320px;">&lt;/span>&lt;/marquee>&lt;/div>
-</code>
-</p>
 
-<p class="copyable-text" id="text5">
-<code>
 &lt;marquee class="blank" behavior="slide" height="30" scrolldelay="0" scrollamount="0" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -999px -999px;">&lt;/span>&lt;/marquee>&lt;/div>
-</code>
-</p>
+</code></pre>
 
 </div>
 </p></details></div><br><br>
@@ -301,13 +196,13 @@ button {
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
 <textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -2310px;"></span><b>Mini Fidough's Sandwiched Pokemon</b><br>Name all five Pokemon that are stacked on top of each other.<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 200px; height: 200px"><marquee behavior="slide" width="200" scrollamount="3" direction="right">
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -2310px;"></span><b>Mini Fidough's Sandwiched Pokemon</b><br>Name all five Pokemon that are stacked on top of each other. This minigame may not render properly on certain browsers.<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 200px; height: 200px"><marquee behavior="slide" width="200" scrollamount="3" direction="right">
 <span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
 <span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
 <span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
 <span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
 <span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
-</span></span></span></span></span></marquee></div><br><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 5px ; width: 200px"><i>(wait a few seconds for the Pokemon to show up)</i></div></center>
+</span></span></span></span></span></marquee></div><br><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 5px ; width: 200px"><i>(wait up to 5 seconds for the Pokemon to show up)</i></div></center>
 </textarea>
 
 </div><br><br>
@@ -321,13 +216,117 @@ button {
 </p></details></div><br><br>
 
 
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -400px -300px"></span><strong class="searchValue">Gyarados' Inverse Shiny Hunting</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+
+<ol>
+<li>Replace <code>✿</code> with Pokemon.</li>
+<li>Delete <code>-shiny</code> in one of the <code>ani-shiny</code>.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -400px -300px;"></span><b>Mini Gyarados' Inverse Shiny Hunting</b><br>Name the Pokemon that is not shiny! (one guess only)<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 50px; height: 200px"><marquee loop="-1" width="50" scrollamount="10" direction="right">
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
+<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px"></span></marquee></div><br><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 5px ; width: 200px"><i>(wait a few seconds for the Pokemon to show up)</i></div></center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon</b><br><br>
+
+<code>
+/randpoke 10, natdex
+</code>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Shiny Order</b><br><br>
+
+<code>
+/shuffle shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, not shiny
+</code>
+
+</div>
+</p></details></div><br><br>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -360px -3300px"></span><strong class="searchValue">Kangaskhan's 2 × 100M Relay</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+
+<ol>
+<li>Replace <code>✿</code> with numbers between 1 to 10. Each lane should have a different number.</li>
+<li>Replace <code>✿✿</code> with numbers between 1 to 10. Each lane should have a different number.</li>
+<li>Replace <code>✿✿✿</code> with numbers that equal to 160*(✿✿/✿), rounded up.</li>
+<li>Replace <code>✿✿✿✿</code> with Pokemon.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -360px -3300px;"></span><b>Mini Kangaskhan's 2 × 100M Relay</b><br>Guess which coloured team will reach the finish line first!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; width: 120px"><table><tr><td width="30px"><b>Anchor</b></td><td width="60px"></td><td width="30px"><b>First</b></td></tr></table><hr>
+<span style="background: linear-gradient(#db8b70,#b8502e)"><marquee class="LaneRed" behavior="alternate"><psicon pokemon="✿✿✿✿"><span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
+<hr>
+<span style="background: linear-gradient(#dbdb70,#b8b72e)"><marquee class="LaneYellow" behavior="alternate"><psicon pokemon="✿✿✿✿"><span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
+<hr>
+<span style="background: linear-gradient(#70db70,#2eb82e)"><marquee class="LaneGreen" behavior="alternate"><psicon pokemon="✿✿✿✿"><span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
+<hr>
+<span style="background: linear-gradient(#70a6db,#2e73b8)"><marquee class="LaneBlue" behavior="alternate"><psicon pokemon="✿✿✿✿"><span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
+</div></center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Answer</b><br><br>
+
+<textarea>
+!htmlbox <center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; width: 300px"><table><tr><td width="30px"><b>FINISH</b></td><td width="105px"></td><td width="30px"><b>Handoff</b></td><td width="105px"></td><td width="30px"><b>START</b></td></tr></table><hr><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; width: 120px">
+<span style="background: linear-gradient(#db8b70,#b8502e)"><marquee class="LaneRed1" loop="1" scrollamount="✿✿"><span style="display: inline-block; width: ✿✿✿px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
+<span style="background: linear-gradient(#dbdb70,#b8b72e)"><marquee class="LaneYellow1" loop="1" scrollamount="✿✿"><span style="display: inline-block; width: ✿✿✿px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
+<span style="background: linear-gradient(#70db70,#2eb82e)"><marquee class="LaneGreen1" loop="1" scrollamount="✿✿"><span style="display: inline-block; width: ✿✿✿px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
+<span style="background: linear-gradient(#70a6db,#2e73b8)"><marquee class="LaneBlue1" loop="1" scrollamount="✿✿"><span style="display: inline-block; width: ✿✿✿px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
+</div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; width: 48px"><span style="display: inline-block; width: 43px; height: 132px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/art/th/115-m.png) no-repeat scroll -57px -0px;"></span></div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; width: 120px">
+<span style="background: linear-gradient(#db8b70,#b8502e)"><marquee class="LaneRed2" loop="1" scrollamount="✿"><psicon pokemon="✿✿✿✿"></marquee></span> 
+<span style="background: linear-gradient(#dbdb70,#b8b72e)"><marquee class="LaneYellow2" loop="1" scrollamount="✿"><psicon pokemon="✿✿✿✿"></marquee></span>
+<span style="background: linear-gradient(#70db70,#2eb82e)"><marquee class="LaneGreen2" loop="1" scrollamount="✿"><psicon pokemon="✿✿✿✿"></marquee></span>
+<span style="background: linear-gradient(#70a6db,#2e73b8)"><marquee class="LaneBlue2" loop="1" scrollamount="✿"><psicon pokemon="✿✿✿✿"></marquee></span>
+</div></div></center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Number Order</b><br><br>
+
+<code>
+/shuffle 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+</code>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon</b><br><br>
+
+<code>
+/randpoke 8, natdex
+</code>
+
+</div>
+</p></details></div><br><br>
+
+
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px"></span><strong class="searchValue">Kecleon's Camouflage</strong></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
 
 <ol>
 <li>Replace <code>✿</code> with a rescue team camp.</li>
 <li>Replace <code>✿✿</code> with a Pokemon.</li>
-<li>Replace <code>✿✿✿</code> with a number between 96 and 604.</li>
+<li>Replace <code>✿✿✿</code> with a number between 0 and 604.</li>
 <li>Replace <code>✿✿✿✿</code> with a number between 0 and 177.</li>
 </ol>
 
@@ -335,7 +334,7 @@ button {
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
 <textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px;"></span><b>Mini Kecleon's Camouflage</b><br>Find and name the hidden Pokemon!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 96px; height: 273px"><marquee loop="-1" width="96" scrollamount="3">
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px;"></span><b>Mini Kecleon's Camouflage</b><br>Find and name the hidden Pokemon!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 96px; height: 273px"><marquee loop="-1" width="96" scrollamount="3"><span style="display: inline-block; width: 96px; height: 273px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span>
 <span style="display: inline-block; width: 700px; height: 273px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/dungeonrescueteamdx/camp/✿.jpg) no-repeat scroll -0px -0px;">
 <span style="display: inline-block; width: 700px; height: 273px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/gen5/✿✿.png) no-repeat scroll ✿✿✿px ✿✿✿✿px; opacity: 0.2"></span></span>
 </marquee></div></center>
@@ -367,7 +366,7 @@ button {
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Numbers</b><br>
 
 <pre><code>
-/roll 509+95
+/roll 605-1
 
 /roll 178-1
 </code></pre>
@@ -533,7 +532,7 @@ button {
 <ol>
 <li>Replace <code>✿</code> with a trainer card from the User Museum. Any line that starts with <code>&lt;span class="infobox" style="display: inline-block ; width: 250px"></code> is a trainer card.</li>
 <li>Delete the username.</li>
-<li>Delete <code>&lt;b>Last updated:&lt;/b> ????-??-??&lt;br>&lt;br></code>.</li>
+<li>Delete <code>&lt;b>Last updated:&lt;/b> yyyy-mm-dd&lt;br>&lt;br></code>, where <code>yyyy-mm-dd</code> can be any number.</li>
 <li>SITUATIONAL: Delete <code>"</code> in <code>width="80px" height="80px"</code> if applicable.</li>
 </ol>
 
