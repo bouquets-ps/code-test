@@ -221,7 +221,11 @@ button {
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon Order</b><br><br>
 
-<code class="copyable-item">
+<div class="copyable-item">
+/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank
+</div><br>
+
+<code class="copyable-item" data-copy-text="1">
 /shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank
 </code>
 
