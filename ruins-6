@@ -297,18 +297,11 @@ button {
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon</b><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
 
-<code>
-/randpoke 10, natdex
-</code>
+<br><br>PS! Command for Generating Random Pokemon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/randpoke 10, natdex"></span>
 
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Shiny Order</b><br><br>
-
-<code>
-/shuffle shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, not shiny
-</code>
+<br><br>PS! Command for Shuffling Pokemon Order <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/shuffle shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, not shiny"></span>
 
 </div>
 </p></details></div><br><br>
@@ -357,18 +350,11 @@ button {
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Number Order</b><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
 
-<code>
-/shuffle 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-</code>
+<br><br>PS! Command for Shuffling Numbers <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/shuffle 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"></span>
 
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon</b><br><br>
-
-<code>
-/randpoke 8, natdex
-</code>
+<br><br>PS! Command for Generating Random Pokemon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/randpoke 8, natdex"></span>
 
 </div>
 </p></details></div><br><br>
@@ -403,32 +389,19 @@ button {
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Rescue Team Camp</b><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
 
-<code>
-/pick wildplains, sky-blueplains, beauplains, thundercrag, powerplant, mt.discipline, mt.green, mt.cleft, stumpforest, flyawayforest, secretiveforest, vibrantforest, mushroomforest, overgrownforest, jungle, poisonswamp, safari, witheringdesert, ravagedfield, scorchedplains, crater, echocave, bouldercave, frigidcavern, tadpolepond, turtleshellpond, rub-a-dubriver, gourdswamp, icefloebeach, shallowbeach, bountifulsea, serenesea, treasuresea, deepseafloor, decrepitlab, waterfalllake, evolutionforest, mysticlake, magneticquarry, dragoncave, agedchambera-n, agedchambero-qm, ancientrelic, mt.moonview, darknessridge, legendaryisland, crypticcave, finalisland, sacredfield, deepseacurrent, rainbowpeak, healingforest, southernisland, seafloorcave, volcanicpit, stratoslookout, enclosedisland
-</code>
+<br><br>PS! Command for Generating Random Rescue Team Camp <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/pick wildplains, sky-blueplains, beauplains, thundercrag, powerplant, mt.discipline, mt.green, mt.cleft, stumpforest, flyawayforest, secretiveforest, vibrantforest, mushroomforest, overgrownforest, jungle, poisonswamp, safari, witheringdesert, ravagedfield, scorchedplains, crater, echocave, bouldercave, frigidcavern, tadpolepond, turtleshellpond, rub-a-dubriver, gourdswamp, icefloebeach, shallowbeach, bountifulsea, serenesea, treasuresea, deepseafloor, decrepitlab, waterfalllake, evolutionforest, mysticlake, magneticquarry, dragoncave, agedchambera-n, agedchambero-qm, ancientrelic, mt.moonview, darknessridge, legendaryisland, crypticcave, finalisland, sacredfield, deepseacurrent, rainbowpeak, healingforest, southernisland, seafloorcave, volcanicpit, stratoslookout, enclosedisland"></span>
 
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon</b><br><br>
+<br><br>PS! Command for Generating Random Pokemon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/randpoke natdex"></span>
 
-<code>
-/randpoke natdex
-</code>
+<br><br>PS! Command for Generating Random Number (0 to 604) <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/roll 605-1"></span>
 
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Numbers</b><br>
-
-<pre><code>
-/roll 605-1
-
-/roll 178-1
-</code></pre>
+<br><br>PS! Command for Generating Random Number (0 to 177) <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/roll 178-1"></span>
 
 </div>
 </p></details></div><br><br>
 
-</div>
 
 
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -1230px"></span><strong class="searchValue">Shaymin's Meadow</strong></summary><p>
