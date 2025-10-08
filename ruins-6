@@ -4,6 +4,32 @@
 <title>PS! Game Corner Custom Minigames - Catalogue</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
+document.addEventListener('DOMContentLoaded', () => {
+    const copyableItems = document.querySelectorAll('.copyable-item');
+    const copyFeedbackPopup = document.getElementById('copy-feedback-popup');
+
+    copyableItems.forEach(item => {
+        item.addEventListener('click', async () => {
+            const textToCopy = item.getAttribute('data-copy-text');
+
+            try {
+                await navigator.clipboard.writeText(textToCopy);
+                showPopup();
+            } catch (err) {
+                console.error('Failed to copy text: ', err);
+                alert('Failed to copy text. Please try again or copy manually.'); // Fallback alert
+            }
+        });
+    });
+
+    function showPopup() {
+        copyFeedbackPopup.classList.add('show');
+        setTimeout(() => {
+            copyFeedbackPopup.classList.remove('show');
+        }, 2000); // Popup disappears after 2 seconds
+    }
+});
+
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
   if (localStorageTheme !== null) {
     return localStorageTheme;
@@ -47,6 +73,34 @@ button.addEventListener("click", (event) => {
 
 </script>
 <style>
+.copyable-item {
+    cursor: pointer;
+}
+
+.copyable-item:hover {
+    color: var(--color-fg);
+}
+
+.popup {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1000;
+}
+
+.popup.show {
+    opacity: 1;
+    visibility: visible;
+}
+
 code {
   color: silver;
 }
@@ -121,6 +175,10 @@ button {
 
 <div id = "container">
 
+<div id="copy-feedback-popup" class="popup">
+        Copied to clipboard!
+    </div>
+
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px"></span><strong class="searchValue">Diglett's Whack-a-Mole</strong></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
 
@@ -163,14 +221,14 @@ button {
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Random Pokemon Order</b><br><br>
 
-<code>
+<code class="copyable-item">
 /shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank
 </code>
 
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Pokemon Icons</b><br>
 
-<pre><code>
+<pre><code class="copyable-item">
 &lt;marquee class="diglett" behavior="slide" height="30" scrolldelay="0" scrollamount="3" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px;">&lt;/span>&lt;/marquee>&lt;/div>
 
 &lt;marquee class="dugtrio" behavior="slide" height="30" scrolldelay="200" scrollamount="1" direction="up">&lt;span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -120px -120px;">&lt;/span>&lt;/marquee>&lt;/div>
