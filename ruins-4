@@ -127,3 +127,42 @@ document.addEventListener('DOMContentLoaded', () => {
     <script src="script.js"></script>
 </body>
 </html>
+
+To create multiple input boxes that allow users to enter values which then replace different hidden text elements on a webpage, a combination of HTML, CSS (for styling, if desired), and JavaScript is required.
+1. HTML Structure:
+Define your input fields and the corresponding hidden text elements in HTML. Each input field should have a unique ID, and each hidden text element should also have a unique ID, or a way to associate it with its respective input field.
+Code
+
+<input type="text" id="input1" placeholder="Enter value for Text 1">
+<p id="hiddenText1" style="display:none;">Initial hidden text 1</p>
+
+<input type="text" id="input2" placeholder="Enter value for Text 2">
+<p id="hiddenText2" style="display:none;">Initial hidden text 2</p>
+
+<input type="text" id="input3" placeholder="Enter value for Text 3">
+<p id="hiddenText3" style="display:none;">Initial hidden text 3</p>
+2. JavaScript Logic:
+Use JavaScript to capture the input values and update the content of the hidden text elements. This can be achieved by adding event listeners to the input fields, triggering a function when their value changes.
+JavaScript
+
+document.getElementById('input1').addEventListener('input', function() {
+    document.getElementById('hiddenText1').textContent = this.value;
+    document.getElementById('hiddenText1').style.display = 'block'; // Or 'inline'
+});
+
+document.getElementById('input2').addEventListener('input', function() {
+    document.getElementById('hiddenText2').textContent = this.value;
+    document.getElementById('hiddenText2').style.display = 'block';
+});
+
+document.getElementById('input3').addEventListener('input', function() {
+    document.getElementById('hiddenText3').textContent = this.value;
+    document.getElementById('hiddenText3').style.display = 'block';
+});
+Explanation:
+addEventListener('input', ...): This attaches an event listener to each input field. The 'input' event fires whenever the value of the input element changes (e.g., when a user types, pastes, or clears the field).
+this.value: Inside the event listener function, this refers to the input element that triggered the event, and this.value retrieves its current content.
+document.getElementById('hiddenTextX').textContent = this.value;: This line updates the text content of the corresponding hidden paragraph element with the value from the input field.
+document.getElementById('hiddenTextX').style.display = 'block';: This makes the hidden text visible once a value is entered. You can choose block, inline, or any other appropriate display value depending on your layout requirements. If the text should remain hidden, this line can be omitted.
+This setup allows users to interact with multiple input fields, and their entered values dynamically replace or update the content of designated hidden text elements on the page.
+
