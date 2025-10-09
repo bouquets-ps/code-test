@@ -301,7 +301,7 @@ button {
 
 <br><br>PS! Command for Generating Random Pokemon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/randpoke 10, natdex"></span>
 
-<br><br>PS! Command for Shuffling Pokemon Order <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/shuffle shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, not shiny"></span>
+<br><br>PS! Command for Deciding Shiny Order <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/shuffle shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, not shiny"></span>
 
 </div>
 </p></details></div><br><br>
