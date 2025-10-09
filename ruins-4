@@ -54,6 +54,21 @@ body {
 }
 </style>
 <script>
+document.getElementById('input1').addEventListener('input', function() {
+    document.getElementById('hiddenText1').textContent = this.value;
+    document.getElementById('hiddenText1').style.display = 'block'; // Or 'inline'
+});
+
+document.getElementById('input2').addEventListener('input', function() {
+    document.getElementById('hiddenText2').textContent = this.value;
+    document.getElementById('hiddenText2').style.display = 'block';
+});
+
+document.getElementById('input3').addEventListener('input', function() {
+    document.getElementById('hiddenText3').textContent = this.value;
+    document.getElementById('hiddenText3').style.display = 'block';
+});
+
 document.addEventListener('DOMContentLoaded', () => {
     const copyableItems = document.querySelectorAll('.copyable-item');
     const copyFeedbackPopup = document.getElementById('copy-feedback-popup');
@@ -83,6 +98,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 <body>
+
+<input type="text" id="input1" placeholder="Enter value for Text 1">
+<p id="hiddenText1" style="display:none;">Initial hidden text 1</p>
+
+<input type="text" id="input2" placeholder="Enter value for Text 2">
+<p id="hiddenText2" style="display:none;">Initial hidden text 2</p>
+
+<input type="text" id="input3" placeholder="Enter value for Text 3">
+<p id="hiddenText3" style="display:none;">Initial hidden text 3</p>
+
     <div class="copyable-item" data-copy-text="This is the first item's text to copy.">
         Click to copy this text.
     </div>
