@@ -153,11 +153,12 @@ button {
 </head>
 <body>
 <center>
-<h1><table><tr><td>PS! Game Corner Custom Minigame Creator</td></tr></table></h1>
 
-<span style="float:right;"><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px"><b><a style="text-decoration:none; color: gold" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-creator/blob/main/faq">
-return to Star Cave
+<span style="float:right;"><div style="display: inline-block ; border: 1px solid #8ebccd ; border-radius: 5px ; padding: 5px"><b><a style="text-decoration:none; color: #8ebccd" href="https://rentry.co/star-cave">
+⭐ return to star cave
 </a></b></div></span>
+
+<h1><table><tr><td>PS! Game Corner Custom Minigame Creator</td></tr></table></h1>
 
 <h3><span style="letter-spacing:5px;"><table><tr>
 <td>CREATE</td>
