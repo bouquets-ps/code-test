@@ -2,6 +2,7 @@
 <html data-theme="light">
 <head>
 <title>PS! Game Corner User Museum - Selfies</title>
+<link rel="icon" href="https://www.serebii.net/itemdex/sprites/starsweet.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
 function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
