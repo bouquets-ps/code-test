@@ -159,9 +159,7 @@ button {
 <body>
 <center>
 
-<span style="float:right;"><div style="display: inline-block ; border: 0px solid #8ebccd ; border-radius: 5px ; padding: 5px"><b><a style="text-decoration:none; color: #8ebccd" href="https://rentry.co/star-cave">
-star cave
-</a></b></div></span><br>
+<img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img>
 
 <h1><table><tr><td>PS! Game Corner Custom Minigame Creator</td></tr></table></h1>
 
