@@ -76,10 +76,8 @@ button.addEventListener("click", (event) => {
 .copyable-item {
     cursor: pointer;
   text-decoration-line: underline;
-  text-decoration-color: #68a; /* Underline color */
-  text-decoration-style: wavy; /* Underline style */
   text-decoration-thickness: 1px; /* Underline thickness */
-  text-underline-offset: 3px; /* Underline position */
+  text-underline-offset: 5px; /* Underline position */
 }
 
 .copyable-item:hover {
@@ -190,7 +188,7 @@ star cave
 
 <div id = "container">
 
-<div id="copy-feedback-popup" class="popup"><span style="display: inline-block;height: 21px;width: 21px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -9px -757px"></span>Skitty used Copycat!</div>
+<div id="copy-feedback-popup" class="popup"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px"></span><br>Skitty used Copycat!</div>
 
 
 
