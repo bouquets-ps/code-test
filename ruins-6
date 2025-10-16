@@ -75,6 +75,11 @@ button.addEventListener("click", (event) => {
 <style>
 .copyable-item {
     cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-color: #68a; /* Underline color */
+  text-decoration-style: wavy; /* Underline style */
+  text-decoration-thickness: 1px; /* Underline thickness */
+  text-underline-offset: 3px; /* Underline position */
 }
 
 .copyable-item:hover {
@@ -148,7 +153,9 @@ button {
   transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
   margin-bottom: 24px;
 }
-
+.custom-underline {
+  
+}
 </style>
 </head>
 <body>
@@ -183,7 +190,7 @@ star cave
 
 <div id = "container">
 
-<div id="copy-feedback-popup" class="popup"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px"></span> Skitty used Copycat!</div>
+<div id="copy-feedback-popup" class="popup"><span style="display: inline-block;height: 21px;width: 21px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -9px -757px"></span>Skitty used Copycat!</div>
 
 
 
@@ -229,7 +236,7 @@ star cave
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
 
-<span class="copyable-item" data-copy-text="/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank"><u style="color: #68a">PS! Command for Shuffling Pokemon Order</u></span>
+<span class="copyable-item" data-copy-text="/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank">PS! Command for Shuffling Pokemon Order</u></span>
 
 <br><br>Icons: <span class="copyable-item" data-copy-text="&lt;marquee class=&quot;diglett&quot; behavior=&quot;slide&quot; height=&quot;30&quot; scrolldelay=&quot;0&quot; scrollamount=&quot;3&quot; direction=&quot;up&quot;&gt;&lt;span style=&quot;display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px;&quot;&gt;&lt;/span&gt;&lt;/marquee&gt;&lt;/div&gt;"><u>Diglett</u></span>, <span class="copyable-item" data-copy-text="&lt;marquee class=&quot;dugtrio&quot; behavior=&quot;slide&quot; height=&quot;30&quot; scrolldelay=&quot;200&quot; scrollamount=&quot;1&quot; direction=&quot;up&quot;&gt;&lt;span style=&quot;display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -120px -120px;&quot;&gt;&lt;/span&gt;&lt;/marquee&gt;&lt;/div&gt;"><u style="color: #2884c6">Dugtrio</u></span>  
 
