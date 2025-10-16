@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="dark">
 <head>
-<title>PS! Game Corner Custom Minigame Creator - Create</title>
+<title>PS! Game Corner Custom Minigame Creator - Minigames</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
 document.addEventListener('DOMContentLoaded', () => {
@@ -75,15 +75,16 @@ button.addEventListener("click", (event) => {
 <style>
 .copyable-item {
     cursor: pointer;
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid var(--color-fg);
+    margin: 10px 5px 10px 5px;
+    padding: 5px 10px 5px 10px;
+    font-family: "Consolas", "Liberation Mono", "Courier New", monospace;
+    border: 1px solid green;
     border-radius: 5px;
+    display: inline-block;
 }
 
-.copyable-item:hover {
-    color: silver;
-    border: 1px solid silver;
+.copyable-item:hover {    
+    border: 1px solid var(--color-fg);
 }
 
 .popup {
@@ -112,9 +113,10 @@ code {
 textarea {
   padding: 25px;
   border-radius: 5px;
-  border: 1px solid var(--color-fg);
+  border: 1px solid green;
   width: 95%;
-  height: 500px;
+  field-sizing: content;
+  min-height: 4rem; /* Example: set a minimum height */
   background-color: var(--color-bg);
   color: var(--color-fg);
   transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
@@ -153,20 +155,14 @@ button {
   transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
   margin-bottom: 24px;
 }
-.custom-underline {
-  
-}
+
 </style>
 </head>
 <body>
 <center>
-
-<img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img>
-
 <h1><table><tr><td>PS! Game Corner Custom Minigame Creator</td></tr></table></h1>
-
 <h3><span style="letter-spacing:5px;"><table><tr>
-<td>CREATE</td>
+<td>MINIGAMES</td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-creator/blob/main/faq">FAQ</a></td>
 </tr></table></span></h3>
 </center>
@@ -182,7 +178,7 @@ button {
 
 <br><br>
 
-<h3>Click on Skitty to use Copycat!</h3><br>
+<h3>If you are unfamiliar with a minigame, you may replace <code>!htmlbox</code> with <code>/htmlbox</code> to view the prompts privately on PS!.</h3><br>
 
 </center>
 
@@ -190,101 +186,173 @@ button {
 
 <div id="copy-feedback-popup" class="popup"><center><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px"></span><br>Skitty used Copycat!</center></div>
 
-
-
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"> <span style="float:right;"><div style="display: inline-block ; background: linear-gradient(#dbdb70,#b8b72e) ; border: 1px solid #68a ; border-radius: 5px ; width: 84px ; height: 19px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Luck</b></div></span> <details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px"></span><strong class="searchValue">Diglett's Whack-a-Mole</strong><br><br>Predict 1 to 3 spots where Diglett and Dugtrio are hiding to bop them on their heads and earn bits. However, you will lose bits if you hit an Excadrill!</summary><p>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -240px -1500px"></span><strong class="searchValue">Beheeyem's Inverse Mass Effect</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
-<li>Replace <span style="color: #ba4a97">✿</span> with Diglett, Dugtrio, Excadrill, or blank icons.</li>
+<li>Replace <code>✿</code>, <code>✿✿</code>, <code>✿✿✿</code>, and <code>✿✿✿✿</code> with types that deal ×4, ×2, ×1/2, and ×1/4 damage respectively to your Pokemon in inverse mode. Types must be copied below.</li>
+<li>SITUATIONAL: Delete all remaining <code>✿</code>, <code>✿✿</code>, <code>✿✿✿</code>, and <code>✿✿✿✿</code> if they have not been replaced.</li>
 </ol>
 
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
 <textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px;"></span><b>Mini <a href="https://www.tapatalk.com/groups/ps_game_corner/whack-a-diglett-t813.html">Diglett's Whack-a-Mole</a></b><br>Predict 1 to 3 spots where Diglett and Dugtrio are hiding to bop them on their heads and earn bits. However, you will lose bits if you hit an Excadrill!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">1<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">2<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">3<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">4<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">5<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">6<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">7<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">8<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">9<br><marquee behavior="alternate"><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px;"></span></marquee></div></center>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -240px -1500px;"></span><b>Mini Beheeyem's Inverse Mass Effect</b><br>Using an inverted type chart, guess a Pokemon whose type effectiveness matches the given parameters.<hr><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">
+<div style="display: inline-block ; background: linear-gradient(#262626 , #1a1a1a) ; border: 1px solid #68a ; border-radius: 5px ; width: 50px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center ; vertical-align: top"><b>×4</b></div> <div style="display: inline-block ; width: 245px">
+✿
+</div><hr>
+<div style="display: inline-block ; background: linear-gradient(#262626 , #1a1a1a) ; border: 1px solid #68a ; border-radius: 5px ; width: 50px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center ; vertical-align: top"><b>×2</b></div> <div style="display: inline-block ; width: 245px">
+✿✿
+</div><hr>
+<div style="display: inline-block ; background: linear-gradient(#262626 , #1a1a1a) ; border: 1px solid #68a ; border-radius: 5px ; width: 50px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center ; vertical-align: top"><b>×1/2</b></div> <div style="display: inline-block ; width: 245px">
+✿✿✿
+</div><hr>
+<div style="display: inline-block ; background: linear-gradient(#262626 , #1a1a1a) ; border: 1px solid #68a ; border-radius: 5px ; width: 50px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center ; vertical-align: top"><b>×1/4</b></div> <div style="display: inline-block ; width: 245px">
+✿✿✿✿
+</div></div>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
+
+<table>
+<tr><td style="width: 250px">Lady Monita's PM Command</td><td><span class="copyable-item" data-copy-text=".rextype">Generate a Random Existing Type</span></td></tr>
+
+<tr><td>PS! Command</td><td><span class="copyable-item" data-copy-text="/weak inverse, type, type">View a Typing's Weaknesses and Resistances in Inverse Mode</span></td></tr>
+
+<tr><td>Type</td><td><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#c1db70,#96b82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Bug&lt;/b&gt;&lt;/div&gt;">Bug</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#262626,#1a1a1a) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Dark&lt;/b&gt;&lt;/div&gt;">Dark</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#7070db,#2e2eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ;m; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Dragon&lt;/b&gt;&lt;/div&gt;">Dragon</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#dbdb70,#b8b72e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Electric&lt;/b&gt;&lt;/div&gt;">Electric</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#ec93bf,#e05299) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Fairy&lt;/b&gt;&lt;/div&gt;">Fairy</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#ac3939,#732626) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Fighting&lt;/b&gt;&lt;/div&gt;">Fighting</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#db8b70,#b8502e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Fire&lt;/b&gt;&lt;/div&gt;">Fire</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#bfbfbf,#a6a6a6) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Flying&lt;/b&gt;&lt;/div&gt;">Flying</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#7339ac,#4d2673) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Ghost&lt;/b&gt;&lt;/div&gt;">Ghost</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#70db70,#2eb82e) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Grass&lt;/b&gt;&lt;/div&gt;">Grass</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#e6c8b3,#d29e79) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Ground&lt;/b&gt;&lt;/div&gt;">Ground</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#93ecec,#52e0e0) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Ice&lt;/b&gt;&lt;/div&gt;">Ice</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#e6e6e6,#d9d9d9) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Normal&lt;/b&gt;&lt;/div&gt;">Normal</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#a670db,#732eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Poison&lt;/b&gt;&lt;/div&gt;">Poison</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#db70db,#b72eb8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Psychic&lt;/b&gt;&lt;/div&gt;">Psychic</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#c68353,#995e33) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Rock&lt;/b&gt;&lt;/div&gt;">Rock</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#999999,#666666) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Steel&lt;/b&gt;&lt;/div&gt;">Steel</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 75px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center&quot;&gt;&lt;b&gt;Water&lt;/b&gt;&lt;/div&gt;">Water</span></td></tr>
+</table>
+
+</div>
+</p></details></div><br><br>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -240px -1380px"></span><strong class="searchValue">Crustle's PM Crumbling Blocks</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
+
+<ol>
+<li>Replace <code>✿</code> with your username.</li>
+<li>Replace <code>✿✿</code> with 6 to 15 Crustle icons, which must be copied below.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -240px -1380px;"></span><b>Mini Crustle's PM Crumbling Blocks</b><br>PM <username>✿</username> an integer between 1 and 5 to remove a number of blocks and earn bits. However, you will lose bits if you remove the final block!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; background: linear-gradient(#c68353,#995e33); color: #ffffff"><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 15px; background: #000000"><b>Remaining Blocks</b><br><br>
+✿✿
+</div></div></center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
+
+<table>
+<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/roll 10+5">Decide Number of Crustle Icons</span></td></tr>
+
+<tr><td>Crustle Icon</td><td><span class="copyable-item" data-copy-text="6&lt;br&gt;&lt;br&gt;&lt;span style=&quot;display: inline-block;height: 87px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 55px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 76px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 44px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 65px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 33px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 54px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 22px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 43px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 11px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 32px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px -0px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">6</span><span class="copyable-item" data-copy-text="7&lt;br&gt;&lt;br&gt;&lt;span style=&quot;display: inline-block;height: 98px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 66px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 87px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 55px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 76px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 44px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 65px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 33px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 54px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 22px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 43px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 11px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 32px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px -0px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">7</span><span class="copyable-item" data-copy-text="8&lt;br&gt;&lt;br&gt;&lt;span style=&quot;display: inline-block;height: 109px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 77px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 98px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 66px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 87px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 55px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 76px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 44px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 65px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 33px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 54px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 22px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 43px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 11px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 32px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px -0px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">8</span><span class="copyable-item" data-copy-text="9&lt;br&gt;&lt;br&gt;&lt;span style=&quot;display: inline-block;height: 120px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 88px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 109px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 77px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 98px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 66px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 87px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 55px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 76px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 44px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 65px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 33px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 54px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 22px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 43px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 11px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 32px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px -0px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">9</span><span class="copyable-item" data-copy-text="10&lt;br&gt;&lt;br&gt;&lt;span style=&quot;display: inline-block;height: 131px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 99px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 120px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 88px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 109px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 77px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 98px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 66px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 87px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 55px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 76px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 44px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 65px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 33px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 54px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 22px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 43px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 11px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 32px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px -0px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">10</span><span class="copyable-item" data-copy-text="11&lt;br&gt;&lt;br&gt;&lt;span style=&quot;display: inline-block;height: 142px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 110px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 131px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 99px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 120px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 88px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 109px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 77px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 98px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 66px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 87px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 55px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 76px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 44px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 65px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 33px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 54px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 22px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 43px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 11px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 32px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px -0px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">11</span><span class="copyable-item" data-copy-text="12&lt;br&gt;&lt;br&gt;&lt;span style=&quot;display: inline-block;height: 153px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 121px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 142px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 110px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 131px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 99px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 120px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 88px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 109px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 77px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 98px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 66px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 87px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 55px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 76px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 44px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 65px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 33px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 54px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 22px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 43px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 11px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 32px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px -0px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">12</span><span class="copyable-item" data-copy-text="13&lt;br&gt;&lt;br&gt;&lt;span style=&quot;display: inline-block;height: 164px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 132px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 153px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 121px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 142px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 110px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 131px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 99px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 120px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 88px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 109px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 77px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 98px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 66px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 87px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 55px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 76px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 44px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 65px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 33px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 54px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 22px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 43px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 11px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 32px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px -0px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">13</span><span class="copyable-item" data-copy-text="14&lt;br&gt;&lt;br&gt;&lt;span style=&quot;display: inline-block;height: 175px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 143px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 164px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 132px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 153px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 121px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 142px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 110px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 131px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 99px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 120px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 88px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 109px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 77px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 98px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 66px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 87px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 55px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 76px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 44px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 65px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 33px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 54px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 22px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 43px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 11px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 32px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px -0px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">14</span><span class="copyable-item" data-copy-text="15&lt;br&gt;&lt;br&gt;&lt;span style=&quot;display: inline-block;height: 186px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 154px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 175px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 143px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 164px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 132px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 153px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 121px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 142px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 110px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 131px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 99px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 120px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 88px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 109px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 77px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 98px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 66px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 87px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 55px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 76px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 44px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 65px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 33px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 54px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 22px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 43px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px 11px;&quot;&gt;&lt;span style=&quot;display: inline-block;height: 32px;width: 32px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/pokedex-sm/icon/558.png) no-repeat scroll -0px -0px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;">15</span></td></tr>
+</table>
+
+</div>
+</p></details></div><br><br>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -960px"></span><strong class="searchValue">Deoxys' Differences</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
+
+<ol>
+<li>Replace each <code>✿</code> with a different Pokemon name.</li>
+<li>Replace one of the <code>✿✿</code> with a Pokemon name that is not used in <code>✿</code>.</li>
+<li>Replace each of the remaining <code>✿✿</code> with a different Pokemon name that is used to replace <code>✿</code>.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -960px;"></span><b>Mini Deoxys' Differences</b><br>Name the two Pokemon that only appears in one box but not the other! (one guess only)<hr><center>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 70px; background: linear-gradient(#db8b70,#b8502e); color: #ffffff">
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 40px; height: 30px; background: #000000; margin: 5px; vertical-align: top">
+<marquee loop="-1"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"></marquee>
+</div>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 40px; height: 30px; background: #000000; margin: 5px; vertical-align: top">
+<marquee loop="-1"><psicon pokemon="✿✿"><psicon pokemon="✿✿"><psicon pokemon="✿✿"><psicon pokemon="✿✿"><psicon pokemon="✿✿"><psicon pokemon="✿✿"><psicon pokemon="✿✿"><psicon pokemon="✿✿"><psicon pokemon="✿✿"><psicon pokemon="✿✿"></marquee>
+</div>
+</div></center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
+
+<table>
+<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/randpoke 10, natdex">Generate 10 Random Pokemon Names</span><span class="copyable-item" data-copy-text="/randpoke natdex">Generate a Random Pokemon Name</span></td></tr>
+</table>
+
+</div>
+</p></details></div><br><br>
+
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px"></span><strong class="searchValue">Diglett's Whack-a-Mole</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
+
+<ol>
+<li>Replace each <code>✿</code> with a Diglett, Dugtrio, Excadrill, or blank icon, which must be copied below.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px;"></span><b>Mini <a href="https://www.tapatalk.com/groups/ps_game_corner/whack-a-diglett-t813.html">Diglett's Whack-a-Mole</a></b><br>Predict 1 to 3 spots where Diglett and Dugtrio are hiding to bop them on their heads and earn bits. However, you will lose bits if you hit an Excadrill!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px 5px 5px 5px ; padding: 5px; width: 186px; background: linear-gradient(#70db70,#2eb82e); color: #ffffff"><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 5px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33)"><b>1</b><br><marquee scrollamount="0"><psicon pokemon="missingno"></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 5px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33)"><b>2</b><br><marquee scrollamount="0"><psicon pokemon="missingno"></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 5px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33)"><b>3</b><br><marquee scrollamount="0"><psicon pokemon="missingno"></marquee></div><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 5px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33)"><b>4</b><br><marquee scrollamount="0"><psicon pokemon="missingno"></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 5px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33)"><b>5</b><br><marquee scrollamount="0"><psicon pokemon="missingno"></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 5px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33)"><b>6</b><br><marquee scrollamount="0"><psicon pokemon="missingno"></marquee></div><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 5px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33)"><b>7</b><br><marquee scrollamount="0"><psicon pokemon="missingno"></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 5px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33)"><b>8</b><br><marquee scrollamount="0"><psicon pokemon="missingno"></marquee></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 5px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33)"><b>9</b><br><marquee scrollamount="0"><psicon pokemon="missingno"></marquee></div></div></center>
 </textarea>
 
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Answer</b><br><br>
 
 <textarea>
-!htmlbox <center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">1<br>
+!htmlbox <center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px 5px 5px 5px ; padding: 5px; width: 186px; background: linear-gradient(#70db70,#2eb82e); color: #ffffff">
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 3px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33); overflow: hidden"><b>1</b><br>
 ✿
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">2<br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 3px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33); overflow: hidden"><b>2</b><br>
 ✿
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">3<br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 3px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33); overflow: hidden"><b>3</b><br>
 ✿
-<br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">4<br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 3px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33); overflow: hidden"><b>4</b><br>
 ✿
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">5<br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 3px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33); overflow: hidden"><b>5</b><br>
 ✿
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">6<br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 3px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33); overflow: hidden"><b>6</b><br>
 ✿
-<br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">7<br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 3px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33); overflow: hidden"><b>7</b><br>
 ✿
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">8<br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 3px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33); overflow: hidden"><b>8</b><br>
 ✿
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px">9<br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 40px ; padding: 5px; margin: 3px; width: 40px; height: 40px; background: linear-gradient(#c68353,#995e33); overflow: hidden"><b>9</b><br>
 ✿
-</center>
+</div></center>
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
 
-<span class="copyable-item" data-copy-text="/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank">PS! Command for Shuffling Pokemon Order</u></span>
+<table>
+<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/shuffle diglett, diglett, diglett, dugtrio, dugtrio, excadrill, blank, blank, blank">Decide Icon Order</span></td></tr>
 
-<br><br>Icons: <span class="copyable-item" data-copy-text="&lt;marquee class=&quot;diglett&quot; behavior=&quot;slide&quot; height=&quot;30&quot; scrolldelay=&quot;0&quot; scrollamount=&quot;3&quot; direction=&quot;up&quot;&gt;&lt;span style=&quot;display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -120px;&quot;&gt;&lt;/span&gt;&lt;/marquee&gt;&lt;/div&gt;"><u>Diglett</u></span>, <span class="copyable-item" data-copy-text="&lt;marquee class=&quot;dugtrio&quot; behavior=&quot;slide&quot; height=&quot;30&quot; scrolldelay=&quot;200&quot; scrollamount=&quot;1&quot; direction=&quot;up&quot;&gt;&lt;span style=&quot;display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -120px -120px;&quot;&gt;&lt;/span&gt;&lt;/marquee&gt;&lt;/div&gt;"><u style="color: #2884c6">Dugtrio</u></span>  
-
-
-<br><br>Dugtrio Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" 
-
-<br><br>Excadrill Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;marquee class=&quot;excadrill&quot; behavior=&quot;slide&quot; height=&quot;30&quot; scrolldelay=&quot;800&quot; scrollamount=&quot;1&quot; direction=&quot;up&quot;&gt;&lt;span style=&quot;display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -1320px;&quot;&gt;&lt;/span&gt;&lt;/marquee&gt;&lt;/div&gt;"></span>  
-
-<br><br>Blank Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;marquee class=&quot;blank&quot; behavior=&quot;slide&quot; height=&quot;30&quot; scrolldelay=&quot;0&quot; scrollamount=&quot;0&quot; direction=&quot;up&quot;&gt;&lt;span style=&quot;display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -999px -999px;&quot;&gt;&lt;/span&gt;&lt;/marquee&gt;&lt;/div&gt;"></span>
+<tr><td>Icon</td><td><span class="copyable-item" data-copy-text="&lt;marquee behavior=&quot;slide&quot; height=&quot;30&quot; scrolldelay=&quot;0&quot; scrollamount=&quot;3&quot; direction=&quot;up&quot;&gt;&lt;psicon pokemon=&quot;diglett&quot;&gt;&lt;/marquee&gt;&lt;/div&gt;">Diglett</span><span class="copyable-item" data-copy-text="&lt;marquee behavior=&quot;slide&quot; height=&quot;30&quot; scrolldelay=&quot;200&quot; scrollamount=&quot;1&quot; direction=&quot;up&quot;&gt;&lt;psicon pokemon=&quot;dugtrio&quot;&gt;&lt;/marquee&gt;&lt;/div&gt;">Dugtrio</span><span class="copyable-item" data-copy-text="&lt;marquee behavior=&quot;slide&quot; height=&quot;30&quot; scrolldelay=&quot;800&quot; scrollamount=&quot;1&quot; direction=&quot;up&quot;&gt;&lt;psicon pokemon=&quot;excadrill&quot;&gt;&lt;/marquee&gt;&lt;/div&gt;">Excadrill</span><span class="copyable-item" data-copy-text="&lt;/div&gt;">Blank</span></td></tr>
+</table>
 
 </div>
 </p></details></div><br><br>
 
-
-
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"> <span style="float:right;"><div style="display: inline-block ; background: linear-gradient(#70a6db,#2e73b8) ; border: 1px solid #68a ; border-radius: 5px ; width: 105px ; height: 19px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Knowledge</b></div></span> <details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -2310px"></span><strong class="searchValue">Fidough's Sandwiched Pokemon</strong></summary><p>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
-
-<ol>
-<li>Replace <code>✿</code> with Pokemon.</li>
-<li>OPTIONAL: Replace the <code>-0</code> in <code>-0px -0px</code> with positive numbers (e.g. <code>5px 10px</code>) to move Pokemon right or down.</li>
-</ol>
-
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
-
-<textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -2310px;"></span><b>Mini Fidough's Sandwiched Pokemon</b><br>Name all five Pokemon that are stacked on top of each other. This minigame may not render properly on certain browsers.<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 200px; height: 200px"><marquee behavior="slide" width="200" scrollamount="3" direction="right">
-<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
-<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
-<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
-<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
-<span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/✿.gif) no-repeat scroll -0px -0px">
-</span></span></span></span></span></marquee></div><br><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 5px ; width: 200px"><i>(wait up to 5 seconds for the Pokemon to show up)</i></div></center>
-</textarea>
-
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
-
-<br><br>PS! Command for Generating Random Pokemon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/randpoke 5, natdex"></span>
-
-</div>
-</p></details></div><br><br>
 
 
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -400px -300px"></span><strong class="searchValue">Gyarados' Inverse Shiny Hunting</strong></summary><p>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
-<li>Replace <code>✿</code> with Pokemon.</li>
+<li>Replace each <code>✿</code> with a different Pokemon name.</li>
 <li>Delete <code>-shiny</code> in one of the <code>ani-shiny</code>.</li>
 </ol>
 
@@ -307,75 +375,24 @@ button {
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
 
-<br><br>PS! Command for Generating Random Pokemon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/randpoke 10, natdex"></span>
-
-<br><br>PS! Command for Deciding Shiny Order <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/shuffle shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, not shiny"></span>
-
-</div>
-</p></details></div><br><br>
-
-
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -360px -3300px"></span><strong class="searchValue">Kangaskhan's 2 × 100M Relay</strong></summary><p>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
-
-<ol>
-<li>Replace <code>✿</code> with numbers between 1 to 10. Each lane should have a different number.</li>
-<li>Replace <code>✿✿</code> with numbers between 1 to 10. Each lane should have a different number.</li>
-<li>Replace <code>✿✿✿</code> with numbers that equal to 160*(✿✿/✿), rounded up. The values used for calculations should be in the same lane.</li>
-<li>Replace <code>✿✿✿✿</code> with Pokemon.</li>
-</ol>
-
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
-
-<textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -360px -3300px;"></span><b>Mini Kangaskhan's 2 × 100M Relay</b><br>Guess which coloured team will reach the finish line first!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; width: 120px"><table><tr><td width="30px"><b>Anchor</b></td><td width="60px"></td><td width="30px"><b>First</b></td></tr></table><hr>
-<span style="background: linear-gradient(#db8b70,#b8502e)"><marquee class="LaneRed" behavior="alternate"><psicon pokemon="✿✿✿✿"><span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
-<hr>
-<span style="background: linear-gradient(#dbdb70,#b8b72e)"><marquee class="LaneYellow" behavior="alternate"><psicon pokemon="✿✿✿✿"><span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
-<hr>
-<span style="background: linear-gradient(#70db70,#2eb82e)"><marquee class="LaneGreen" behavior="alternate"><psicon pokemon="✿✿✿✿"><span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
-<hr>
-<span style="background: linear-gradient(#70a6db,#2e73b8)"><marquee class="LaneBlue" behavior="alternate"><psicon pokemon="✿✿✿✿"><span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
-</div></center>
-</textarea>
-
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Answer</b><br><br>
-
-<textarea>
-!htmlbox <center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; width: 300px"><table><tr><td width="30px"><b>FINISH</b></td><td width="105px"></td><td width="30px"><b>Handoff</b></td><td width="105px"></td><td width="30px"><b>START</b></td></tr></table><hr><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; width: 120px">
-<span style="background: linear-gradient(#db8b70,#b8502e)"><marquee class="LaneRed1" loop="1" scrollamount="✿✿"><span style="display: inline-block; width: ✿✿✿px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
-<span style="background: linear-gradient(#dbdb70,#b8b72e)"><marquee class="LaneYellow1" loop="1" scrollamount="✿✿"><span style="display: inline-block; width: ✿✿✿px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
-<span style="background: linear-gradient(#70db70,#2eb82e)"><marquee class="LaneGreen1" loop="1" scrollamount="✿✿"><span style="display: inline-block; width: ✿✿✿px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
-<span style="background: linear-gradient(#70a6db,#2e73b8)"><marquee class="LaneBlue1" loop="1" scrollamount="✿✿"><span style="display: inline-block; width: ✿✿✿px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="✿✿✿✿"></marquee></span>
-</div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; width: 48px"><span style="display: inline-block; width: 43px; height: 132px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/art/th/115-m.png) no-repeat scroll -57px -0px;"></span></div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; width: 120px">
-<span style="background: linear-gradient(#db8b70,#b8502e)"><marquee class="LaneRed2" loop="1" scrollamount="✿"><psicon pokemon="✿✿✿✿"></marquee></span> 
-<span style="background: linear-gradient(#dbdb70,#b8b72e)"><marquee class="LaneYellow2" loop="1" scrollamount="✿"><psicon pokemon="✿✿✿✿"></marquee></span>
-<span style="background: linear-gradient(#70db70,#2eb82e)"><marquee class="LaneGreen2" loop="1" scrollamount="✿"><psicon pokemon="✿✿✿✿"></marquee></span>
-<span style="background: linear-gradient(#70a6db,#2e73b8)"><marquee class="LaneBlue2" loop="1" scrollamount="✿"><psicon pokemon="✿✿✿✿"></marquee></span>
-</div></div></center>
-</textarea>
-
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
-
-<br><br>PS! Command for Shuffling Numbers <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/shuffle 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"></span>
-
-<br><br>PS! Command for Generating Random Pokemon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/randpoke 8, natdex"></span>
+<table>
+<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/randpoke 10, natdex">Generate 10 Random Pokemon Names</span><span class="copyable-item" data-copy-text="/shuffle shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, shiny, not shiny">Decide Shiny Order</span></td></tr>
+</table>
 
 </div>
 </p></details></div><br><br>
 
 
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"> <span style="float:right;"><div style="display: inline-block ; background: linear-gradient(#db8b70,#b8502e) ; border: 1px solid #68a ; border-radius: 5px ; width: 84px ; height: 19px ; padding: 1px ; color: #ffffff ; text-shadow: 1px 1px 1px #333 ; text-align: center"><b>Speed</b></div></span> <details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px"></span><strong class="searchValue">Kecleon's Camouflage</strong></summary><p>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px"></span><strong class="searchValue">Kecleon's Camouflage</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
-<li>Replace <code>✿</code> with a rescue team camp.</li>
-<li>Replace <code>✿✿</code> with a Pokemon.</li>
+<li>Replace <code>✿</code> with a rescue team camp name, which must be generated using a copyable command below.</li>
+<li>Replace <code>✿✿</code> with a Pokemon name.</li>
 <li>Replace <code>✿✿✿</code> with a number between 0 and 604.</li>
 <li>Replace <code>✿✿✿✿</code> with a number between 0 and 177.</li>
 </ol>
@@ -384,7 +401,7 @@ button {
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
 <textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px;"></span><b>Mini Kecleon's Camouflage</b><br>Find and name the hidden Pokemon!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 96px; height: 273px"><marquee loop="-1" width="96" scrollamount="3"><span style="display: inline-block; width: 96px; height: 273px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px;"></span><b>Mini Kecleon's Camouflage</b><br>Find and name the hidden Pokemon!<br><br><i>Artwork from <a href="https://www.serebii.net/dungeonrescueteamdx/rescueteamcamp.shtml">Pokemon Mystery Dungeon Rescue Team DX</a></i><hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 96px; height: 273px"><marquee loop="-1" width="96" scrollamount="3"><span style="display: inline-block; width: 96px; height: 273px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span>
 <span style="display: inline-block; width: 700px; height: 273px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/dungeonrescueteamdx/camp/✿.jpg) no-repeat scroll -0px -0px;">
 <span style="display: inline-block; width: 700px; height: 273px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/gen5/✿✿.png) no-repeat scroll ✿✿✿px ✿✿✿✿px; opacity: 0.2"></span></span>
 </marquee></div></center>
@@ -399,87 +416,164 @@ button {
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
 
-<br><br>PS! Command for Generating Random Rescue Team Camp <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/pick wildplains, sky-blueplains, beauplains, thundercrag, powerplant, mt.discipline, mt.green, mt.cleft, stumpforest, flyawayforest, secretiveforest, vibrantforest, mushroomforest, overgrownforest, jungle, poisonswamp, safari, witheringdesert, ravagedfield, scorchedplains, crater, echocave, bouldercave, frigidcavern, tadpolepond, turtleshellpond, rub-a-dubriver, gourdswamp, icefloebeach, shallowbeach, bountifulsea, serenesea, treasuresea, deepseafloor, decrepitlab, waterfalllake, evolutionforest, mysticlake, magneticquarry, dragoncave, agedchambera-n, agedchambero-qm, ancientrelic, mt.moonview, darknessridge, legendaryisland, crypticcave, finalisland, sacredfield, deepseacurrent, rainbowpeak, healingforest, southernisland, seafloorcave, volcanicpit, stratoslookout, enclosedisland"></span>
-
-<br><br>PS! Command for Generating Random Pokemon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/randpoke natdex"></span>
-
-<br><br>PS! Command for Generating Random Number (0 to 604) <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/roll 605-1"></span>
-
-<br><br>PS! Command for Generating Random Number (0 to 177) <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/roll 178-1"></span>
+<table>
+<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/pick wildplains, sky-blueplains, beauplains, thundercrag, powerplant, mt.discipline, mt.green, mt.cleft, stumpforest, flyawayforest, secretiveforest, vibrantforest, mushroomforest, overgrownforest, jungle, poisonswamp, safari, witheringdesert, ravagedfield, scorchedplains, crater, echocave, bouldercave, frigidcavern, tadpolepond, turtleshellpond, rub-a-dubriver, gourdswamp, icefloebeach, shallowbeach, bountifulsea, serenesea, treasuresea, deepseafloor, decrepitlab, waterfalllake, evolutionforest, mysticlake, magneticquarry, dragoncave, agedchambera-n, agedchambero-qm, ancientrelic, mt.moonview, darknessridge, legendaryisland, crypticcave, finalisland, sacredfield, deepseacurrent, rainbowpeak, healingforest, southernisland, seafloorcave, volcanicpit, stratoslookout, enclosedisland">Generate a Random Rescue Team Camp Name</span><span class="copyable-item" data-copy-text="/randpoke natdex">Generate a Random Pokemon Name</span><span class="copyable-item" data-copy-text="/roll 605-1">Generate a Random Number Between 0 and 604</span><span class="copyable-item" data-copy-text="/roll 178-1">Generate a Random Number Between 0 and 177</span></td></tr>
+</table>
 
 </div>
 </p></details></div><br><br>
 
 
 
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -1230px"></span><strong class="searchValue">Shaymin's Meadow</strong></summary><p>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -120px -720px"></span><strong class="searchValue">Ninjask's Triple Corners</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
-<li>Replace one of the <code>&lt;img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24">&lt;/img></code> with Shaymin icon.</li>
+<li>Replace each <code>✿</code> with a different colour, which must be copied below.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt (Part 1)</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -120px -720px;"></span><b>Mini Ninjask's Triple Corners</b><br>Name the three colours shown in the given order! The prompt will be displayed after timer ends. (one guess only)<br><br><details><summary><b>Colours That Can Appear</b></summary><p><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #f5f5dc; color: #000000"><b>Beige</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #000000; color: #ffffff"><b>Black</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #0000ff; color: #ffffff"><b>Blue</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #a52a2a; color: #ffffff"><b>Brown</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #00ffff; color: #000000"><b>Cyan</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffd700; color: #000000"><b>Gold</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #808080; color: #ffffff"><b>Gray</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #008000; color: #ffffff"><b>Green</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #4b0082; color: #ffffff"><b>Indigo</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ff00ff; color: #ffffff"><b>Magenta</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffa500; color: #ffffff"><b>Orange</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffc0cb; color: #000000"><b>Pink</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #800080; color: #ffffff"><b>Purple</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ff0000; color: #ffffff"><b>Red</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #d2b48c; color: #ffffff"><b>Tan</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #008080; color: #ffffff"><b>Teal</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #40e0d0; color: #000000"><b>Turquoise</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ee82ee; color: #ffffff"><b>Violet</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffffff; color: #000000"><b>White</b></div><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffff00; color: #000000"><b>Yellow</b></div></center></p></details>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt (Part 2)</b><br><br>
+
+<textarea>
+!htmlbox <center><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 5px ; width: 150px">
+<div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 5px ; width: 10px"><b>1</b></div>
+✿
+<div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 5px ; width: 10px"><b>2</b></div>
+✿
+<div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 5px ; width: 10px"><b>3</b></div>
+✿
+</div></center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
+
+<table>
+<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/pick beige, black, blue, brown, cyan, gold, gray, green, indigo, magenta, orange, pink, purple, red, tan, teal, turquoise, violet, white, yellow">Generate a Random Colour</span></td></tr>
+
+<tr><td>Colour</td><td><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #f5f5dc; color: #f5f5dc&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Beige</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #000000; color: #000000&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Black</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #0000ff; color: #0000ff&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Blue</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #a52a2a; color: #a52a2a&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Brown</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #00ffff; color: #00ffff&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Cyan</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffd700; color: #ffd700&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Gold</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #808080; color: #808080&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Gray</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #008000; color: #008000&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Green</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #4b0082; color: #4b0082&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Indigo</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ff00ff; color: #ff00ff&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Magenta</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffa500; color: #ffa500&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Orange</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffc0cb; color: #ffc0cb&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Pink</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #800080; color: #800080&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Purple</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ff0000; color: #ff0000&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Red</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #d2b48c; color: #d2b48c&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Tan</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #008080; color: #008080&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Teal</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #40e0d0; color: #40e0d0&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Turquoise</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ee82ee; color: #ee82ee&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Violet</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffffff; color: #ffffff&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">White</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffff00; color: #ffff00&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Yellow</span></td></tr>
+</table>
+
+</div>
+</p></details></div><br><br>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -440px -1170px"></span><strong class="searchValue">Rotom's Dex Trivia</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
+
+<ol>
+<li>Replace <code>✿</code> with a Pokemon name.</li>
+<li>Replace <code>✿✿</code> with one of the Pokemon's dex entries.</li>
+<li>Replace a phrase in the dex entry with blanks, which must be copied below.</li>
+<li>Replace one of the <code>✿✿✿</code> with said phrase.</li>
+<li>Replace the remaining three <code>✿✿✿</code> with fabricated phrases.</li>
 </ol>
 
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
 <textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -1230px;"></span><b>Mini Shaymin's Meadow</b><br>Try to find Shaymin by clicking on the coordinates!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px"><table style="text-align: center"><tr>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>A1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>B1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>C1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>D1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>E1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>F1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>G1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>H1</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-</tr><tr>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>A2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>B2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>C2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>D2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>E2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>F2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>G2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>H2</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-</tr><tr>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>A3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>B3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>C3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>D3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>E3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>F3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>G3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>H3</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-</tr><tr>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>A4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>B4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>C4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>D4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>E4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>F4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>G4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-<td style="vertical-align: top;" height="66px" width="33px"><details><summary>H4</summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
-</tr></table></div></center>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -440px -1170px;"></span><b>Mini Rotom's Dex Trivia</b><br>Fill in the blanks of the given dex entry! (one guess only)<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 300px; background: linear-gradient(#db8b70,#b8502e); color: #ffffff"><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 270px; background: #000000; margin-bottom: 15px"><b><psicon pokemon="✿"></b><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 240px">
+✿✿
+</div></div><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 270px; background: #000000">
+<div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 5px;"><b>A</b></div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 190px">✿✿✿</div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 5px"><b></b></div><hr>
+<div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 5px;"><b>B</b></div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 190px">✿✿✿</div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 5px"><b></b></div><hr>
+<div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 5px;"><b>C</b></div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 190px">✿✿✿</div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 5px"><b></b></div><hr>
+<div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 5px;"><b>D</b></div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 190px">✿✿✿</div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 5px"><b></b></div>
+</div></div></center>
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
 
-<br><br>Shaymin Icon <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;span style=&quot;display: inline-block;height: 24px;width: 24px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -10px -1236px;&quot;&gt;&lt;/span&gt;"></span>
+<table>
+<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/randpoke natdex">Generate a Random Pokemon Name</span></td></tr>
 
-<br><br>PS! Command for Generating Random Coordinates <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="/pick a1, b1, c1, d1, e1, f1, g1, h1, a2, b2, c2, d2, e2, f2, g2, h2, a3, b3, c3, d3, e3, f3, g3, h3, a4, b4, c4, d4, e4, f4, g4, h4"></span>
+<tr><td>Miscellaneous</td><td><span class="copyable-item" data-copy-text="&lt;code&gt;_____&lt;code&gt;">Blanks</span></td></tr>
+</table>
+
+</div>
+</p></details></div><br><br>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -1230px"></span><strong class="searchValue">Shaymin's Meadow</strong><br><br>Try to find Shaymin by clicking on the coordinates!<br><br><i>Artwork from <a href="https://www.serebii.net/dungeonrescueteamdx/rescueteamcamp.shtml">Pokemon Mystery Dungeon Rescue Team DX</a></i></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
+
+<ol>
+<li>Replace one of the <code>&lt;img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24">&lt;/img></code> with Shaymin-Land or Shaymin-Sky icon, which must be copied below.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -1230px;"></span><b>Mini Shaymin's Meadow</b><br>Try to find Shaymin by clicking on the coordinates!<br><br><i>Artwork from <a href="https://www.serebii.net/dungeonrescueteamdx/rescueteamcamp.shtml">Pokemon Mystery Dungeon Rescue Team DX</a></i><hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px 5px 5px 5px ; padding-top: 3px; width: 330px; background: linear-gradient(#ec93bf,#e05299)"><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 5px; color: #000000; width: 300px; height: 273px; overflow: hidden;  image-rendering: pixelated;background:transparent url(https://www.serebii.net/dungeonrescueteamdx/camp/beauplains.jpg) no-repeat scroll -0px 5px;"><table style="text-align: center"><tr>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>A1</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>B1</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>C1</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>D1</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>E1</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>F1</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>G1</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>H1</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+</tr><tr>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>A2</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>B2</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>C2</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>D2</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>E2</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>F2</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>G2</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>H2</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+</tr><tr>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>A3</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>B3</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>C3</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>D3</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>E3</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>F3</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>G3</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>H3</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+</tr><tr>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>A4</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>B4</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>C4</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>D4</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>E4</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>F4</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>G4</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+<td style="vertical-align: top;" height="68px" width="33px"><details><summary><b>H4</b></summary><p><img src="https://play.pokemonshowdown.com/sprites/itemicons/gracidea.png" width="24" height="24"></img></p></details></td>
+</tr></table></div></div></center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
+
+<table>
+<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/pick a1, b1, c1, d1, e1, f1, g1, h1, a2, b2, c2, d2, e2, f2, g2, h2, a3, b3, c3, d3, e3, f3, g3, h3, a4, b4, c4, d4, e4, f4, g4, h4">Decide Icon Placement</span></td></tr>
+
+<tr><td>Shaymin Icon</td><td><span class="copyable-item" data-copy-text="&lt;span style=&quot;display: inline-block;height: 24px;width: 24px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -10px -1236px;&quot;&gt;&lt;/span&gt;">Land</span><span class="copyable-item" data-copy-text="&lt;span style=&quot;display: inline-block;height: 24px;width: 24px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -247px -2705px;&quot;&gt;&lt;/span&gt;">Sky</span></td></tr>
+</table>
 
 </div>
 </p></details></div><br><br>
 
 
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -360px -1380px"></span><strong class="searchValue">Sigilyph's Ancient Ruins</strong></summary><p>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
-<li>Replace <code>✿</code> with Unown GIFs to form a phrase.</li>
+<li>Replace <code>✿</code> with as many Unown GIFs as necessary to spell out your answer letter by letter. Unown GIFs must be copied below.</li>
 </ol>
 
 </div><br><br>
@@ -488,94 +582,88 @@ button {
 <textarea>
 !htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -360px -1380px;"></span><b>Mini <a href="https://www.tapatalk.com/groups/ps_game_corner/sigilyph-s-ancient-ruins-t1344.html">Sigilyph's Ancient Ruins</a></b><br>Decipher the hidden message carved in Unown runes.<hr><center>
 ✿
-✿
-✿
-✿
-✿
-✿
-✿
-✿
-✿
-✿
-✿
-✿
-✿
-✿
-✿
 </center>
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Skitty's Toys</b>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
 
-<br><br>Unown-A GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown.gif&quot; width=&quot;25&quot; height=&quot;45&quot;&gt;&lt;/img&gt;"></span>
+<table>
+<tr><td style="width: 250px">Unown GIF</td><td><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown.gif&quot; width=&quot;25&quot; height=&quot;45&quot;&gt;&lt;/img&gt;">A</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-b.gif&quot; width=&quot;24&quot; height=&quot;42&quot;&gt;&lt;/img&gt;">B</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-c.gif&quot; width=&quot;28&quot; height=&quot;47&quot;&gt;&lt;/img&gt;">C</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-d.gif&quot; width=&quot;28&quot; height=&quot;44&quot;&gt;&lt;/img&gt;">D</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-e.gif&quot; width=&quot;29&quot; height=&quot;41&quot;&gt;&lt;/img&gt;">E</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-f.gif&quot; width=&quot;30&quot; height=&quot;41&quot;&gt;&lt;/img&gt;">F</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-g.gif&quot; width=&quot;22&quot; height=&quot;46&quot;&gt;&lt;/img&gt;">G</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-h.gif&quot; width=&quot;33&quot; height=&quot;42&quot;&gt;&lt;/img&gt;">H</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-i.gif&quot; width=&quot;19&quot; height=&quot;42&quot;&gt;&lt;/img&gt;">I</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-j.gif&quot; width=&quot;25&quot; height=&quot;40&quot;&gt;&lt;/img&gt;">J</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-k.gif&quot; width=&quot;26&quot; height=&quot;41&quot;&gt;&lt;/img&gt;">K</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-l.gif&quot; width=&quot;25&quot; height=&quot;38&quot;&gt;&lt;/img&gt;">L</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-m.gif&quot; width=&quot;32&quot; height=&quot;36&quot;&gt;&lt;/img&gt;">M</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-n.gif&quot; width=&quot;34&quot; height=&quot;35&quot;&gt;&lt;/img&gt;">N</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-o.gif&quot; width=&quot;50&quot; height=&quot;43&quot;&gt;&lt;/img&gt;">O</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-p.gif&quot; width=&quot;23&quot; height=&quot;38&quot;&gt;&lt;/img&gt;">P</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-q.gif&quot; width=&quot;27&quot; height=&quot;33&quot;&gt;&lt;/img&gt;">Q</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-r.gif&quot; width=&quot;23&quot; height=&quot;37&quot;&gt;&lt;/img&gt;">R</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-s.gif&quot; width=&quot;28&quot; height=&quot;51&quot;&gt;&lt;/img&gt;">S</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-t.gif&quot; width=&quot;30&quot; height=&quot;38&quot;&gt;&lt;/img&gt;">T</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-u.gif&quot; width=&quot;38&quot; height=&quot;37&quot;&gt;&lt;/img&gt;">U</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-v.gif&quot; width=&quot;33&quot; height=&quot;41&quot;&gt;&lt;/img&gt;">V</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-w.gif&quot; width=&quot;38&quot; height=&quot;36&quot;&gt;&lt;/img&gt;">W</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-x.gif&quot; width=&quot;28&quot; height=&quot;33&quot;&gt;&lt;/img&gt;">X</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-y.gif&quot; width=&quot;28&quot; height=&quot;41&quot;&gt;&lt;/img&gt;">Y</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-z.gif&quot; width=&quot;21&quot; height=&quot;44&quot;&gt;&lt;/img&gt;">Z</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-exclamation.gif&quot; width=&quot;32&quot; height=&quot;45&quot;&gt;&lt;/img&gt;">!</span><span class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-question.gif&quot; width=&quot;26&quot; height=&quot;46&quot;&gt;&lt;/img&gt;">?</span></td></tr>
+</table>
 
-<br><br>Unown-B GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-b.gif&quot; width=&quot;24&quot; height=&quot;42&quot;&gt;&lt;/img&gt;"></span>
+</div>
+</p></details></div><br><br>
 
-<br><br>Unown-C GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-c.gif&quot; width=&quot;28&quot; height=&quot;47&quot;&gt;&lt;/img&gt;"></span>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px"></span><strong class="searchValue">Skitty's Unfair Seek and Hide</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
-<br><br>Unown-D GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-d.gif&quot; width=&quot;28&quot; height=&quot;44&quot;&gt;&lt;/img&gt;"></span>
+<ol>
+<li>Replace <code>✿</code> with your username.</li>
+<li>Replace each <code>✿✿</code> with a different Pokemon name.</li>
+<li>Replace <code>✿✿✿</code> with one of the Pokemon names that is used to replace <code>✿✿</code>.
+</ol>
 
-<br><br>Unown-E GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-e.gif&quot; width=&quot;29&quot; height=&quot;41&quot;&gt;&lt;/img&gt;"></span>
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
-<br><br>Unown-F GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-f.gif&quot; width=&quot;30&quot; height=&quot;41&quot;&gt;&lt;/img&gt;"></span>
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px;"></span><b>Mini Skitty's Unfair Seek and Hide</b><br>PM <username>✿</username> one of the following Pokemon to hide behind them! Hiding with less players will earn you bits.<br><br>However, a player has already hid behind one of the Pokemon...<hr><center><br><username>Lady Monita</username> <b>is hiding behind ✿✿✿.</b><br><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; background: linear-gradient(#ec93bf,#e05299); color: #ffffff">
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; background: #000000"><psicon pokemon="✿✿"></div>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; background: #000000"><psicon pokemon="✿✿"></div>
+</div><br><br></center>
+</textarea>
 
-<br><br>Unown-G GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-g.gif&quot; width=&quot;22&quot; height=&quot;46&quot;&gt;&lt;/img&gt;"></span>
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
 
-<br><br>Unown-H GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-h.gif&quot; width=&quot;33&quot; height=&quot;42&quot;&gt;&lt;/img&gt;"></span>
+<table>
+<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/randpoke 2, natdex">Generate 2 Random Pokemon Names</span></td></tr>
+</table>
 
-<br><br>Unown-I GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-i.gif&quot; width=&quot;19&quot; height=&quot;42&quot;&gt;&lt;/img&gt;"></span>
+</div>
+</p></details></div><br><br>
 
-<br><br>Unown-J GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-j.gif&quot; width=&quot;25&quot; height=&quot;40&quot;&gt;&lt;/img&gt;"></span>
 
-<br><br>Unown-K GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-k.gif&quot; width=&quot;26&quot; height=&quot;41&quot;&gt;&lt;/img&gt;"></span>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -2040px"></span><strong class="searchValue">Sobble's Pokemon Cries</strong></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
-<br><br>Unown-L GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-l.gif&quot; width=&quot;25&quot; height=&quot;38&quot;&gt;&lt;/img&gt;"></span>
+<ol>
+<li>Replace each <code>✿</code> with a different Pokemon name.</li>
+<li>Replace <code>✿✿</code> with one of the Pokemon names that is used to replace <code>✿</code>.</li>
+</ol>
 
-<br><br>Unown-M GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-m.gif&quot; width=&quot;32&quot; height=&quot;36&quot;&gt;&lt;/img&gt;"></span>
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
-<br><br>Unown-N GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-n.gif&quot; width=&quot;34&quot; height=&quot;35&quot;&gt;&lt;/img&gt;"></span>
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -2040px;"></span><b>Mini <a href="https://www.tapatalk.com/groups/ps_game_corner/sobble-s-pokemon-cries-t1326.html">Sobble's Pokemon Cries</a></b><br>Guess which Pokemon have the given cry! (one guess only)<hr><center><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 25px 5px 5px 5px ; padding: 10px; width: 270px; background: linear-gradient(#70a6db,#2e73b8); color: #ffffff"><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 25px 5px 5px 25px ; padding: 5px; width: 250px; background: linear-gradient(#6ba4d8,#5993cd); overflow: hidden"><audio controls src="//play.pokemonshowdown.com/audio/cries/✿✿.mp3"></audio>
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 0px 3px 0px 3px; background: #000000;"><b>A</b><br><psicon pokemon="✿"></div>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 0px 3px 0px 3px; background: #000000;"><b>B</b><br><psicon pokemon="✿"></div>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 0px 3px 0px 3px; background: #000000;"><b>C</b><br><psicon pokemon="✿"></div>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 0px 3px 0px 3px; background: #000000;"><b>D</b><br><psicon pokemon="✿"></div><br><br></div><br><br></center>
+</textarea>
 
-<br><br>Unown-O GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-o.gif&quot; width=&quot;50&quot; height=&quot;43&quot;&gt;&lt;/img&gt;"></span>
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
 
-<br><br>Unown-P GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-p.gif&quot; width=&quot;23&quot; height=&quot;38&quot;&gt;&lt;/img&gt;"></span>
-
-<br><br>Unown-Q GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-q.gif&quot; width=&quot;27&quot; height=&quot;33&quot;&gt;&lt;/img&gt;"></span>
-
-<br><br>Unown-R GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-r.gif&quot; width=&quot;23&quot; height=&quot;37&quot;&gt;&lt;/img&gt;"></span>
-
-<br><br>Unown-S GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-s.gif&quot; width=&quot;28&quot; height=&quot;51&quot;&gt;&lt;/img&gt;"></span>
-
-<br><br>Unown-T GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-t.gif&quot; width=&quot;30&quot; height=&quot;38&quot;&gt;&lt;/img&gt;"></span>
-
-<br><br>Unown-U GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-u.gif&quot; width=&quot;38&quot; height=&quot;37&quot;&gt;&lt;/img&gt;"></span>
-
-<br><br>Unown-V GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-v.gif&quot; width=&quot;33&quot; height=&quot;41&quot;&gt;&lt;/img&gt;"></span>
-
-<br><br>Unown-W GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-w.gif&quot; width=&quot;38&quot; height=&quot;36&quot;&gt;&lt;/img&gt;"></span>
-
-<br><br>Unown-X GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-x.gif&quot; width=&quot;28&quot; height=&quot;33&quot;&gt;&lt;/img&gt;"></span>
-
-<br><br>Unown-Y GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-y.gif&quot; width=&quot;28&quot; height=&quot;41&quot;&gt;&lt;/img&gt;"></span>
-
-<br><br>Unown-Z GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-z.gif&quot; width=&quot;21&quot; height=&quot;44&quot;&gt;&lt;/img&gt;"></span>
-
-<br><br>Unown-Exclamation GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-exclamation.gif&quot; width=&quot;32&quot; height=&quot;45&quot;&gt;&lt;/img&gt;"></span>
-
-<br><br>Unown-Question GIF <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px" class="copyable-item" data-copy-text="&lt;img src=&quot;https://play.pokemonshowdown.com/sprites/gen5ani/unown-question.gif&quot; width=&quot;26&quot; height=&quot;46&quot;&gt;&lt;/img&gt;"></span>
+<table>
+<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/randpoke 4, natdex">Generate 4 Random Pokemon Names</span></td></tr>
+</table>
 
 </div>
 </p></details></div><br><br>
 
 
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -320px -420px"></span><strong class="searchValue">Togetic's Trainer Cards</strong></summary><p>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Instructions</b><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
-<li>Replace <code>✿</code> with a trainer card from the User Museum. Any line that starts with <code>&lt;span class="infobox" style="display: inline-block ; width: 250px"></code> is a trainer card.</li>
+<li>Replace <code>✿</code> with a trainer card's code from the User Museum's raw content, which is linked below. Any line that starts with <code>&lt;span class="infobox" style="display: inline-block ; width: 250px"></code> and ends with <code>&lt;br&gt;&lt;br&gt;&lt;/center&gt;&lt;/span&gt;</code> is a trainer card's code.</li>
 <li>Delete the username.</li>
 <li>Delete <code>&lt;b>Last updated:&lt;/b> yyyy-mm-dd&lt;br>&lt;br></code>, where <code>yyyy-mm-dd</code> can be any number.</li>
-<li>SITUATIONAL: Delete <code>"</code> in <code>width="80px" height="80px"</code> if applicable.</li>
+<li>SITUATIONAL: Delete <code>"</code> in <code>width="80px" height="80px"</code> if that is in the code.</li>
 </ol>
 
 </div><br><br>
@@ -588,9 +676,11 @@ button {
 </textarea>
 
 </div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Links</b><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
 
-<a style="text-decoration:none; color: silver" href="https://raw.githubusercontent.com/bouquets-ps/gc-museum/refs/heads/main/trainer-card">User Museum</a>
+<table>
+<tr><td style="width: 250px">Link</td><td><span class="copyable-item" data-copy-text="https://raw.githubusercontent.com/bouquets-ps/gc-museum/refs/heads/main/trainer-card">User Museum's Raw Content</span></td></tr>
+</table>
 
 </div>
 </p></details></div><br><br>
