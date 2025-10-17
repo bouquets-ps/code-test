@@ -499,7 +499,7 @@ button {
 <table>
 <tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/randpoke natdex">Generate a Random Pokemon Name</span></td></tr>
 
-<tr><td>Miscellaneous</td><td><span class="copyable-item" data-copy-text="&lt;code&gt;_____&lt;code&gt;">Blanks</span></td></tr>
+<tr><td>Miscellaneous</td><td><span class="copyable-item" data-copy-text="&lt;code&gt;_____&lt;/code&gt;">Blanks</span></td></tr>
 </table>
 
 </div>
