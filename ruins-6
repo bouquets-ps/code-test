@@ -228,7 +228,7 @@ button {
 </p></details></div><br><br>
 
 
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -240px -1380px"></span><strong class="searchValue">Crustle's PM Crumbling Blocks</strong><br><br>PM <code>Username</code> an integer between 1 and 5 to remove a number of blocks and earn bits. However, you will lose bits if you remove the final block!</summary><p>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -240px -1380px"></span><strong class="searchValue">Crustle's PM Crumbling Blocks</strong><br><br>PM <code>username</code> an integer between 1 and 5 to remove a number of blocks and earn bits. However, you will lose bits if you remove the final block!</summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
@@ -258,7 +258,7 @@ button {
 </p></details></div><br><br>
 
 
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -960px"></span><strong class="searchValue">Deoxys' Differences</strong><br><br>Name the two Pokemon that only appears in one box but not the other! (one guess only)</summary><p>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -960px"></span><strong class="searchValue">Deoxys' Differences</strong><br><br>Try to find the two Pokemon that only appears in one box but not the other! (one guess only)</summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
@@ -271,7 +271,7 @@ button {
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
 <textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -960px;"></span><b>Mini Deoxys' Differences</b><br>Name the two Pokemon that only appears in one box but not the other! (one guess only)<hr><center>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -80px -960px;"></span><b>Mini Deoxys' Differences</b><br>Try to find the two Pokemon that only appears in one box but not the other! (one guess only)<hr><center>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 70px; background: linear-gradient(#db8b70,#b8502e); color: #ffffff">
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 40px; height: 30px; background: #000000; margin: 5px; vertical-align: top">
 <marquee loop="-1"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"><psicon pokemon="✿"></marquee>
@@ -348,7 +348,7 @@ button {
 
 
 
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -400px -300px"></span><strong class="searchValue">Gyarados' Inverse Shiny Hunting</strong><br><br>Name the Pokemon that is not shiny! (one guess only)</summary><p>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -400px -300px"></span><strong class="searchValue">Gyarados' Inverse Shiny Hunting</strong><br><br>Try to find the Pokemon that is not shiny! (one guess only)</summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
@@ -360,7 +360,7 @@ button {
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
 <textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -400px -300px;"></span><b>Mini Gyarados' Inverse Shiny Hunting</b><br>Name the Pokemon that is not shiny! (one guess only)<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 50px; height: 200px"><marquee loop="-1" width="50" scrollamount="10" direction="right">
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -400px -300px;"></span><b>Mini Gyarados' Inverse Shiny Hunting</b><br>Try to find the Pokemon that is not shiny! (one guess only)<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 50px; height: 200px"><marquee loop="-1" width="50" scrollamount="10" direction="right">
 <span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
 <span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
 <span style="display: inline-block; width: 200px; height: 200px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani-shiny/✿.gif) no-repeat scroll -0px -0px"></span>
@@ -387,7 +387,7 @@ button {
 
 
 
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px"></span><strong class="searchValue">Kecleon's Camouflage</strong><br><br>Find and name the hidden Pokemon!<br><br><i>Artwork from <a style="text-decoration:none; color: silver" href="https://www.serebii.net/dungeonrescueteamdx/rescueteamcamp.shtml">Pokemon Mystery Dungeon Rescue Team DX</a></i></summary><p>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px"></span><strong class="searchValue">Kecleon's Camouflage</strong><br><br>Try to find the hidden Pokemon that has blend into the environment!<br><br><i>Artwork from <a style="text-decoration:none; color: silver" href="https://www.serebii.net/dungeonrescueteamdx/rescueteamcamp.shtml">Pokemon Mystery Dungeon Rescue Team DX</a></i></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
@@ -401,7 +401,7 @@ button {
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
 <textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px;"></span><b>Mini Kecleon's Camouflage</b><br>Find and name the hidden Pokemon!<br><br><i>Artwork from <a href="https://www.serebii.net/dungeonrescueteamdx/rescueteamcamp.shtml">Pokemon Mystery Dungeon Rescue Team DX</a></i><hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 96px; height: 273px"><marquee loop="-1" width="96" scrollamount="3"><span style="display: inline-block; width: 96px; height: 273px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -870px;"></span><b>Mini Kecleon's Camouflage</b><br>Try to find the hidden Pokemon that has blend into the environment!<br><br><i>Artwork from <a href="https://www.serebii.net/dungeonrescueteamdx/rescueteamcamp.shtml">Pokemon Mystery Dungeon Rescue Team DX</a></i><hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px ; width: 96px; height: 273px"><marquee loop="-1" width="96" scrollamount="3"><span style="display: inline-block; width: 96px; height: 273px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span>
 <span style="display: inline-block; width: 700px; height: 273px;image-rendering: pixelated;background:transparent url(https://www.serebii.net/dungeonrescueteamdx/camp/✿.jpg) no-repeat scroll -0px -0px;">
 <span style="display: inline-block; width: 700px; height: 273px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/gen5/✿✿.png) no-repeat scroll ✿✿✿px ✿✿✿✿px; opacity: 0.2"></span></span>
 </marquee></div></center>
@@ -468,7 +468,7 @@ button {
 </p></details></div><br><br>
 
 
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -440px -1170px"></span><strong class="searchValue">Rotom's Dex Trivia</strong><br><br>Fill in the blanks of the given dex entry! (one guess only)</summary><p>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -440px -1170px"></span><strong class="searchValue">Rotom's Multiple-Choice Dex Trivia</strong><br><br>Fill in the blanks of the given dex entry! (one guess only)</summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
@@ -483,7 +483,7 @@ button {
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
 <textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -440px -1170px;"></span><b>Mini Rotom's Dex Trivia</b><br>Fill in the blanks of the given dex entry! (one guess only)<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 300px; background: linear-gradient(#db8b70,#b8502e); color: #ffffff"><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 270px; background: #000000; margin-bottom: 15px"><b><psicon pokemon="✿"></b><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 240px">
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -440px -1170px;"></span><b>Mini Rotom's Multiple-Choice Dex Trivia</b><br>Fill in the blanks of the given dex entry! (one guess only)<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 300px; background: linear-gradient(#db8b70,#b8502e); color: #ffffff"><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 270px; background: #000000; margin-bottom: 15px"><b><psicon pokemon="✿"></b><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 240px">
 ✿✿
 </div></div><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 270px; background: #000000">
 <div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 5px;"><b>A</b></div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 190px">✿✿✿</div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 5px"><b></b></div><hr>
@@ -595,7 +595,7 @@ button {
 </div>
 </p></details></div><br><br>
 
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px"></span><strong class="searchValue">Skitty's Unfair Seek and Hide</strong><br><br>PM <code>Username</code> one of the following Pokemon to hide behind them! Hiding with less players will earn you bits.<br><br>However, a player has already hid behind one of the Pokemon...</summary><p>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px"></span><strong class="searchValue">Skitty's Unfair Seek and Hide</strong><br><br>PM <code>username</code> one of the following Pokemon to hide behind them! Hiding with less players will earn you bits.<br><br>However, a player has already hid behind one of the Pokemon...</summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
@@ -625,7 +625,7 @@ button {
 </p></details></div><br><br>
 
 
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -2040px"></span><strong class="searchValue">Sobble's Pokemon Cries</strong><br><br>Guess which Pokemon have the given cry! (one guess only)</summary><p>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -2040px"></span><strong class="searchValue">Sobble's Multiple-Choice Pokemon Cries</strong><br><br>Guess which Pokemon has the given cry! (one guess only)</summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
@@ -637,7 +637,7 @@ button {
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
 <textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -2040px;"></span><b>Mini <a href="https://www.tapatalk.com/groups/ps_game_corner/sobble-s-pokemon-cries-t1326.html">Sobble's Pokemon Cries</a></b><br>Guess which Pokemon have the given cry! (one guess only)<hr><center><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 25px 5px 5px 5px ; padding: 10px; width: 270px; background: linear-gradient(#70a6db,#2e73b8); color: #ffffff"><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 25px 5px 5px 25px ; padding: 5px; width: 250px; background: linear-gradient(#6ba4d8,#5993cd); overflow: hidden"><audio controls src="//play.pokemonshowdown.com/audio/cries/✿✿.mp3"></audio>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -2040px;"></span><b>Mini <a href="https://www.tapatalk.com/groups/ps_game_corner/sobble-s-pokemon-cries-t1326.html">Sobble's Multiple-Choice Pokemon Cries</a></b><br>Guess which Pokemon has the given cry! (one guess only)<hr><center><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 25px 5px 5px 5px ; padding: 10px; width: 270px; background: linear-gradient(#70a6db,#2e73b8); color: #ffffff"><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 25px 5px 5px 25px ; padding: 5px; width: 250px; background: linear-gradient(#6ba4d8,#5993cd); overflow: hidden"><audio controls src="//play.pokemonshowdown.com/audio/cries/✿✿.mp3"></audio>
 </div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 0px 3px 0px 3px; background: #000000;"><b>A</b><br><psicon pokemon="✿"></div>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 0px 3px 0px 3px; background: #000000;"><b>B</b><br><psicon pokemon="✿"></div>
