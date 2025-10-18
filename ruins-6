@@ -3,6 +3,7 @@
 <head>
 <title>PS! Game Corner Custom Minigame Creator - Minigames</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<link rel="icon" href="https://www.serebii.net/itemdex/sprites/starsweet.png" type="image/x-icon">
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     const copyableItems = document.querySelectorAll('.copyable-item');
