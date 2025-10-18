@@ -161,14 +161,9 @@ button {
 <body>
 <center>
 
-<table style="width: 100%"><tr>
-<td style="width: 200px">
-<a style="text-decoration:none; color: #8ebccd" href="https://rentry.co/star-cave"><img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img><b>star<br>cave</b></td>
-<td style=text-align: center"><h1>PS! Game Corner Custom Minigame Creator</h1></td>
-<td style="width: 200px"></td>
-</tr></table>
+<h1><table><tr><td><a style="text-decoration:none; color: #8ebccd" href="https://rentry.co/star-cave"><img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img></td><td><b>star<br>cave</b></td></tr></table></h1>
 
-
+<h1><table><tr><td>PS! Game Corner Custom Minigame Creator</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
 <td>MINIGAMES</td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-creator/blob/main/faq">FAQ</a></td>
