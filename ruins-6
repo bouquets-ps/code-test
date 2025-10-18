@@ -162,8 +162,8 @@ button {
 <center>
 
 <table style="width: 100%"><tr>
-<td style="width: 200px"><img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img> return to star cave</td>
-<td><h1>PS! Game Corner Custom Minigame Creator</h1></td>
+<td style="width: 200px"><img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img><b style="color: #8ebccd">star cave</b></td>
+<td style="text-align: center"><h1>PS! Game Corner Custom Minigame Creator</h1></td>
 <td style="width: 200px"></td>
 </tr></table>
 
