@@ -163,8 +163,8 @@ button {
 
 <table style="width: 100%"><tr>
 <td style="width: 200px">
-<a style="text-decoration:none; color: 8ebccd" href="https://rentry.co/star-cave"><img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img><b style="vertical-align: middle">star cave</b></td>
-<td style="vertical-align: top; text-align: center"><h1>PS! Game Corner Custom Minigame Creator</h1></td>
+<a style="text-decoration:none; color: #8ebccd" href="https://rentry.co/star-cave"><img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img><b>star<br>cave</b></td>
+<td style=text-align: center"><h1>PS! Game Corner Custom Minigame Creator</h1></td>
 <td style="width: 200px"></td>
 </tr></table>
 
