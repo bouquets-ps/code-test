@@ -161,7 +161,7 @@ button {
 <body>
 <center>
 
-<h1><table><tr><td><a style="text-decoration:none; color: #8ebccd" href="https://rentry.co/star-cave"><img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img></td><td><b>star<br>cave</b></td></tr></table></h1>
+<h1><table><tr><td><a style="text-decoration:none; color: #8ebccd" href="https://rentry.co/star-cave"><img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img></a></td><td><a style="text-decoration:none; color: #8ebccd" href="https://rentry.co/star-cave"><b>star cave</b></a></td></tr></table></h1>
 
 <h1><table><tr><td>PS! Game Corner Custom Minigame Creator</td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
