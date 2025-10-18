@@ -165,6 +165,7 @@ button {
 <body>
 <center>
 <div class="flex-container">
+<span></span>
 <span><h1><table><tr><td>PS! Game Corner Custom Minigame Creator</td></tr></table></h1></span>
 <span><img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img></span>
 </div>
