@@ -73,10 +73,6 @@ button.addEventListener("click", (event) => {
 
 </script>
 <style>
-.flex-container {
-   display: flex;
-   justify-content: space-between; / or flex-end /
-}
 td {
   vertical-align: top;
 }
@@ -164,11 +160,14 @@ button {
 </head>
 <body>
 <center>
-<div class="flex-container">
-<span></span>
-<span><h1><table><tr><td>PS! Game Corner Custom Minigame Creator</td></tr></table></h1></span>
-<span><img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img></span>
-</div>
+
+<table style="width: 100%"><tr>
+<td style="width: 200px"><img src="https://www.serebii.net/itemdex/sprites/starsweet.png"></img> return to star cave</td>
+<td><h1>PS! Game Corner Custom Minigame Creator</h1></td>
+<td style="width: 200px"></td>
+</tr></table>
+
+
 <h3><span style="letter-spacing:5px;"><table><tr>
 <td>MINIGAMES</td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-creator/blob/main/faq">FAQ</a></td>
