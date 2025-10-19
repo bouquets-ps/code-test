@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="light">
 <head>
-<title>PS! Game Corner User Museum - Selfies</title>
+<title>star cave | user museum | selfies</title>
 <link rel="icon" href="https://www.serebii.net/itemdex/sprites/starsweet.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <script>
@@ -81,7 +81,7 @@ td {
 </head>
 <body>
 <center>
-<h1><table><tr><td>PS! Game Corner User Museum</td></tr></table></h1>
+<h1><table><tr><td><a style="text-decoration:none; color: #8ebccd" href="https://rentry.co/star-cave">star cave</a> 💫 <span style="color: #8ebccd">user museum</span></td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
 <td>SELFIES</td>
 </tr></table></span></h3>
@@ -203,6 +203,9 @@ td {
 
 <table>
 
+<tr><td><strong style="color:#d1261a">????????????? ✿</td><td>#d1261a</td>
+<td>4</td><td>78%</td><td>45.96%</td></tr>
+
 <tr><td><strong style="color:#bd3c2b">fragrantly ✿</td><td>#bd3c2b</td>
 <td>7</td><td>63%</td><td>45.44%</td></tr>
 
@@ -260,11 +263,8 @@ td {
 <tr><td><strong style="color: #c8101c">corsages ✿</td><td>#c8101c</td>
 <td>356</td><td>85%</td><td>42.38%</td></tr>
 
-<tr><td><strong style="color: #000000"></td><td></td>
+<tr><td style="height: 50px"><strong style="color: #000000"></td><td></td>
 <td></td><td></td><td></td></tr>
-
-<tr><td><strong style="color:#d1261a">????????????? ✿</td><td>#d1261a</td>
-<td>4</td><td>78%</td><td>45.96%</td></tr>
 
 <tr><td><strong style="color:#1ba59c">??????????? ✿</td><td>#1ba59c</td>
 <td>176</td><td>72%</td><td>37.67%</td></tr>
