@@ -662,7 +662,7 @@ button {
         style="vertical-align: middle; width:50%; text-align: center;">
       <div style="display: inline-block; text-align: center;">
         <input id="username-input" type="text" placeholder="Enter username">
-        <button id="search-btn">Search</button>
+        <button id="search-btn" style="margin-left: 15px">Search</button>
         <div id="card-container">
           Enter a username and click Search.
         </div>
@@ -681,7 +681,7 @@ button {
             font-family: monospace;
             white-space: pre-wrap;
           "></textarea><br>
-        <button id="copy-btn">Click to Copy</button>
+        <button id="copy-btn" style="margin-top: 15px">Copy</button>
       </div>
     </td>
   </tr>
