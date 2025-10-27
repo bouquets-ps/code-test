@@ -81,6 +81,26 @@ button.addEventListener("click", (event) => {
 
 </script>
 <style>
+#search-btn {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid #2884c6;
+  float: right;
+  margin-right:50px;
+  position:relative;
+  padding: 8px 20px;
+  border-radius: 5px;
+  width: 15%;
+  max-width: 180px;
+  min-width: 150px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+#search-btn:focus {
+  border-color: #2884c6;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
+}
+
 td {
   vertical-align: top;
 }
@@ -637,8 +657,7 @@ button {
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -320px -420px"></span><strong class="searchValue">Togetic's Trainer Cards</strong>
 <br><br>Guess an offline Game Corner user based on their <a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-museum">trainer card</a>!<br><br><span style="float: right"><b>Last updated:</b> 2025-10-26</span><br></summary><p>
 
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt Generator</b><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt Generator</b><br>
 
 <table style="width:100%; border-collapse: collapse; text-align: center;">
   <tr>
