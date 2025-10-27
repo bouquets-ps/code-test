@@ -666,12 +666,8 @@ button {
       </div>
     </td>
 
-<td>
-<button id="copy-btn">Copy</button>
-</td>
-</tr>
+<td></td></tr><tr>
 
-<tr>
 <td>
 <div id="card-container">          
         </div>
@@ -688,8 +684,8 @@ button {
             overflow: auto;
             font-family: monospace;
             white-space: pre-wrap;
-          "></textarea><br>
-        
+          "></textarea>
+        <button id="copy-btn" style="margin-left: 10px">Copy</button>
       </div>
     </td>
   </tr>
