@@ -662,11 +662,20 @@ button {
         style="vertical-align: middle; width:50%; text-align: center;">
       <div style="display: inline-block; text-align: center;">
         <input id="username-input" type="text" placeholder="Enter a username">
-        <button id="search-btn" style="margin-left: 10px">Search</button>
-        <div id="card-container">          
-        </div>
+        <button id="search-btn" style="margin-left: 10px">Search</button>        
       </div>
     </td>
+
+<td>
+<button id="copy-btn">Copy</button>
+</td>
+</tr>
+
+<tr>
+<td>
+<div id="card-container">          
+        </div>
+</td>
 
     <td id="copy-box" 
         style="display:none; vertical-align: middle; width:50%; text-align: center;">
@@ -680,7 +689,7 @@ button {
             font-family: monospace;
             white-space: pre-wrap;
           "></textarea><br>
-        <button id="copy-btn" style="margin-top: 10px">Copy</button>
+        
       </div>
     </td>
   </tr>
