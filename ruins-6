@@ -84,9 +84,6 @@ button.addEventListener("click", (event) => {
 #username-input {
   font-family: "Quicksand", sans-serif;
   border: 1px solid #2884c6;
-  float: right;
-  margin-right:50px;
-  position:relative;
   padding: 8px 20px;
   border-radius: 5px;
   width: 15%;
@@ -666,7 +663,7 @@ button {
       <div style="display: inline-block; text-align: center;">
         <input id="username-input" type="text" placeholder="Enter username">
         <button id="search-btn">Search</button>
-        <div id="card-container" style="margin-left: 5px; display: inline-block">
+        <div id="card-container">
           Enter a username and click Search.
         </div>
       </div>
