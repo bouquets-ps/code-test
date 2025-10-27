@@ -685,7 +685,7 @@ button {
             font-family: monospace;
             white-space: pre-wrap;
           "></textarea>
-        <button id="copy-btn" style="margin-left: 10px">Copy</button>
+        <button id="copy-btn" style="margin-top: 10px">Copy</button>
       </div>
     </td>
   </tr>
