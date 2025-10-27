@@ -81,7 +81,7 @@ button.addEventListener("click", (event) => {
 
 </script>
 <style>
-#search-btn {
+#username-input {
   font-family: "Quicksand", sans-serif;
   border: 1px solid #2884c6;
   float: right;
@@ -96,7 +96,7 @@ button.addEventListener("click", (event) => {
   outline: none;
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
 }
-#search-btn:focus {
+#username-input:focus {
   border-color: #2884c6;
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
 }
