@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html data-theme="dark">
 <head>
-<title>star cave | custom minigame creator | minigames</title>
+<title>star cave | minigame creator | minigames</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 <link rel="icon" href="https://www.serebii.net/itemdex/sprites/starsweet.png" type="image/x-icon">
 <script>
@@ -17,10 +17,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 await navigator.clipboard.writeText(textToCopy);
                 showPopup();
             } catch (err) {
-                console.error('Failed to copy text: ', err);
-                alert('Failed to copy text. Please try again or copy manually.'); // Fallback alert
+                console.error('Failed to copy text: ', err);                
             }
         });
+    });
+
+    // Added part for extra copy box
+    document.getElementById("copy-btn").addEventListener("click", () => {
+        const textarea = document.getElementById("html-output");
+        textarea.select();
+        document.execCommand("copy");
+        showPopup();
     });
 
     function showPopup() {
@@ -126,7 +133,7 @@ textarea {
   transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 div {
-  overflow: scroll;
+  overflow: auto;
 }
 body {
   font-family: "Quicksand", sans-serif;
@@ -161,11 +168,7 @@ button {
 </head>
 <body>
 <center>
-
-
-
-<h1><table><tr><td><a style="text-decoration:none; color: #8ebccd" href="https://rentry.co/star-cave">star cave</a> 💫 <span style="color: #8ebccd">custom minigame creator</span></td></tr></table></h1>
-
+<h1><table><tr><td><a style="text-decoration:none; color: #8ebccd" href="https://rentry.co/star-cave">star cave</a> 💫 <span style="color: #8ebccd">minigame creator</span></td></tr></table></h1>
 <h3><span style="letter-spacing:5px;"><table><tr>
 <td>MINIGAMES</td>
 <td style="width: 50px"></td><td><a style="text-decoration:none; color: silver" href="https://htmlpreview.github.io/?https://github.com/bouquets-ps/gc-creator/blob/main/faq">FAQ</a></td>
@@ -630,62 +633,146 @@ button {
 </p></details></div><br><br>
 
 
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -2040px"></span><strong class="searchValue">Sobble's Multiple-Choice Pokemon Cries</strong><br><br>Guess which Pokemon has the given cry! (one guess only)<br><br><span style="float: right"><b>Last updated:</b> 2025-10-17</span><br></summary><p>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
-<ol>
-<li>Replace each <code>✿</code> with a different Pokemon name.</li>
-<li>Replace <code>✿✿</code> with one of the Pokemon names that is used to replace <code>✿</code>.</li>
-</ol>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -320px -420px"></span><strong class="searchValue">Togetic's Trainer Cards</strong>
+<br><br>Guess an offline Game Corner user based on their <a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-museum">trainer card</a>!<br><br><span style="float: right"><b>Last updated:</b> 2025-10-26</span><br></summary><p>
 
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+<table style="width:100%; border-collapse: collapse; text-align: center;">
+  <tr>
+    <td id="search-section" 
+        style="vertical-align: middle; width:50%; text-align: center;">
+      <div style="display: inline-block; text-align: center;">
+        <input id="username-input" type="text" placeholder="Enter username">
+        <button id="search-btn">Search</button>
+        <div id="card-container" style="margin-top: 10px;">
+          Enter a username and click Search.
+        </div>
+      </div>
+    </td>
 
-<textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -2040px;"></span><b>Mini <a href="https://www.tapatalk.com/groups/ps_game_corner/sobble-s-pokemon-cries-t1326.html">Sobble's Multiple-Choice Pokemon Cries</a></b><br>Guess which Pokemon has the given cry! (one guess only)<hr><center><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 25px 5px 5px 5px ; padding: 10px; width: 270px; background: linear-gradient(#70a6db,#2e73b8); color: #ffffff"><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 25px 5px 5px 25px ; padding: 5px; width: 250px; background: linear-gradient(#6ba4d8,#5993cd); overflow: hidden"><audio controls src="//play.pokemonshowdown.com/audio/cries/✿✿.mp3"></audio>
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 0px 3px 0px 3px; background: #000000;"><b>A</b><br><psicon pokemon="✿"></div>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 0px 3px 0px 3px; background: #000000;"><b>B</b><br><psicon pokemon="✿"></div>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 0px 3px 0px 3px; background: #000000;"><b>C</b><br><psicon pokemon="✿"></div>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 0px 3px 0px 3px; background: #000000;"><b>D</b><br><psicon pokemon="✿"></div><br><br></div><br><br></center>
-</textarea>
-
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
-
-<table>
-<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/randpoke 4, natdex">Generate 4 Random Pokemon Names</span></td></tr>
+    <td id="copy-box" 
+        style="display:none; vertical-align: middle; width:50%; text-align: center;">
+      <div style="display: inline-block; text-align: center;">
+        <textarea id="html-output" readonly
+          style="
+            width: 250px;
+            height: 100px;
+            resize: none;
+            overflow: auto;
+            font-family: monospace;
+            white-space: pre-wrap;
+          "></textarea><br>
+        <button id="copy-btn">Click to Copy</button>
+      </div>
+    </td>
+  </tr>
 </table>
 
-</div>
-</p></details></div><br><br>
 
+<script>
+const RAW_URL = "https://raw.githubusercontent.com/bouquets-ps/gc-museum/refs/heads/main/trainer-card";
 
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -320px -420px"></span><strong class="searchValue">Togetic's Trainer Cards</strong><br><br>Guess an offline Game Corner user based on their <a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-museum">trainer card</a>!<br><br><span style="float: right"><b>Last updated:</b> 2025-10-17</span><br></summary><p>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
+// Prefix and suffix for the output HTML
+const PREFIX = `!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -320px -420px;"></span><b>Mini Togetic's Trainer Cards</b><br>Guess an offline Game Corner user based on their <a href="https://tinyurl.com/gc-museum">trainer card</a>!<hr><center>`;
+const SUFFIX = `</center>`;
 
-<ol>
-<li>Replace <code>✿</code> with a trainer card's code from the User Museum's raw content, which is linked below. Any line that starts with <code>&lt;span class="infobox" style="display: inline-block ; width: 250px"></code> and ends with <code>&lt;br&gt;&lt;br&gt;&lt;/center&gt;&lt;/span&gt;</code> is a trainer card's code.</li>
-<li>Delete the username.</li>
-<li>Delete <code>&lt;b>Last updated:&lt;/b> yyyy-mm-dd&lt;br>&lt;br></code>, where <code>yyyy-mm-dd</code> can be any number.</li>
-<li>SITUATIONAL: Delete <code>"</code> in <code>width="80px" height="80px"</code> if that is in the code.</li>
-</ol>
+// Remove non-alphanumeric characters and lowercase
+function cleanUsername(str) {
+  return str.toLowerCase().replace(/[^a-z0-9]/g, '');
+}
 
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+// Escape regex special characters
+function escapeRegExp(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
 
-<textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -320px -420px;"></span><b>Mini Togetic's Trainer Cards</b><br>Guess an offline Game Corner user based on their <a href="https://tinyurl.com/gc-museum">trainer card</a>!<hr><center>
-✿
-</center>
-</textarea>
+// Remove "Last updated" line
+function removeLastUpdated(html) {
+  return html.replace(/<b>\s*Last\s+updated:\s*<\/b>.*?<br\s*\/?>/i, "");
+}
 
-</div><br><br>
-<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
+// Remove username in <strong class="searchValue">
+function removeUsernameStrong(html, username) {
+  const re = new RegExp('(<strong[^>]*class=["\']searchValue["\'][^>]*>)\\s*' + escapeRegExp(username) + '\\s*(</strong>)', 'i');
+  return html.replace(re, '$1$2');
+}
 
-<table>
-<tr><td style="width: 250px">Link</td><td><span class="copyable-item" data-copy-text="https://raw.githubusercontent.com/bouquets-ps/gc-museum/refs/heads/main/trainer-card">User Museum's Raw Content</span></td></tr>
-</table>
+// Remove quotes from width/height attributes
+function removeQuotesFromDimensions(html) {
+  return html.replace(/(width|height)=["']([^"']+)["']/gi, '$1=$2');
+}
+
+async function loadTrainerCard(usernameInput) {
+  const container = document.getElementById("card-container");
+  const copyBox = document.getElementById("copy-box");
+  const outputArea = document.getElementById("html-output");
+
+  container.innerHTML = "Loading…";
+  copyBox.style.display = "none";
+
+  if (!usernameInput) {
+    container.textContent = "Please enter a username.";
+    return;
+  }
+
+  const cleanInput = cleanUsername(usernameInput);
+
+  try {
+    const res = await fetch(RAW_URL);
+    const html = await res.text();
+    const parts = html.split(/(?=<span\s+class=["']infobox["'])/i);
+
+    let foundCard = null, matchedName = null;
+
+    for (const part of parts) {
+      const match = part.match(/<strong[^>]*class=["']searchValue["'][^>]*>(.*?)<\/strong>/i);
+      if (match) {
+        const nameText = match[1].trim();
+        if (cleanUsername(nameText) === cleanInput) {
+          foundCard = part;
+          matchedName = nameText;
+          break;
+        }
+      }
+    }
+
+    if (!foundCard) {
+      container.textContent = `No trainer card found for "${usernameInput}".`;
+      return;
+    }
+
+    let fixed = foundCard
+      .replace(/src=["']\/\//gi, 'src="https://')
+      .replace(/url\(["']\/\//gi, 'url("https://');
+
+    fixed = removeLastUpdated(fixed);
+    fixed = removeUsernameStrong(fixed, matchedName);
+    fixed = removeQuotesFromDimensions(fixed);
+
+    container.innerHTML = fixed;
+
+    const fullHtml = PREFIX + fixed.trim() + SUFFIX;
+    outputArea.value = fullHtml;
+    copyBox.style.display = "block";
+
+  } catch (err) {
+    container.textContent = "Error: " + err.message;
+  }
+}
+
+document.getElementById("search-btn").addEventListener("click", () => {
+  const username = document.getElementById("username-input").value.trim();
+  if (!username) return;
+  loadTrainerCard(username);
+});
+
+document.getElementById("username-input").addEventListener("keydown", e => {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    document.getElementById("search-btn").click();
+  }
+});
+</script>
 
 </div>
 </p></details></div><br><br>
