@@ -80,8 +80,8 @@ button.addEventListener("click", (event) => {
 }
 th {
   position: sticky;
-  left: 0; /* Sticks to the left edge of the scrollable container */
-  background-color: #888888; /* Add a background color to prevent content overlap */
+  left: -2; /* Sticks to the left edge of the scrollable container */
+  background-color: silver; /* Add a background color to prevent content overlap */
   z-index: 1; /* Ensures the locked column is above the scrolling content */
 }
 td {
