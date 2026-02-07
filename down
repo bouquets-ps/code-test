@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+<title>text</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<link rel="icon" href="https://www.serebii.net/itemdex/sprites/starsweet.png" type="image/x-icon">
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const copyableItems = document.querySelectorAll('.copyable-item');
+    const copyFeedbackPopup = document.getElementById('copy-feedback-popup');
+
+    copyableItems.forEach(item => {
+        item.addEventListener('click', async () => {
+            const textToCopy = item.getAttribute('data-copy-text');
+
+            try {
+                await navigator.clipboard.writeText(textToCopy);
+                showPopup();
+            } catch (err) {
+                console.error('Failed to copy text: ', err);                
+            }
+        });
+    });
+
+    // Added part for extra copy box
+    document.getElementById("copy-btn").addEventListener("click", () => {
+        const textarea = document.getElementById("html-output");
+        textarea.select();
+        document.execCommand("copy");
+        showPopup();
+    });
+
+    function showPopup() {
+        copyFeedbackPopup.classList.add('show');
+        setTimeout(() => {
+            copyFeedbackPopup.classList.remove('show');
+        }, 2000); // Popup disappears after 2 seconds
+    }
+});
+
+function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
+  if (localStorageTheme !== null) {
+    return localStorageTheme;
+  }
+
+  if (systemSettingDark.matches) {
+    return "dark";
+  }
+
+  return "light";
+}
+
+function updateButton({ buttonEl, isDark }) {
+  const newCta = isDark ? "Light" : "Dark";
+buttonEl.setAttribute("aria-label", newCta);
+  buttonEl.innerText = newCta;
+}
+
+function updateThemeOnHtmlEl({ theme }) {
+  document.querySelector("html").setAttribute("data-theme", theme);
+}
+
+const button = document.querySelector("[data-theme-toggle]");
+const localStorageTheme = localStorage.getItem("theme");
+const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+
+updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
+updateThemeOnHtmlEl({ theme: currentThemeSetting });
+
+button.addEventListener("click", (event) => {
+  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+
+  localStorage.setItem("theme", newTheme);
+  updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+  updateThemeOnHtmlEl({ theme: newTheme });
+
+  currentThemeSetting = newTheme;
+});
+
+</script>
+<style>
+.lock {
+  /* Enables horizontal scrolling when content is wider than container */
+  overflow-x: auto;
+}
+th {
+  position: sticky;
+  left: 0; /* Sticks to the left edge of the scrollable container */
+  background-color: #888888; /* Add a background color to prevent content overlap */
+  z-index: 1; /* Ensures the locked column is above the scrolling content */
+}
+
+#username-input {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid #2884c6;
+  padding: 8px 20px;
+  border-radius: 5px;
+  width: 15%;
+  max-width: 180px;
+  min-width: 150px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+#username-input:focus {
+  border-color: #2884c6;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+td {
+  vertical-align: top;
+}
+.copyable-item {
+    cursor: pointer;
+    margin: -5px 5px 15px 5px;
+    padding: 5px 10px 5px 10px;
+    font-family: "Consolas", "Liberation Mono", "Courier New", monospace;
+    border: 1px solid green;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.copyable-item:hover {    
+    border: 1px solid var(--color-fg);
+}
+
+.popup {
+    position: fixed;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1000;
+}
+
+.popup.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+code {
+  color: silver;
+}
+textarea {
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid green;
+  width: 95%;
+  field-sizing: content;
+  min-height: 4rem; /* Example: set a minimum height */
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+div {
+  overflow: auto;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  padding: 30px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+[data-theme="light"] {
+   --color-bg: #ffffff;
+   --color-fg: #000000;
+   --transition-speed: 0.5s;
+}
+[data-theme="dark"] {
+   --color-bg: #000000;
+   --color-fg: #ffffff;
+   --transition-speed: 0.5s;
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid var(--color-fg);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: all var(--global-transition-time) ease-in-out;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+  margin-bottom: 24px;
+}
+
+</style>
+</head>
+<body>
+<center>
+<h1><table><tr><td><a style="text-decoration:none; color: #8ebccd" href="https://rentry.co/star-cave">text</a> 💫 <span style="color: #8ebccd">text</span></td></tr></table></h1>
+<h3><span style="letter-spacing:5px;"><table><tr>
+<td>TEXT</td>
+</tr></table></span></h3>
+</center>
+
+<hr><br>
+<center>
+
+<button
+    type="button"
+    data-theme-toggle
+    aria-label="Light"
+  >Light</button>
+
+<br><br>
+
+<h3>text</h3><br>
+
+</center>
+
+<div id = "container">
+
+<div id="copy-feedback-popup" class="popup"><center><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px"></span><br>Skitty used Copycat!</center></div>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">01</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">02</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">03</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">04</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">05</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">06</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">07</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">08</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">09</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">10</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">11</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">12</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">13</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">14</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">15</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">16</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">17</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">18</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">19</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">20</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">21</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">22</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">23</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">24</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -0px"></span><strong class="searchValue">25</strong><br><br>text<br><br><span style="float: right">text</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+<br><br>
+<textarea>
+✿
+</textarea>
+
+</div>
+</p></details></div><br><br>
