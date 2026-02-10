@@ -223,6 +223,25 @@ button {
 
 <div id="copy-feedback-popup" class="popup"><center><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -0px -750px"></span><br>Skitty used Copycat!</center></div>
 
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -440px -870px"></span><strong class="searchValue">Absol's PM Dice Disaster</strong><br><br>PM the host an integer between 1 and 100. Additionally, you may PM an item for a special effect.<br><br>The player with the closest number that is less than or equal to the host's dice roll will earn bits. The host's dice is <code>!roll 100</code> when unmodified.<br><br><span style="float: right"><b>Last updated:</b> 2025-12-16</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
+
+<ol>
+<li>Replace <code>✿</code> with your username.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -440px -870px;"></span><b>Mini Absol's PM Dice Disaster</b><br>PM <username>✿</username> an integer between 1 and 100. Additionally, you may PM an item for a special effect.<br><br>The player with the closest number that is less than or equal to the host's dice roll will earn bits. The host's dice is <code>!roll 100</code> when unmodified.<hr><center><br><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; width: 330px; background: linear-gradient(#e6e6e6,#d9d9d9); color: #ffffff"><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 10px; width: 300px; background: #000000"><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 80px;"><psicon item="absolite"><br><br><b>Absolite</b></div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 180px">The host rolls an extra dice (can be stacked) and takes the highest value as their integer</div><hr><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 80px;"><psicon item="colburberry"><br><br><b>Colbur Berry</b></div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 180px">Decrease the host's maximum roll by 10 (can be stacked up to 9 times)</div><hr><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 80px;"><psicon item="darkiniumz"><br><br><b>Darkinium Z</b></div><div style="display: inline-block ; border: 0px solid #68a ; border-radius: 5px ; padding: 10px; width: 180px">Eliminate players whose integers are greater than yours by 1 to 3</div></div></div><br><br></center>
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -240px -1500px"></span><strong class="searchValue">Beheeyem's Inverse Mass Effect</strong><br><br>Using an inverted type chart, guess a Pokemon whose type effectiveness matches the given parameters.<br><br><span style="float: right"><b>Last updated:</b> 2025-10-21</span><br></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
@@ -403,6 +422,36 @@ button {
 </p></details></div><br><br>
 
 
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://imgur.com/eucYH2Q.png) no-repeat scroll -200px -2700px"></span><strong class="searchValue">Giratina's Distortions</strong><br><br>Identify the Pokemon shown based on its distorted GIF!<br><br>Adjust your layout to single panel and turn on landscape mode if you are unable to view the full image.<br><br><span style="float: right"><b>Last updated:</b> 2026-01-26</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
+
+<ol>
+<li>Replace ✿ with a Pokemon name.</li>
+<li>Replace ✿✿ with a distortion style, which must be copied below.</li>
+<li>SITUATIONAL: Replace ✿✿✿ and ✿✿✿✿ with the Pokemon GIF's width and height respectively if Skew style is used. Width and height can be found by downloading the Pokemon GIF, whose link can be copied in the prompt where ✿ was replaced.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://imgur.com/eucYH2Q.png) no-repeat scroll -200px -2700px;"></span><b>Mini Giratina's Distortions</b><br>Identify the Pokemon shown based on its distorted GIF!<br><br>Adjust your layout to single panel and turn on landscape mode if you are unable to view the full image.<hr><center><br>
+<img src="https://play.pokemonshowdown.com/sprites/ani/✿.gif" ✿✿<br><br></center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
+
+<table>
+<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/randpoke natdex">Generate a Random Pokemon Name</span></td></tr>
+
+<tr><td style="width: 250px">Distortion Style</td><td><span class="copyable-item" data-copy-text="width=&quot;25&quot; height=&quot;300&quot;&gt;&lt;img src=&quot;https://imgur.com/0qMfoDD.png&quot; width=&quot;45&quot; height=&quot;300&quot; style=&quot;position: relative; z-index: 10; margin-left: -45px&quot;&gt;">Tall and Narrow</span><span class="copyable-item" data-copy-text="width=&quot;25&quot; height=&quot;300&quot; style=&quot;transform: scaleY(-1)&quot;&gt;&lt;img src=&quot;https://imgur.com/0qMfoDD.png&quot; width=&quot;45&quot; height=&quot;300&quot; style=&quot;position: relative; z-index: 10; margin-left: -45px&quot;&gt;">Tall and Narrow and Flip Vertically</span><span class="copyable-item" data-copy-text="width=&quot;300&quot; height=&quot;25&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://imgur.com/0qMfoDD.png&quot; width=&quot;300&quot; height=&quot;45&quot; style=&quot;position: relative; z-index: 10; margin-top: -45px&quot;&gt;">Short and Wide</span><span class="copyable-item" data-copy-text="width=&quot;300&quot; height=&quot;25&quot; style=&quot;transform: scaleY(-1)&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://imgur.com/0qMfoDD.png&quot; width=&quot;300&quot; height=&quot;45&quot; style=&quot;position: relative; z-index: 10; margin-top: -45px&quot;&gt;">Short and Wide and Flip Vertically</span><span class="copyable-item" data-copy-text="width=&quot;✿✿✿&quot; height=&quot;✿✿✿✿&quot; style=&quot;transform: skew(75deg, 0deg)&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://imgur.com/0qMfoDD.png&quot; width=&quot;1000&quot; height=&quot;300&quot; style=&quot;position: relative; z-index: 10; transform: skew(0deg, 0deg); margin-top: -300px&quot;&gt;">Skew to the Left</span><span class="copyable-item" data-copy-text="width=&quot;✿✿✿&quot; height=&quot;✿✿✿✿&quot; style=&quot;transform: skew(285deg, 0deg)&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://imgur.com/0qMfoDD.png&quot; width=&quot;1000&quot; height=&quot;300&quot; style=&quot;position: relative; z-index: 10; transform: skew(0deg, 0deg); margin-top: -300px&quot;&gt;">Skew to the Right</span></td></tr>
+</table>
+
+</div>
+</p></details></div><br><br>
+
+
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -160px -2040px"></span><strong class="searchValue">Greedent's Simplified Berry Piles</strong><br><br>Try to grab more berries than the host without going over 21! Each pile contains 1 to 10 berries. (one click only)<br><br>The host will always grab 3 piles of berries.<br><br><span style="float: right"><b>Last updated:</b> 2025-11-05</span><br></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
@@ -467,7 +516,7 @@ button {
 </p></details></div><br><br>
 
 
-<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -360px -3300px"></span><strong class="searchValue">Kangaskhan's 2 × 100M Relay</strong><br><br>Guess which coloured team will reach the finish line first!<br><br><span style="float: right"><b>Last updated:</b> 2025-12-15</span><br></summary><p>
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://imgur.com/eucYH2Q.png) no-repeat scroll -360px -3300px"></span><strong class="searchValue">Kangaskhan's 2 × 100M Relay</strong><br><br>Guess which coloured team will reach the finish line first!<br><br><span style="float: right"><b>Last updated:</b> 2025-12-29</span><br></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
 <ol>
@@ -498,7 +547,27 @@ button {
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
 <textarea>
-!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -360px -3300px;"></span><b>Mini Kangaskhan's 2 × 100M Relay</b><br>Guess which coloured team will reach the finish line first!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; width: 120px"><table><tr><td width="30px"><b>Anchor</b></td><td width="60px"></td><td width="30px"><b>First</b></td></tr></table><hr><span style="background: linear-gradient(#db8b70,#b8502e)"><marquee class="LaneRed" behavior="alternate"><psicon pokemon="torchic"><span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="blaziken"></marquee></span><hr><span style="background: linear-gradient(#dbdb70,#b8b72e)"><marquee class="LaneYellow" behavior="alternate"><psicon pokemon="pichu"><span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="raichu"></marquee></span><hr><span style="background: linear-gradient(#70db70,#2eb82e)"><marquee class="LaneGreen" behavior="alternate"><psicon pokemon="rowlet"><span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="decidueye"></marquee></span><hr><span style="background: linear-gradient(#70a6db,#2e73b8)"><marquee class="LaneBlue" behavior="alternate"><psicon pokemon="piplup"><span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span><psicon pokemon="empoleon"></marquee></span></div></center>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://imgur.com/eucYH2Q.png) no-repeat scroll -360px -3300px;"></span><b>Mini Kangaskhan's 2 × 100M Relay</b><br>Guess which coloured team will reach the finish line first!<hr><center><div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; width: 120px"><table><tr><td width="30px"><b>Anchor</b></td><td width="60px"></td><td width="30px"><b>First</b></td></tr></table><hr><span style="background: linear-gradient(#db8b70,#b8502e)">
+<marquee class="LaneRed" behavior="alternate">
+<psicon pokemon="torchic">
+<span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span>
+<psicon pokemon="blaziken">
+</marquee></span><hr><span style="background: linear-gradient(#dbdb70,#b8b72e)">
+<marquee class="LaneYellow" behavior="alternate">
+<psicon pokemon="pichu">
+<span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span>
+<psicon pokemon="raichu">
+</marquee></span><hr><span style="background: linear-gradient(#70db70,#2eb82e)">
+<marquee class="LaneGreen" behavior="alternate">
+<psicon pokemon="rowlet">
+<span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span>
+<psicon pokemon="decidueye">
+</marquee></span><hr><span style="background: linear-gradient(#70a6db,#2e73b8)">
+<marquee class="LaneBlue" behavior="alternate">
+<psicon pokemon="piplup">
+<span style="display: inline-block; width: 40px; height: 1px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/ani/flabebe-blue.gif) no-repeat scroll -999px -999px;"></span>
+<psicon pokemon="empoleon">
+</marquee></span></div></center>
 </textarea>
 
 </div><br><br>
@@ -604,6 +673,44 @@ button {
 <tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/pick beige, black, blue, brown, cyan, gold, gray, green, indigo, magenta, orange, pink, purple, red, tan, teal, turquoise, violet, white, yellow">Generate a Random Colour</span></td></tr>
 
 <tr><td>Colour</td><td><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #f5f5dc; color: #f5f5dc&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Beige</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #000000; color: #000000&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Black</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #0000ff; color: #0000ff&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Blue</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #a52a2a; color: #a52a2a&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Brown</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #00ffff; color: #00ffff&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Cyan</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffd700; color: #ffd700&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Gold</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #808080; color: #808080&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Gray</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #008000; color: #008000&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Green</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #4b0082; color: #4b0082&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Indigo</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ff00ff; color: #ff00ff&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Magenta</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffa500; color: #ffa500&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Orange</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffc0cb; color: #ffc0cb&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Pink</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #800080; color: #800080&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Purple</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ff0000; color: #ff0000&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Red</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #d2b48c; color: #d2b48c&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Tan</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #008080; color: #008080&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Teal</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #40e0d0; color: #40e0d0&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Turquoise</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ee82ee; color: #ee82ee&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Violet</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffffff; color: #ffffff&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">White</span><span class="copyable-item" data-copy-text="&lt;div style=&quot;display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 5px; margin: 3px; width: 100px; background: #ffff00; color: #ffff00&quot;&gt;&lt;b&gt;text&lt;/b&gt;&lt;/div&gt;">Yellow</span></td></tr>
+</table>
+
+</div>
+</p></details></div><br><br>
+
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -280px -1260px"></span><strong class="searchValue">Pansage's Recipe</strong><br><br>Select berries in the given order by clicking buttons.<br><br><span style="float: right"><b>Last updated:</b> 2026-01-16</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
+
+<ol>
+<li>Replace each <code>✿</code> with your username.</li>
+<li>Replace each <code>✿✿</code> with a different berry name, which must be generated using a copyable command below.</li>
+<li>Replace <code>✿✿✿</code> with the four berry names used for <code>✿✿</code> in a shuffled order.</li>
+</ol>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
+
+<textarea>
+!htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -280px -1260px;"></span><b>Mini Pansage's Recipe</b><br>Select berries in the given order by clicking buttons.<hr><center>
+<div style="width: 150px">
+<ol><li>✿✿ Berry
+</li><li>✿✿ Berry
+</li><li>✿✿ Berry
+</li><li>✿✿ Berry
+</li></ol></div>
+<button class="button" name="send" value="/msg ✿, .select berry A" style="padding: 10px; margin: 10px"><b>A</b><br><psicon item="✿✿✿ Berry"></button>
+<button class="button" name="send" value="/msg ✿, .select berry B" style="padding: 10px; margin: 10px"><b>B</b><br><psicon item="✿✿✿ Berry"></button>
+<button class="button" name="send" value="/msg ✿, .select berry C" style="padding: 10px; margin: 10px"><b>C</b><br><psicon item="✿✿✿ Berry"></button>
+<button class="button" name="send" value="/msg ✿, .select berry D" style="padding: 10px; margin: 10px"><b>D</b><br><psicon item="✿✿✿ Berry"></button>
+</center>
+</textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
+
+<table>
+<tr><td style="width: 250px">PS! Command</td><td><span class="copyable-item" data-copy-text="/pick Aguav, Apicot, Aspear, Babiri, Belue, Bluk, Charti, Cheri, Chesto, Chilan, Chople, Coba, Colbur, Cornn, Custap, Durin, Enigma, Figy, Ganlon, Grepa, Haban, Hondew, Iapapa, Jaboca, Kasib, Kebia, Kee, Kelpsy, Lansat, Leppa, Liechi, Lum, Mago, Magost, Maranga, Micle, Nanab, Nomel, Occa, Oran, Pamtre, Passho, Payapa, Pecha, Persim, Petaya, Pinap, Pomeg, Qualot, Rabuta, Rawst, Razz, Rindo, Roseli, Rowap, Salac, Shuca, Sitrus, Spelon, Starf, Tamato, Tanga, Wacan, Watmel, Wepear, Wiki, Yache">Generate a Random Berry Name</span><span class="copyable-item" data-copy-text="/shuffle name 1, name 2, name 3, name 4">Shuffle Berry Name Order</span></td></tr>
 </table>
 
 </div>
@@ -831,8 +938,14 @@ button {
 
 
 <div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16) no-repeat scroll -320px -420px"></span><strong class="searchValue">Togetic's Trainer Cards</strong>
-<br><br>Guess an offline Game Corner user based on their <a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-museum">trainer card</a>!<br><br><span style="float: right"><b>Last updated:</b> 2025-10-27</span><br></summary><p>
+<br><br>Guess an offline Game Corner user based on their <a style="text-decoration:none; color: silver" href="https://tinyurl.com/gc-museum">trainer card</a>!<br><br><span style="float: right"><b>Last updated:</b> 2026-01-27</span><br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Preparations</b><br>
 
+<ol>
+<li>Input an offline user's name into the prompt generator. In general, it is recommended to select a user who is active in Game Corner recently. If you do not know which users have been active, viewing the cycle leaderboards may help.<br><br>WARNING: The trainer card project has discontinued on 2026-01-26, therefore the trainer cards displayed may be somewhat outdated.</li>
+</ol>
+
+</div><br><br>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt Generator</b><br><br>
 
 <table style="width:100%; border-collapse: collapse; text-align: center;">
@@ -975,6 +1088,13 @@ document.getElementById("username-input").addEventListener("keydown", e => {
   }
 });
 </script>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Click to Copy</b><br><br>
+
+<table>
+<tr><td style="width: 250px">Lady Monita's PM Command</td><td><span class="copyable-item" data-copy-text=".sgstats gc">View the Cycle Leaderboards</span></td></tr>
+</table>
 
 </div>
 </p></details></div><br><br>
