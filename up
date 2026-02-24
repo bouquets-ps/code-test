@@ -340,6 +340,7 @@ f8
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Prompt</b><br><br>
 
 <textarea>
+used
 /htmlbox <span style="display: inline-block;height: 30px;width: 40px;image-rendering: pixelated;background:transparent url(https://imgur.com/eucYH2Q.png) no-repeat scroll -0px -3090px;"></span><b>Calyrex's Last Stand</b><br>Help Calyrex (white knight) survive on the chessboard! Find the square that Calyrex can move to and not get captured immediately.<br><br>
 <details><summary><b>Pieces</b></summary><p>
 <table border="2" cellpadding="5" style="text-align: center">
